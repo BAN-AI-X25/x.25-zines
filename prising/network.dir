@@ -1,0 +1,155 @@
+;
+; [Packet/Lan/Wan Networks]
+;
+;
+; Search Results:
+;
+; Filename       Size   Description
+;_____________________________________________________________________________
+;
+datapac.inf datapac.inf Datapac Services
+dpacbas.txt dpacbas.txt Data Pac Basics
+nimbus.txt nimbus.txt Hacking The Nimbus Network
+ftpintro ftpintro Internet FTP Intro
+;
+ddnet1 ddnet1 Defense Data Network 1
+ddnet2 ddnet2 Defense Data Network 2
+;
+tachelp tachelp TAC Login Information
+wholegui.txt wholegui.txt The Whole Guide to Internet
+pcpbas.txt pcpbas.txt PcP Basics
+telescan.txt telescan.txt Scanning Telenet
+;
+globe-1.1 globe-1.1  Australian Net Hack Mag 1
+globe-1.2 globe-1.2  Australian Net Hack Mag 2
+globe-1.3 globe-1.3  Australian Net Hack Mag 3
+;
+tnpcpod.txt tnpcpod.txt Telenet/Pcp Outdials
+itapac.txt itapac.txt What is ITAPAC
+uucp.faq uucp.faq UUCP Inside & Out
+waninfo.txt waninfo.txt Wade Area Net Info
+tymnet.ods tymnet.ods Tymnet OD Systems
+pcppre.lst pcppre.lst PcP Prefixes
+nuaa105.zip nuaa105.zip Network User Address Attacker V.1.05
+tan.txt tan.txt Telenet Access Numbers
+datanet.doc datanet.doc Guide to Major Networks
+pcp88.lst pcp88.lst PCP Dialout Listing
+internet.doc internet.doc Beginners Guide to Internet
+inet.bbs inet.bbs Internet BBS's
+uucpfido uucpfido UUCP/Fido Mail Link
+;
+austpac0.txt austpac0.txt Austpac Part 0
+austpac1.txt austpac1.txt Austpac Part 1
+austpac2.txt austpac2.txt Austpac Part 2
+austpac3.txt austpac3.txt Austpac Part 3
+;
+lan.txt lan.txt Local Area Network Reference
+bitftp.zip bitftp.zip Princetons Bitnet FTP Server
+qsd.txt qsd.txt How to Reach QSD Free (Infonet)
+greenno.txt greenno.txt Belgiums Green Pages
+janet.txt janet.txt British Dialups for JA-net
+nua.txt nua.txt International NUA's & Outdials
+epads.txt epads.txt British Epad Site & Dialups
+dialplus.txt dialplus.txt Pss Dial Plus PSS Dialups & Info
+comshare.txt comshare.txt Logging Into Comshare in the U.K.
+freecis.txt freecis.txt Free Compuserve Access
+outdial.txt outdial.txt Hacking Outdials
+citibank.txt citibank.txt Citibank NUA Compilation
+gs1.txt gs1.txt PHA's Guide to the GS/1 PAD
+;
+nha-001.txt nha001.txt NHA #1
+nha-002.txt nha002.txt NHA #2
+nha-003.txt nha003.txt NHA #3
+nha-004.txt nha004.txt NHA #4
+nha-005.txt nha005.txt NHA #5
+;
+pcphack.zip pcphack.zip Hacking PC Pursuit
+psnintro.zip psnintro.zip Packet Switched Networks Introduction
+chats.txt chats.txt Int'l Multiline Chat Systems Via Telenet
+traxtool.txt traxtool.txt Trax (Network) ToolBox
+tiao.ps tiao.ps The In's & Out's of Packet Switching Net's
+starlink.txt starlink.txt Starlink Outdial Dir/Instr.
+timenet.txt timenet.txt Hacking Tymenet Packet Net
+nuaseuro nuaseuro European Nua Listing
+int.nua int.nua International NUA Listing
+pcpts.txt pcpts.txt PCPursuit Trouble Shooting
+TELN2.TXT TELNTID.TXT Telenet Terminal Identifiers
+teln3.txt telntlst.txt Telenet Dialups Directory
+tyme2.txt tyme2.txt Tymenet Int'l Service Types
+canadad.out canadad.out Canadian Outdial NUAs
+;
+NIA01 NIA01 NIA Issue 1 Network Information Access Magazine
+NIA02 NIA02 NIA Issue 2
+NIA03 NIA03 NIA Issue 3
+NIA04 NIA04 NIA Issue 4
+NIA05 NIA05 NIA Issue 5
+NIA06 NIA06 NIA Issue 6
+NIA07 NIA07 NIA Issue 7
+NIA08 NIA08 NIA Issue 8
+NIA09 NIA09 NIA Issue 9
+NIA10 NIA10 NIA Issue 10
+NIA11 NIA11 NIA Issue 11
+NIA12 NIA12 NIA Issue 12
+NIA13 NIA13 NIA Issue 13
+NIA14 NIA14 NIA Issue 14
+NIA15 NIA15 NIA Issue 15
+NIA16 NIA16 NIA Issue 16
+NIA17 NIA17 NIA Issue 17
+NIA18 NIA18 NIA Issue 18
+NIA19 NIA19 NIA Issue 19
+NIA20 NIA20 NIA Issue 20
+NIA21 NIA21 NIA Issue 21
+NIA22 NIA22 NIA Issue 22
+NIA23 NIA23 NIA Issue 23
+NIA24 NIA24 NIA Issue 24
+NIA25 NIA25 NIA Issue 25
+NIA26 NIA26 NIA Issue 26
+NIA27 NIA27 NIA Issue 27
+NIA28 NIA28 NIA Issue 28
+NIA29 NIA29 NIA Issue 29
+NIA30 NIA30 NIA Issue 30
+NIA31 NIA31 NIA Issue 31
+NIA32 NIA32 NIA Issue 32
+NIA33 NIA33 NIA Issue 33
+NIA34 NIA34 NIA Issue 34
+NIA35 NIA35 NIA Issue 35
+NIA36 NIA36 NIA Issue 36
+NIA37 NIA37 NIA Issue 37
+NIA38 NIA38 NIA Issue 38
+NIA39 NIA39 NIA Issue 39
+NIA40 NIA40 NIA Issue 40
+NIA41 NIA41 NIA Issue 41
+NIA42 NIA42 NIA Issue 42
+NIA43 NIA43 NIA Issue 43
+NIA44 NIA44 NIA Issue 44
+NIA45 NIA45 NIA Issue 45
+NIA46 NIA46 NIA Issue 46
+NIA47 NIA47 NIA Issue 47
+NIA48 NIA48 NIA Issue 48
+NIA49 NIA49 NIA Issue 49
+NIA50 NIA50 NIA Issue 50
+NIA51 NIA51 NIA Issue 51
+NIA52 NIA52 NIA Issue 52
+NIA53 NIA53 NIA Issue 53
+NIA54 NIA54 NIA Issue 54
+NIA55 NIA55 NIA Issue 55
+NIA56 NIA56 NIA Issue 56
+NIA57 NIA57 NIA Issue 57
+NIA58 NIA58 NIA Issue 58
+NIA59 NIA59 NIA Issue 59
+NIA60 NIA60 NIA Issue 60
+NIA61 NIA61 NIA Issue 61
+NIA62 NIA62 NIA Issue 62
+NIA63 NIA63 NIA Issue 63
+NIA64 NIA64 NIA Issue 64
+NIA65 NIA65 NIA Issue 65
+NIA66 NIA66 NIA Issue 66
+NIA67 NIA67 NIA Issue 67
+NIA68 NIA68 NIA Issue 68
+NIA69 NIA69 NIA Issue 69
+NIA70 NIA70 NIA Issue 70
+NIA71 NIA71 NIA Issue 71
+NIA72 NIA72 NIA Issue 72
+NIA73 NIA73 NIA Issue 73
+NIA74 NIA74 NIA Issue 74
+

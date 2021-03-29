@@ -1,0 +1,138 @@
+                          R E D     I B E R P A K
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+
+CODIGO ACCESO         INDICATIVO  DESCRIPCION
+------------------------------------------------------------------------------
+204                    NL         Holanda
+20412900433            SARA       Nat.Inst.for High Enery Physics SARA net.
+20412900434            NIKHEF     Nat.Inst.for High Enery Physics SARA net.
+204129004353           NIKHEFH    NIKHEF Gould
+206                    B          B‚lgica
+2062210168             BBVA       Brussels DEC A (B‚lgica) - 9600 bps
+2062221006             BBDA       Brussels DEC A (B‚lgica) - 2400 bps
+208                    F          Francia
+2080                   TRANSPAC   French Transpac
+208031001511           ARGOS      Argos service at Toulouse
+208034020258           CNUSC      CNUSC Montpelier
+20803802067602         ILLDA      ILL DEC-10 at Grenoble
+20806911011912         FRCPN11    HEP Computing Centre, Paris
+208075000394           IRST       ESA - Quest
+208075001282           FRCPN11X   HEP Computing Centre, Paris
+20807802016901         INRIA      Institute National de Recherche en Infor.
+208091000309*DCISIFMST CISI       IBM - TSO
+208091000309*DCISIFMST CISI1      IBM - TSO
+208091000519*DCISIFMST CISI2      IBM - TSO
+208091000270*DCISIFMST CISI3      IBM - TSO
+208091010320           CJRCE
+20809104057310         SIMBAD     Stellar data centre CDC system
+2080911101             SACLAY     Saclay - France
+214                    E          Espa¤a
+2141                   SPAIN      Spanish data network
+2145222020027          LAPALMA    La Palma Observatory, Canaries
+220                    Y          Yugoslavia
+2201                   YUPAK      Yugoslav YUPAK
+220161120100           RRC        RRC Computer Centre, Ljubljana
+220161140001           LJUBLJANA  University of Ljubljana, DEC 10 & 20
+220161140015           STEFAN     Institute of Jozef Stefan, Ljubljana
+220162120031           MARIBOR    University of Maribor - VAX 8800
+222                    I          Italia
+22222200514*DJRC       ISPRA      Euratom Joint Research Centre
+2222650143             ESA2       ESA - IRS
+228                    CH         Suiza
+228464110110           DATASTARX  Data-Star, Switzerland
+228464110115           DATASTAR   Data-Star, Switzerland
+22846431007014         DATASTAR1  Data-Star, no-echo on password
+22846811405            CERN       CERN
+2284681140510*DLO      CERNLO     CERN  300 bps
+2284681140510*DME      CERNME     CERN 1200 bps
+232                    A          Austria
+234                    GB         Reino Unido
+2341                   IPSS       IPSS UK network
+23421230012011*D       DIALOG2    DIALOG2 in US
+23421230012013*D       DIALMAIL   DIALMAIL in US
+234212300120*D@        DIALNET    IGS Leased line to DIALOG in US
+23421230021001         TTNS       Times Network System 01
+2342123012026          DATASTREAM Datastream Service
+23421230115970         EAN        EAN Gateway at ULCC
+234212300331           LASER      LASER
+234213300124           PROFILE    Was Datasolve
+234215700147           ORBIT      Orbit.
+234216700127           PCR        Pfizer Central Research
+234219200101           FINSBURY
+234219200146*D         CEGB       CEGB, Park Street, London
+234219200171           LEXIS      LEXIS/NEXIS
+234219200190           INFOLINE   Pergamon - Infoline
+234219200203           IPSH       IP-SHARP
+234219200300           UCL        University College London Comp. Science
+234219200394*D         AREMOS
+234219201002           POOLE
+23421920100474         BTGOLD74   BTGOLD service.
+23421920100476         BTGOLD76   BTGOLD service.
+23421920100479         LANET      BTGOLD 79 service.
+23421920100481         BTGOLD81   BTGOLD service.
+23421920100482         BTGOLD82   BTGOLD service.
+23421920100483         BTGOLD83   BTGOLD service.
+23421920100484         BTGOLD84   BTGOLD service.
+23421920100487         BTGOLD87   BTGOLD service.
+234219201004           BTGOLD     BTGOLD service.
+23421920100513         EUROINFO   Euronet Diane Information Service
+23421920100515         HOSTESS    Hostess system (BT)
+23421920102517         PRESTEL    Prestel
+234219201156           ERS        ESA - Quest
+234219201156           ESA        ESA - Quest
+23421960116750         HRC        GEC - Hirst Research (Mail)
+2342212001450          OCLC
+234222339399           CAMB       University of Cambridge
+234222715151           KENT       University of Kent
+234223519191           JANET      Gateway to JANET at Rutherford
+234227900102           BLAISE     British Library Information System
+234231354354           ERCC       Edinburgh Regional Computer Centre
+234233400101           BEST       B.E.S.T. Database, Longman, St. Andrews
+234212900115           STL        STL
+234243800105           IDEC       STL IDEC
+23424830012489         SUNCAM     SUN Microsystems - Camberley
+23425330012406         CAMTEC     Camtec, Leicester (hard copy printer)
+234253300124           CAMTEC     Camtec, Leicester
+23426160013930         NCC        National Computing Centre - LEO
+234261600152           UMDAFL     University of Manchester Dataflow VAX
+23426164321090         NRS        NRS
+234261643210           SALF       Salford University
+234263259159           NUMAC      University of Newcastle
+234274200103*DCODUS    CODUS      Codus
+234284400162           PFDS       Pergamon Financial Data Systems
+23428580010800*D       LIBTEL     Menzies' on-line enquiry system
+23429084011100*d       POLIS      SCION
+234293765265           ARTTEL     British Library, Boston Spa
+2348                   TELEX      UK Telex network
+23523592592500         KINGLINE   Hull Telephone GOLD system
+238                    DK         Dinamarca
+238241745600           RECKU      Univac in Copenhagen University
+240                    S          Suecia
+2405                   SWEDEN     Swedish data network
+240200100110           QZDB       QZ via reverse pad.
+240200101915           QZCOM80    QZCOM NIFTP80 service.
+240200101928           QZXA       UPNOD local network
+2402001027             QZXB       Stockholm Universitry Computing Gateway.
+240200102701           QZCOM      QZ ODEN DEC-10
+242                    N          Noruega
+2422                   NORWAY     Norwegian data network
+242211000107           OSLO       DEC10 at Oslo University
+242223000151           RBK        Cyber 170 at IFE (Ener.Rsrc.Cent.), Kjeller
+242245000101           BERGEN     Univac at Bergen University
+242253000101           RUNIT      Univac at Trondheim University
+242265000101           TROMSOE    Cyber at Troms| University
+244                    SF         Finlandia
+244203008              HELVA      High Energy Physics Vax, Univer.of Helsinki
+
+262                    D          Alemania Federal
+2624                   GERMANY    German data network
+26245221040006*d       DIMDI
+26245221040104*d       DIMDI2
+26245228040187         BNVA       Bonn VAX
+26245234040194         RUB        Cyber 205, Ruhr University - Bochum
+262453000217           HMI        Hans Mietner Institute in Berlin
+26245300043042         DFNHELP    Help system at DFN in Berlin
+2624540009306          DYVA       MARK J VAX at DESY
+26245615144000
+
+

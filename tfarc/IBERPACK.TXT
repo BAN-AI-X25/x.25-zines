@@ -1,0 +1,386 @@
+           NUMEROS DE NUAs DE IBERPAC (& Co.)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+       ESTRUCTURA DE LOS NUAs (Network User Address)
+
+        Anexo X-121 de la norma x-75 del CCITT.
+
+ _______________________N_U_A____________________________
+|        DNIC (Data Network Identification Code)         |
+|      |         |                                       |
+ ###   ### ### ###   ###   ### ### ### ### ### ###   (###)
+  |    |              |    |                           |
+  |    |              |    Direccion del Host          (Opcional)
+  |    |              Red dentro del pais
+  |    |
+  |    Codigo del pais (Francia=208, UK=234, USA=310-315, etc)
+  Prefijo naciona, longitud no fijada, depende de cada PTT nacional.
+(Ejemplos:Reino Unido=A9, Francia=0, Irlanda=A, etc)
+
+NETWORK IDENTIFICATION CODE:
+
+PAIS-NOMBRE DE LA RED                                   DINC
+Alemania R.F.-Datex                                     2624
+Australia-Austpac                                       5052
+Australia-Midas                                         5053
+Austria-Radio_Austria                                   2329
+Belgica-DCS                                             2062
+Brasil-Interdata                                        7240
+Canada-Datapac                                          3020
+anada-Globedat                                         3025
+Canada-Infoswitch                                       3029
+Corea del Sur-DacomNet                                  ----
+Costa de Marfil                                         6122
+Dinamarca-Datapak                                       2382
+Espa$a-Iberpac                                          2145
+Espa$a-TIDA                                             2141
+EE.UU.-ADP Autonet                                      3126
+EE.UU.-Compuserve                                       3132
+EE.UU.-DBS(WUI)                                         3104
+EE.UU.-Datapak(TRT)                                     3119
+EE.UU.-LSDS(RCA)                                        3113
+EE.UU.-Marknet                                          3136
+EE.UU.-Telenet                                          3110
+EE.UU.-Tymnet                                           3106
+EE.UU.-UDTS(ITT)                                        3103
+                                                      y 3107
+EE.UU.-Uninet                                           3125
+EE.UU.-Wutco                                            3101
+Filipinas-GMCR                                          ----
+Filipinas-Philcom                                       ----
+Fitlandia-Datapack                                      2442
+Francia-Node Transp Intl.                               2081
+Francia-Transpac                                        2080
+Gabon-Gabopac                                           6282
+Grecia-Helpac                                           2022
+Guadalupe-Dompac                                        3400
+Guayana Francesa-Dompac                                 7420
+Holanda-Dabas                                           2044
+Holanda-Datanet                                         2041
+Hong Kong-Intelpak                                      4542
+Hong-Datapak                                            4545
+Indonesia-SKDP                                          5101
+Irlanda-Eirepac                                         2724
+Israel-Isranet                                          4251
+Italia-Itapac                                           2222
+Japon-DDX P                                             4401
+Japon-Venus P                                           4408
+Luxenburgo-Luxpac                                       2704
+Malasia-Maypac                                          ----
+Martinica-Dompac                                        3400
+Noruega-Datapak                                         2422
+Nueva Zelanda-Pacnet                                    5301
+Polinesia Francesa-Tompac                               5470
+Portugal-Telepac                                        ----
+Reino Unido-PSS                                         2342
+Reino Unido-Dompac                                      6470
+Singapur-Telepac                                        5252
+Sudafrica-Saponet                                       6550
+Suecia-Datapak                                          2402
+Suiza-Telepac                                           2284
+Tailandia-Idar                                          ----
+Taiwan-Udas                                             ----
+Trinidad-Textel                                         ----
+
+
+
+
+-----------------------------------------------------------------------
+                          HOSTS VIA IBERPAC
+-----------------------------------------------------------------------
+ADP     : 234219200118               ADP Network Services
+ARDIC   : 208075000120               Ass. R. D. Informatique Chimique.
+ASSLOMB : 2222392001                 Assolombarda Sideral Informatica
+BARATZ  : Tlf.(94)4413262            Baratz
+BELINDIS: 2062221012                 Belgian Information Dis. Service
+BLAISE  : 234219200222               British Library Automated Inf.Ser.
+BNDO    : 208029000245               Bureau National Des Donnees Oc.
+BRS     : 311031500020               Bibliographic Retrirval Service I.
+CATED   : 208075000155               Centre d'Assistance Technique D.
+CDSH    : 208910006931               Centre de Documentation S. Hum.
+CED     : 222620002                  Centro Elettronico di Doc.
+CIGL    : 2062220003                 Centre d'Informatique Generale L.
+CIRCE   : 2080910006931              Centre Inter-Regional de Calcul E.
+CISIWHAR: 20809100030950             Compagnie Internationale Ser. Inf.
+CNUCECNR: 222262035                  Istituto del Centro Nazionale R.
+CCCEE   : 2062221026                 Comision de las Comunidades Euro.
+COMPUSER: 310600133                  Compuserve Incorporated
+DATACENT: 238241592400               I/S Datacentralen af 1959
+DATAMAIL: 22846411010                Data Mail/Data Star
+DATASOLV: 234275312212               Datasolve Ltd.
+DATASTAR: 228464110110               Data Storage And Retrieval
+DBI     : 26245300040020             Deutsches Bibliotheksinstitut
+DIMDI   : 26424522104006             Deutsches Institut Fr Mediznische
+ECHO    : 270448112                  European Com.Host Org.(Pass=Dianee)
+EDICLINE: 26245722140209             Economic Doc. & Information
+EDS     : 234219200154               Electronic Data Systems
+ENQUIRY : 23421920100513             Euronet Diane Enquiry Service
+EPO     : 2041170121                 European Patent Office
+ERGODATA: 208091000192               Ergodata
+ESA/IRS : 2222620021                 European Space Agency/Inf.Re.Ser.
+ESA/IRS : 2222620025                 European Space Agency/Inf.Re.Ser.
+ESA/IRS : 23421920115600             European Space Agency/Inf.Re.Ser.
+ESA/IRS : 234219201156               European Space Agency/Inf.Re.Ser.
+ESA/IRS : 23421920115604             European Space Agency/Inf.Re.Ser.
+ESA/IRS : 208075000394               Eurpoean Space Agency/Inf.Re.Ser.
+EXIS    : 234232500124               Exis Ltd.
+FINSBURY: 23421900101                Finsbury Data Service Ltd.
+FIZ-THEC: 262457247001               Fachinformationonszentrum Technik
+G.CAM   : 2080770041:BRS             Groupemenet de la Caisse del Dep.
+GEOSYSTE: 234290840111               Geosistems (UK)
+GID     : 26246511040009             Gresellschaft Fr Inf.und Doc.mbH
+GID     : 26245690040009             IDEM. (Siemens)
+GID     : 26425690040117             IDEM. (IBM)
+IAEA    : 232911507701               International Atomic Energy Agency
+INFOLINE: 23219200190                Pergamon-Infoline
+INKA    : 26245724740001             INformation System KArlsruhe
+IP SHARP: 302079100020               IP Sharp Associates Ltd (Canada)
+JRC     : 2222412001                 CEJ Join Reserarch Centre
+KODA    : 228468114080               Kompas Data Online
+MEAD/MDC: 31105130003000             Mead Data Central
+MIC     : 2405015330                 Medical Information Centre
+NLM     : 3106000050                 National Library of Medicine
+QZ      : 240200100110               Stockholm University Computer Cent.
+RPI     : Tlf.(91)4582241            Registro de la Propiedad Industrial
+SDC     : 31060051                   System Dev. Corp./Orbit Search Serv.
+SDC     : 31102310004400             IDEM (1200 Baud)
+SDC     : 31102310003300             IDEM (300 Baud)
+SCICON  : 234290840111               Scicon Computer Services Ltd.
+SLIGLOS : 208092000530               Sliglos
+STN     : 26245724740211             Scientific & Tech. Network Int. CAS O.
+TELESYST: 208006040010               Telesystemes-Questel
+TELESYST: 208006040011               IDEM.
+TELESYST: 208006040201               IDEM.
+THERMODA: 208038020100               Termodata B.U.S.
+THESOURC: 31060001850                Source Telcomp.Corp. (Reader's Digest)
+THESOURC: 31060001851                IDEM.
+THESOURC: 31060001852                IDEM.
+THESOURC: 31060001853                IDEM.
+THESOUEC: 31060001854                IDEM.
+THESOURC: 31060002347                IDEM.
+THESOURC: 311030100028               IDEM.
+THESOURC: 311030100038               IDEM.
+THESOURC: 311030100047               IDEM.
+THESOURC: 311030100048               IDEM.
+THESOURC: 311030100049               IDEM.
+THESOURC: 311030100056               IDEM.
+THESOURC: 311030100057               IDEM.
+THESOURC: 311030100408               IDEM.
+VU/TEXT : 311021500040               VU/Text Information Services Inc.
+WILSONLI: 311021200040               H.W.Wilson Company
+ERCCFTP : 23423135435419     14   5  ERCC (FTP)
+SALFFTP : 234261643210        6   5  Salford Univ. (FTP)
+UWIFTP  : 23422223623698      6   5  UWIST (FTP)
+SWCFTP  : 23422253030398      6   5  SWURCC (FTP)
+UMRFTP  : 23426164314398      6   5  UMRCC (FTP)
+YORKFTP : 234290468168        6   5  York University (FTP)
+RLGBFTP : 234223519191        6   5  RL GEC (FTP)
+STANFTP : 23423345815898      6   5  St. Andrews Univ. (FTP)
+UCLFTP  : 234219200300        6   5  UCL (FTP)
+RLPCFTP : 234223519191        6   5  RL Prime C (FTP)
+RLIBFTP : 234223519191        6   5  RL IBM 370 CMS (FTP)
+BUSHFTP : 23423135435419      6   5  RCO 2988 (FTP)
+UCLMAIL : 234219200300        6   5  UCL (JNT Mail)
+AUCCFTP : 23422723033398      6   5  AUCC (FTP)
+OUCSFTP : 234223519191        6   5  OUCS VAX (FTP) - Experimental
+UEAFTP  : 234223519191        6   5  East Anglia via SERC (FTP)
+ZUVSFTP : 234223519191        6   5  UCL Starlink VAX (FTP)
+DLVAFTP : 234223519191        6   5  Daresbury SRS VAX (FTP)
+AUTONET : 31268801           13  10  AUTONET Information
+SYPEFTP : 234223519191        6   5  Surrey Prime 550 (FTP)
+REVSFTP : 234223519191        7   5  ROE Starlink VAX (FTP)
+QMCFTP  : 234219806160        6   5  QMC (FTP)
+RLDAFTP : 234223519191        6   5  Rutherford DCS 11/70 (FTP)
+IHW     : 31102130004114     11  10  IHW
+BOUNCE  : 234222715151       14   5
+SALFORD : 23426164321090     14   5  Salford -> GANNET
+SCICON  : 234290840111       14   5  SCICON
+DIALOG4 : 31060061            8  10  Lockheed Info Systems
+YORK    : 234290468168        6   5  York University PSS Gateway
+CAMBRID : 234222339399        6   5  Cambridge University (Phoenix)
+DSTAR   : 228464110115        8   8  Datastar
+DIALOG5 : 31102130017000      8  10  Lockheed Info Systems
+PRI-BHM : 234221222223       14   5  Prime Ltd Birmingham
+ICL-LET : 234246240240       14   5  ICL Letchworth
+NOLTON  : 234299212221       14   5  Nolton Communications Ltd.
+DEC-RDG : 234273417171       14   5  Digital Equipment Ltd Reading
+GSI-UK  : 234275317177       14   5  GSI
+PRI-BED : 234223440144       14   5  Prime Ltd Bedford
+HARWELL : 234223519111       14   5  A.E.R.E. Harwell
+BOC     : 234275312212        6   5  British Oxygen
+EXETER  : 23423923232304      6   5  Exeter University
+AUCC    : 23422723033300      6   5  Avon Universities Comp. Centre.
+BOOK    : BOOK                3   0  UKC Booking Server
+INRIA   : 208078020118        8   8  INRIA (France)
+VEREX   : 302067200042        8  10  Verex on TI at UBC
+UCD     : 272431540002        8   8  University College Dublin
+UQ      : 505273720000        8  11  Univ. of Queensland Australia
+AGRINET : 23425820010604      6   5  AGRINET Gateway
+CNUSC   : 208034020036        9   8  CNUSC (France)
+AGRIFTP : 23425820010604      6   5  AGRINET FTP
+DIALOG6 : 3125212101         14  10  Lockheed Info Systems
+DSTAR2  : 228464110110        8   8  Datastar (2nd. Line)
+ALVEY   : 234284400123        6   5  Alvey Electronic Mail
+EASTMAL : 23425820010604      6   5  East Malling
+EMALFTP : 234258200106        6   5  East Malling (FTP)
+STAND   : 234233458158       14   5  St. Andrews University VAX
+RSREDL  : 23429052424203     14   5  RSRE
+RSRESNK : 23429052424204     14   5  RSRE
+QZCOM   : 2405015310          8   8  QZ-COM - Stockholm University
+RCO2972 : 234231354354       14   5  ERCC ICL 2972
+PRESTEL : 234219201025        5   5  BT Prestel Service
+UCD2    : 272431540003        8   8  Univ. College Dublin (2)
+UCD3    : 27243159000630      8   8  Univ. College Dublin (3)
+GLAXO   : 234214200162        6   5  Glaxo Industries
+DIALOGX : 31060061           14  10  Dialog
+DIALOG  : 31104150002000      8  10  Lockheed Info Systems
+DARTMTH : 31106030002000     14  10  Dartmouth College, USA
+SCIAPP  : 31107140002000     14  10  Science Applications Inc.
+ORBIT   : 31102130003300      8  10  Orbit
+UBCMTS  : 302067200040        8  10  Amdahl 470 at UBC
+INFOLIN : 234219200190        8   5  Pergamon-Infoline
+SCRSX   : 234241260106       14   5  Strathclde PDP-11/44 (RSX)
+DIALOG2 : 31104150004800      8  10  Lockheed Info. Systems #2
+FERRANT : 234261643343       14   5  Ferranti Computer Systems
+LPOOL   : 234251248248       14   5  Liverpool University
+BAYNARD : 23421920100530     14   5  BT Protocol Study Centre
+GEC     : 23421951131        14   5  GEC Computers Borehamwood
+IPSHARP : 234219200203       14   5  I P Sharp Associates Ltd.
+TEXAS   : 234223440345       14   5  Texas Instruments Limited
+CARDIFF : 23422223616300      6   5  Univ. Coll. Cardiff Multics
+BGOLD72 : 23421920100472      6   5  Telecom Gold System 72
+ITT     : 23422790014302      6   5  ITT Harlow
+BTDOC   : 23421920100515     14   5  BT Online Documentation Service
+DEC-BAS : 234225621126       14   5  DEC Basingstoke
+SERCNET : 23422351919169     14   5  R/ford XXX SERCNET g/way
+KITE    : KITE                3   0  UKC VAX Unix Development
+BTBILL  : 23421920100620     14   5  BT Online Billing
+UCLMVAX : 23421920014918      6   5  UCL Microvax ARPA Gateway
+BRISTOL : 23422723023000     14   5  University of Bristol
+LITP    : 208075020655        8   8  LITP Unix (France)
+WATERLO : 31102040002900     10  10  University of Waterloo
+SERCENQ : 234223519191        6   5  SERCNET Acc & P/word Fac.
+DIALNET : 23421230012011      8   5  Dialog via London
+COMET   : COMET               3   0  UKC DEC VAX11/750 Unix System
+SWURCC  : 23422253030388      6   5  South-West Universities Network
+PFIZER  : 234216700127        8   5  Pfizer, SANDWICH
+NUMAC   : 234263259159       14   5  Testing Only
+ESAIRS1 : 2222620021          8   8  ESA-IRS #1
+DECTELX : 2348929920          7   6
+DIANENQ : 23421920100513     14   5  Euronet DIANE Enquiry Service
+UUCP    : UUCP                2   0  UKC UUCP
+ESSEX   : 234220641141       14   5  Essex University
+HATFLD  : 234270712217       14   5  Hatfield Polytechnic
+ACORN   : 23422230016102     14   5  Acorn Computers
+ERCC    : 23423135435422     14   5  ERCC - 2980, 2972 (EMAS)
+C3      : 23421500011600      7   3
+HOSTESS : 23421920100515     14   5  PSS Demonstration Host
+SLAC    : 310600266400        8  10  SLAC on Tymnet
+RCONET  : 234231354354        6   5  ERCC - 2980, 2972 (EMAS)
+ULCC    : 23421920014869      6   5  Univ. London Computer Centre
+CAMTEC  : 234253300124        6   5  CAMTEC, LEICESTER
+ESAIRS2 : 2222620022          8   8  ESA-IRS #2
+LOOP    : 0                  14   5
+MCVAX   : 2041290056          8   8  MCVAX, HOLLAND
+UWIST   : 234222236236       14   5  U.W.I.S.T.
+EAGLE   : EAGLE               3   0  UKC DEC VAX11/780 Unix System
+QMC     : 234219806160        6   5  Queen Mary College London
+BTGOLD  : 23421920100479      5   5  Telecom Gold System 79
+YORKTS  : 23429046816804      6   5  York TS29 Port
+BLAISE  : 234227900102        6   5  British Library info system
+LEEDS   : 234253265165       14   5  Leeds University
+MAIL    : UUCP/FTP/MAIL       3   0  UKC Mail (NOT a Host)
+EXETER1 : 234239232323        6   5  Exeter University
+NEWS    : KESTREL/FTP/NEWS    3   0  UKC News (NOT a host)
+AMAIL   : UUCP/FTP/AMAIL      3   0  UKC Mail (NOT a host)
+HAWK    : HAWK                3   0  UKC Comp. Lab Unix
+SEISMO  : 3106002545         10  10  Centre for Seismic Studies
+INKA    : 26245724740001      8   8  German Database for Eng.
+QTLON   : 23421920013370      6   5  Quantime
+PSSCLK  : 23421230202192     14   5  PSS Clock
+TELEENQ : 31102020014175     14  10  Telenet Enquiry Service
+UCLA    : 311021301353       14  10  UCLA, USA
+XMAIL   : UUCP/FTP/MAIL       3   0  UKC Mail (NOT a host)
+ESA1    : 23421920115600      6   5  ESA-IRS via London
+ESA2    : 23421920115600      6   5  ESA-IRS via London
+USCAL2  : 311021300039        9  10  Univ. of Southern California
+COMPU   : 3132                8  10  Compuserve
+MIDNETW : 234221222122       14   5  Midnet (West)
+TELEX   : 2348                7   6  Telex DNIC
+RESFTP  : 234258200106        6   5  RES (Rothampstead) - FTP
+USCAL1  : 311021300048        9  10  Univ. of Southern California
+DNET2   : 23421230012011      8   5  Dialog via London #2
+TLX     : TLX                 3   0
+BERLIN  : 26245300040023      8   8  Tech. Univ. Berlin
+UKIRT   : 311080800040        9  10  UK Infra-Red Telescope Hawaii
+PRIEIRE : 272431590007       14   8  Prime Computers Dublin
+HLH     : 23422350010998      6   5  High Level Hardware Ltd.
+HARING  : 204129005675        8   8  MCVAX Line #2
+SGATE   : SGATE              14   0  SGATE (UKC JANET Gateway)
+EMBL    : 2624562213002      10   8  European Microbiology Lab
+UUCPXX3 : UUCP/TS29/NOX3     14   0  UKC UUCP - No X3 Mess
+DATAPIN : 24221100001018     13   8  DATAPAK Info - Norway
+HKDATA  : 4545500104         13  11  Hong Kong DATAPAK Info
+ENVOY   : 302079400100       13  10  Bell Canada Mailbox
+KDD     : 44082006001        13  11  KDD Test Host, TOKYO
+TELEPAC : 5252116688         13  11  Telepac Info, SINGAPORE
+TEXTFRA : 208101             13   8  Text Generator, FRANCE
+FALCON  : FALCON              3   0  UKC HLH Orion (Unix)
+FTP     : EMAS/FTP            3   0
+LEXIS   : 234219200171        6   5  LEXIS
+ENEA    : 2402001244          8   8  ENEA
+MELBUNI : 505233422000        8  11  Melbourne Univ. Australia
+IRCAM   : 208075000087       14   8  IRCAM-IGOR
+HPLB    : 234227200112        6   5  HPLB
+LATTLOG : 234231300105       14   5  Lattice Logic
+STL     : 234212900115        6   5  STL
+BGOLD81 : 234219201004        5   5  Telecom Gold System 81
+BTGOLDA : 23421920100481      5   5  Telecom Gold System 81
+BGOLD84 : 23421920100484      5   5  Telecom Gold System 84
+BGOLD74 : 23421920100474      5   5  Telecom Gold System 74
+CER     : 2284681140510       8   8
+GOS     : GOS                 3   0  UKC HLH Orion (Unix)
+UNIDO   : 26245231042144      8   8  University of Dortmund
+WAIKATO : 530171000004        6  11  Univ of Waikato New Zealand
+DIALMAL : 23421239912013      8   5  Dialmail via London
+DIALNRC : 23421230012011      8   3  Dialnet (Reverse Charging)
+DIALMRC : 23421230012013      8   3  Dialmail (Reverse Charging)
+SAARBRU : 26245681040076     14   8  Univ of Saarbruecken
+MRCA    : 23425824024200      6   5  GEC - Marconi Research Centre
+PRLB2   : 206224001903        8   8  Belgium Unix Backbone
+EPSONUK : 234212080110        6   5  Epson (UK)
+GUELPH  : 302034200142        8  10  Univ. of Guelph, CANADA
+EUROKOM : 272431540002        8   8  Eurokom, UC DUBLIN
+INRIAUU : 20807808167304      8   8  INRIA - UUCICO
+CERNVAX : 2284681140510       8   8  CERN X25 Multigate
+JANETGW : 23421920010069      9   5  PSS/JANET Gateway (ULCC)
+DEVSYS  : DEVSYS              3   0
+KESTREL : KESTREL             3   0  UKC Orion BSD4.2 Testbed
+CAP     : 23421230118722      6   5  CAP Industry Ltd.
+MOUTON  : 311020100169        8   0
+KW3     : 234222715151        5   5  5,14
+MIKE    : MIKE                3   0
+ROGER   : ROGER               3   0  UKC Electronics VAX (Unix)
+JAX     : JAX                 3   0  UKC Physics VAX (Unix)
+CAPELLA : CAPELLA             3   0  UKC Orion (Unix)
+MERLIN  : MERLIN              3   0  UKC Documentation server
+UDIKU   : 23824174560002      8   8
+PFIZER1 : 23421670012701      8   5  Pfizer, SANDWICH
+PFIZER2 : 23421670012702      8   5  Pfizer, SANDWICH
+PFIZER3 : 23421670012703      8   5  Pfizer, SANDWICH
+PFIZER4 : 23421670012704      8   5  Pfizer, SANDWICH
+PFIZER6 : 23421670012706      8   5  Pfizer, SANDWICH
+SATURN  : SATURN              3   0  UKC Vax VMS Cluster (8800)
+TITAN   : TITAN               3   0  UKC Vax VMS Cluster (8200)
+JANUS   : JANUS               3   0  UKC Vax VMS Cluster (8200)
+ESTELLE : 23422790010400      6   5  STC Estelle
+UUCPKES : KESTREL             2   0  UKC UUCP Test Host
+GCAM    : 208093130084       14   8  G.CAM Paris
+UKTH    : 31108080004010      9  10  UK Telescope Hawaii
+UKIRTA  : 31108080004020      9  10  UK Infra-Red Telescope Hawaii
+JCMAXT  : 31108080004030      9  10  James Clerk Maxwell T/S Hawaii
+HOBBY   : HOBBY               3   0  HLH Orion (Unix)
+OSPREY  : OSPREY              3   0  HLH Orion (Unix)
+
+
+

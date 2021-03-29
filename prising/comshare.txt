@@ -1,0 +1,33 @@
+
+To logon to comshare :
+
+at the prompt WHICH SERVICE type 
+*CSA if you logged on at v21
+*CSB if you logged on at v23
+or type 3 this last one will get you a viewdata computer
+or type 8 this will give you HP Info .
+
+at the prompt COMSHARE:
+type A gives commander II system A
+type B gives commander II system B
+type C gives commander II system C
+type I gives commander II system I
+type Q gives a VM computer send a break to logon
+type T gives telecom gold
+ with  lots  of  computers off this ,  use CALL xx where  xx  is  a 
+ number, eg. CALL 01 gives Campus 2000 , you can call all the usual 
+ telecom gold computers from here.
+
+type P gives access to a prompt WHICH SERVICE ,from here type  all 
+ of the above or 3 which gives MERCURY LINK 7500.
+
+Sometimes  at  the  COMSHARE prompt if you type  V  you'll  get  a 
+ decserver with 4 VAXs' hanging off it.
+ If you come across the V working again let me know,  as I've  full 
+ privs on it!
+
+At  the  COMSHARE  prompt if you type '12'  you'll  get  results  on 
+ commander II system B.
+
+Downloaded From P-80 Systems 304-744-2253
+

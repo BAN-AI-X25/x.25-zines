@@ -1,0 +1,162 @@
+Notes on Austpac
+----------------
+
+by Vorper VII, 28/9/98
+
+These assume a basic knowledge of X.25 networks, ie the meaning of terms
+such as NUI, NUA, DNIC, X.121 addressing.
+
+Austpac is Australia's public X.25 network, and has DNIC 5052.  It is owned
+by Telstra, the national telecommunications carrier (there are now competitors
+to Telstra such as Optus).  DNIC 5053, formerly 'Midas', was run by OTC
+(Overseas Telecommunications ?), which is now part of Telstra.  Midas was
+renamed Austpac International, I'm not even sure if it exists now.  All NUAs
+I have tried to access in 5053 have not connected, from both sprintnet and
+austpac locally.
+
+When entering NUAs from within Austpac, the last digit of the DNIC is kept,
+but the first 3 (505) are not, since they would be redundant.  Calling out
+is done as in Sprintnet, by prefixing the NUA with a 0.
+
+eg.  505222150054 would be 222150054 locally, and
+     3106900803 (DIALOG on Tymnet) would be called as 03106900803 from Austpac
+
+Many Australian Universities used to use Austpac for communication, and to
+allow students/staff to dial in from country areas without incurring long
+distance telephone charges, but due to lack of use they have closed their
+Austpac gateways (Deakin closed in 1997, Melbourne Univeristy closed in 1994,
+there may still be one or two).
+
+The main uses now appear to be corporate data transfer.  EFTPOS information
+is transferred over X.25, but I am not sure if Austpac is used.  ISDN
+customers can also use Austpac through the D channel.  The National Library
+runs an austpac services, with an internet gateway and the library catalog
+available on Austpac, but this will be closed soon.
+
+NUA Format
+----------
+
+Sample NUA: 222150054
+
+The first digit (2) indicates that this NUA is in Austpac, rather than in
+any of the other Australian X.25 networks.  A list of other networks is
+included at the end.
+
+The second digit indicates the state, and matches the old metropolitan are
+codes for the Australian PSTN.  So the above NUA is in New South Wales.
+
+The exact meaning of the next four digits are uncertain, but the following
+has been observed in practice: The pattern of *invalid* NUA areas is the
+same for each possibility of digits 3 and 4.  So if the range 221010000 to
+221010999 returned CLR NP 067 for every call attempt, the same would hold
+for 22xy10000 to 22xy10999, replacing x and y with any digits.  Also from
+experience, if one NUA in a block of 1000 returns CLR NP 067, all others
+in that block will too.
+
+Despite this symmetry, machines are only present an one NUA.  These patterns
+are different in each state, but consistent within a single state, and so reduce
+scanning time quite considerably.
+
+The 5th and 6th digits determine whether a block is valid or invalid, as
+described above.
+
+The last three digits specify a particular PAD, and the vast majority of these
+are in the lowest 100 of each block of 1000.
+
+There are also an optional two extra digits which can be added to an NUA,
+which will be passed to the called PAD.  In Sprintnet, these are seperated
+from the NUA by a '.' symbol.
+
+NUI Format
+----------
+
+The format of an Austpac NUI is:
+
+ABCDEF123456
+
+Where 123456 is the user identifier, and ABCDEF is the password (this is
+changeable by the NUI owner by calling a special NUA).  A call with a NUI is
+made by prefixing the NUA to call with 'NABCDEF123456-'.  The NUI will not
+be displayed as it is entered.
+
+eg.  To call DIALOG on Tymnet with the above NUI, you would enter:
+     NABCDEF123456-3106900803
+and you would see:
+     N-3106900803
+
+Both the user identifier and password are alpha-numeric.
+
+NUIs may be found programmed into PADs, perhaps for accounting purposes
+(each department/person uses an different NUI, and is billed for that NUI).
+
+The password portion of the NUI can be changed by calling:
+     NABCDEF123456-.AINS
+.AINS is the mnemonic for Austpac Intelligent Network Service, and it will
+allow you to change the password for the NUI you called with, as well as
+list which Closed User Groups the NUI is a member of, and other things.
+
+Australian Network Identifiers
+------------------------------
+
+Prefix		Allocation Date		Organisation
+5052		30 June 1991		Telstra Corporation Ltd
+5053		30 June 1991		Telstra Corporation Ltd
+50541		6 September 1994	AAPT Ltd
+50542		6 September 1994	AAPT Ltd
+50543		6 September 1994	AAPT Ltd
+50560		16 February 1994	SingCom (Australia) Pty Ltd
+50568		16 February 1994	SingCom (Australia) Pty Ltd
+50569		16 February 1994	SingCom (Australia) Pty Ltd
+50573000	30 June 1991		Fujitsu Australia Ltd
+50573500	19 February 1992	Department Of Defence
+505790		17 November 1993	Department Of Defence
+505791		17 November 1993	Department Of Defence
+505799		23 February 1995	Telstra Corporation Ltd
+
+5052 = Austpac
+5053 = Austpac International (formerly Midas / OTC Data Access)
+5054 = Australian Teletex Network
+5057 = Australian Private Networks
+NB The allocation dates are official allocation dates, not necessarily actual
+dates.  Austpac existed long before 1991.
+
+Old Australian Metropolitan Area Codes
+--------------------------------------
+
+Area Code	State				NUA Prefix
+02		New South Wales			50522
+03		Victoria			50523
+06		Australian Capital Territory	50526
+07		Queensland			50527
+08		South Australia			50528
+09		Western Australia		50529
+
+50521 appears to be used for dialup PAD nuas, perhaps more.  The addressing
+format for other states is unknown.
+
+Austpac dialups
+---------------
+
+X.28 = asynchronous
+X.32 = synchronous
+
+Australia only:
+Number		Speed	Protocol
+1800 65 5057	9600?	X.28
+1800 65 3991	9600?	X.28
+01922		300	X.28
+01924		2400	X.28
+01925		2400	X.32
+13 1400		9600	X.28
+13 1344		9600	X.32
+
+International:
+Number		Speed	Protocol
++613 9663 3771	?	X.28
++613 9521 3001	?	X.32
++612 9221 4400	?	X.28
++617 3393 0788	?	X.28
++618 8231 0201	?	X.28
++618 9481 0819	?	X.28
+
+Some of these numbers may not work anymore.

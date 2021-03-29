@@ -1,0 +1,1003 @@
+               BITFTP -- Princeton BITNET FTP Server
+ 
+BITFTP provides a mail interface to the FTP portion of the IBM TCP/IP product ("FAL") running on the Princeton VM system, to allow BITNET/NetNorth/EARN users to ftp files from sites on the Internet.
+
+To use BITFTP, send mail containing your ftp commands to BITFTP@PUCC (or to BITFTP@PUCC.Princeton.edu).
+ 
+The first command to BITFTP must be "FTP", "FTPLIST", "HELP", or "VMS".  If you send BITFTP mail or a message containing only the command "FTPLIST", it will send you a list of some of the hosts that allow anonymous ftp.  (Note that there is no guarantee that BITFTP can access all the hosts in that list.)  Use "HELP" to request a current copy of this help file.  Use "VMS" to request a collection of tips provided by BITFTP users on how to handle binary files from
+BITFTP on VMS systems.
+ 
+The recommended syntax for FTP requests is:
+ 
+   FTP hostname NETDATA    --or--    FTP hostname UUENCODE
+   USER username password
+   <other ftp subcommands>
+   QUIT
+ 
+Following the hostname on the FTP command, you may specify "UUENCODE" or "NETDATA" to tell BITFTP the format in which you wish to receive files.
+ 
+If the username is "anonymous", no password is required; BITFTP will use your userid and nodeid as the password.  Note that on many systems passwords are case-sensitive; that is, the password may be required to be in lower case or mixed case or upper case.  (The same is true of directory and file names.)
+ 
+The following is an example of an ftp request:
+ 
+   FTP  f.ms.uky.edu  NETDATA
+   USER  anonymous
+   CD  /pub/msdos/Games
+   DIR
+   BINARY
+   GET  robotron.arc  msdos.robotron
+   QUIT
+ 
+BITFTP implements a subset of the ftp subcommands provided in the IBM TCP/IP and uses the same syntax.  Therefore, you may find it useful to obtain the "IBM TCP/IP for VM Command Reference Manual", IBM order number GC09-1204.
+ 
+The currently supported subcommands are:
+ 
+  ACCT        -- to send host-dependent account information.
+    format:   ACCT account-information
+ 
+  ASCII       -- to change the file transfer type to ASCII.
+    format:   ASCII
+ 
+  BINARY      -- to change the file transfer type to image.
+    format:   BINARY <FIXED record-len> <VARIABLE>
+ 
+  CD          -- to change the working directory.
+    format:   CD directory
+ 
+  CLOSE       -- to disconnect from the foreign host.
+    format:   CLOSE
+ 
+  DIR         -- to get a list of directory entries.
+    format:   DIR
+ 
+  EBCDIC      -- to change the file transfer type to EBCDIC
+    format:   EBCDIC
+ 
+  GET         -- to get a file from the foreign host.
+    format:   GET foreignfile <localfile>
+ 
+              If you specify "localfile", it must be in
+              the forms "filename.filetype" or "filename",
+              and the filename and filetype may each be no
+              more than 8 characters long and may not contain
+              periods.
+ 
+  LOCSTAT     -- to display local status information.
+    format:   LOCSTAT
+ 
+  LS          -- to list the files in a directory.
+    format:   LS <name>
+ 
+  PWD         -- to print the working directory.
+    format:   PWD
+ 
+  QUIT        -- to disconnect from the foreign host.
+    format:   QUIT
+ 
+  STATUS      -- to retrieve status information from a foreign host.
+    format:   STATUS <name>
+ 
+  SYSTEM      -- to get the name of the foreign host's operating
+                 system.
+    format:   SYSTEM
+ 
+  TYPE        -- to specify Image, ASCII, or EBCDIC file transfer.
+    format:   TYPE <I|A|E>
+ 
+BITFTP does not provide a PUT capability, and there is no intention
+to make it do so in the future.
+ 
+  BITFTP currently accepts requests only via RFC822-format mail, IBM NOTE-format mail, PROFS-format messages, or files with no headers at all.
+  BITFTP currently returns the requested files as NETDATA-format files or as mail files containing UUENCODED data.  If you specify
+"UUENCODE" or "NETDATA" on your "FTP" command, BITFTP will attempt to use that format.  If you do not specify the format, BITFTP will attempt to select the appropriate format for your node.
+ 
+UUENCODED files are broken up into mail files that contain no more than 50,000 bytes of data.  NETDATA-format files that are larger than 300,000 bytes are sent in 300,000-byte pieces using the BITSEND function.
+  You should be able to receive such files using the BITRCV function available from your nearest NETSERV.
+  (If you do not know how to use NETSERV, ask your local BITNET/EARN/NetNorth Coordinator
+for assistance.)  If BITRCV is not available for your system, use the command you normally use to receive NETDATA-format files and then concatenate the files in the order shown in the BITRCV control file to recover the original file.
+ 
+Users in the UK should note that BITFTP attempts to send NETDATA-format files through the gateway from EARN into Janet via the NIFTP facility at Rutherford Lab.  Note that receiving files via NIFTP requires an overt action on your part.
+  If you are at a Janet node and don't know how to use NIFTP, you should ask for assistance locally.  Alternatively, you can ask BITFTP to send your files UUENCODED inside mail by specifying the "UUENCODE" option.
+ 
+If BITFTP sends you a file you cannot read, THE FIRST THING TO DO is to make sure that you specified ASCII if the file should contain textual material or that you specified BINARY if the file should contain binary data, executable programs, tar files, or the like. VMS users should specify BINARY F 512 and should use RECEIVE/BINARY to receive the NETDATA-format binary files BITFTP sends them.
+ 
+If BITFTP sends you a uuencoded file that you cannot uudecode, the first thing to do is to translate all occurrences of 0x7E in the file to 0x5E and then try uudecoding again.  (Some gateways are changing 5Es to 7Es when the files pass through them.)
+ 
+There are many different flavors of UUENCODE/UUDECODE. 
+ The version that BITFTP uses puts a "guard character" at the end of each encoded line.
+  Most implementations of uudecode know to ignore this character.  If yours does not, then you should remove the last
+character of each line before attempting to uudecode the file.
+  Note that the guard character is not always "M"; the short lines at the end of the file may have some other guard character, rather than "M".
+  Whatever that character is, it should be removed (or your uudecode should be fixed).
+ 
+When BITFTP is told to transfer a file in FIXED format, such as "BINARY FIXED 128", it will create a file whose total byte count is an integral multiple of the record length (128, in this case).
+  This means that the last record may be padded to get it to the specified record length.  In such a case, you may need to use an editor to shorten the last record so that the total byte count in the file is correct.  (If the file is uuencoded when you receive it, shorten it AFTER you have uudecoded it.)
+ 
+In addition to any files you request, you will also receive a mail file containing a log of your ftp session.  In that mail file,
+entries prefixed by ">" are your original commands; those prefixed by ">>" are your commands as interpreted by BITFTP and passed to TCPIP; those prefixed by ">>>" are your commands as interpreted by TCPIP and passed to the remote host; those prefixed by "<<<" are messages from the remote host; and those prefixed by ">>>>" are completion messages from BITFTP.
+ 
+If BITFTP is unable to connect to the host you specify, it will send you mail after the first attempt, but will keep trying at intervals over three days.  The only additional mail file you will receive will be when the connection is made successfully or when BITFTP gives up after three days.
+ 
+The load on BITFTP is often very heavy, and network backlogs are often so great that it may take several days for a file to get to you once BITFTP sends it, so please be patient and don't send multiple requests for the same file.  If your system allows you to send interactive messages, you can inquire about BITFTP's backlog by sending the query "How are you?", e.g., on a VM system:
+ 
+   TELL BITFTP AT PUCC How are you?
+ 
+Questions about BITFTP and suggestions for improvements should be directed to Melinda Varian, MAINT@PUCC on BITNET or maint@pucc.princeton.edu on the Internet.
+ 
+The author gratefully acknowledges the use of the FTP SUBCOM interface written by David Nessl, the SENDJANI EXEC written by Alan Flavell, the uuencoding utility written by John Fisher, and the RFC822 parsing routine written by Eric Thomas.  NOTE:  If you have any complaints or suggestions about the way any of these routines work in BITFTP, please send them to MAINT@PUCC (Melinda Varian), not to the authors.
+
+      LIST OF HOSTS THAT ACCEPT ANONYMOUS FTP REQUESTS
+
+ This is my list of Internet sites accepting anonymous ftp:
+                    user name: anonymous
+                    password: <your mail address> (i.e. "odin@pilot.njin.net")
+ 
+      This list is posted to comp.misc, comp.sources.wanted, and  alt.sources.wanted  on  Usenet  and  is  distributed  via  anonymous FTP from  pilot.njin.net (128.6.7.38) as well as being available from several other FTP sites (see  list).  I don't have the time to read the *.sources.wanted news-  groups so if there is anything you want me to see, please use  email.   There
+ is also a mailing list which was being used to distribute the list, now I use  it more for getting feedback on new ideas.  If you wish to be  added  to  the  mailing list mail me at pilot.
+ 
+      Special thanks goes to Ed Vielmetti for all the work he does posting new  archive information to comp.archives.
+ 
+      If there are any corrections/updates/etc. to be made please mail  me  at  odin@pilot.njin.net.   That  also  goes  for descriptions of the archives.  I  don't have time to personally check each and every site so if you use a  site
+ regularly  and can put together a better description, please tell me so I can  update this list.  This is especially true for sites described  as  "unknown"  or  with  vague descriptions.  Those sites are ones that I either didn't have  enough time to sort through it or I couldn't tell what was available.
+ 
+      Thanks,
+         Jon Granrose
+         January 20, 1990
+ 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+ REMINDER: Anonymous FTP is a privilege, not a right.  The site administrators  for the sites listed below have made their systems available out of the good-  ness  of  their hearts.  Please respect their wishes and restrict your FTPing
+ to non-prime hours (1900 - 0600 hours local time  for  the  site).   This  is  especially true for sites not in your country.  Please keep that in mind when  you are FTPing.  None of us want to see sites start to close down  because  a  few are being inconsiderate.
+  _____________________________________________________________________________
+|Jon Granrose        |ARPA: odin@ucscb.UCSC.EDU   jonathan@sco.com |  // Only |
+|Cowell College, UCSC|odin@pilot.njin.net 74036.3241@compuserve.com|\X/ Amiga!|
+|Santa Cruz, CA 95064|UUCP:..!ucbvax!ucscc!ucscb!odin Bitnet:odin@ucscb.bitnet|
+|       Please send any Anonymous FTP information to odin@pilot.njin.net      |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sat Jan 20 13:17:41 EST 1990
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+ Site Name                 I.P. Address    Description
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+a.cs.uiuc.edu              128.174.252.1   TeX, dvi2ps, gif, texx2.7, amiga,
+a.cs.uiuc.edu                              GNUmake, GNU
+a.gp.cs.cmu.edu            128.2.242.7     psprep
+a.nl.cs.cmu.edu            128.2.250.143   unknown
+a.psc.edu                  128.182.65.1    GPLOT, GTEX
+acad3.fai.alaska.edu       192.31.214.33   unknown
+acf4.nyu.edu               128.122.128.14  unknown
+acf8.nyu.edu               128.122.129.2   unknown
+acfcluster.nyu.edu         128.122.128.11  VMS UUCP, news, etc.
+ads.com                    128.229.30.16   internet mailing lists, vision-list,
+ads.com                                    info-graphics
+aeneas.mit.edu             18.71.0.38      GNU emacs, kerberos
+ahwahnee.stanford.edu      36.56.0.208     pcip interface specs
+ajpo.sei.cmu.edu           128.237.2.253   all the ADA you could ask for
+albanycs.albany.edu        128.204.1.4     best of comp.graphics
+allspice.lcs.mit.edu       18.26.0.115     RFCs1056 (PCMAIL) stuff, MIT snmp
+alw.nih.gov                128.231.128.251 NIH Image 1.19
+amelia.nas.nasa.gov        129.99.23.5     unknown
+ames.arc.nasa.gov          128.102.18.3    pcrrn, GNU grep, conf, grep, iso.ps,
+ames.arc.nasa.gov                          mmdf, popd, sail, xfer, zmodem, AT&T
+ames.arc.nasa.gov                          6300+ archives, SCUBA, Space
+ames.arc.nasa.gov                          archives, 3b2 source and info
+andy.bgsu.edu              129.1.1.2       Unix sysadm tools, Unix Vote by
+ andy.bgsu.edu                             mail, Unix etc., College hockey
+ andy.bgsu.edu                             stats, Monty Python scripts
+anise.acc.com              129.192.64.22   Berkeley utils ported to A/UX,
+ anise.acc.com                             Motorola DSP 56000 repository
+ anna.stanford.edu          36.14.0.13      Anna (Annotated Ada) softare and
+ anna.stanford.edu                         docs
+apple.com                  130.43.2.2      tech-notes, worm papers
+aramis.rutgers.edu         128.6.4.2       idea, RFCs
+argus.stanford.edu         36.56.0.151     netinfo
+ariel.unm.edu              129.24.8.1      ethics documents
+arisia.xerox.com           13.1.100.206    sunfixes, mac, LispUsers, tcp/ip,
+ arisia.xerox.com                          IDA sendmail kit, Portable Common
+ arisia.xerox.com                          Runtime
+arpa.att.com               192.20.225.1    fio library routines
+arsun.utah.edu             128.110.192.93  NSF latex
+arthur.cs.purdue.edu       128.10.2.1      RCS, buildtex, deTeX, mac32, Purdue
+ arthur.cs.purdue.edu                      Tech Reports, xspeed
+athos.rutgers.edu          128.6.4.4       dvidoc
+aurora.arc.nasa.gov        128.102.21.1    unknown
+b.psc.edu                  128.182.65.2    GPLOT, GTEX
+b.scs.uiuc.edu             128.174.90.2    LaTex
+b8.cs.rpi.edu              128.213.7.2     nothing
+ba.excelan.com             130.57.8.6      misc. (looking for suggestions)
+bach.berkeley.edu          128.32.135.1    amiga (ray-tracing)
+bbn.com                    128.89.0.122    uumap
+bcm.tmc.edu                128.249.2.1     nfs list, Texas UUCP maps
+beak.andrew.cmu.edu        128.2.26.21     unknown
+bellcore.com               128.96.32.20    mgr, spiff, RFCs, track
+bikini.cis.ufl.edu         128.227.224.1   comp.simulation, IBM RT BSD patches
+bimbo.tn.cornell.edu       128.84.200.208  tn3270 for DEC 3100
+bitsy.mit.edu              18.72.0.3       mit worm paper
+blake.acs.washington.edu   128.95.136.2    rim, c version of web
+bmc1.bmc.uu.se             130.238.96.1    VMS news, drivers over Decnet, X25
+ bmc1.bmc.uu.se                            and SLIP for CMU TCP/IP v6.3
+bnlux0.bnl.gov             130.199.128.1   looking for suggestions
+bobcat.bbn.com             128.89.2.103    unknown
+bodega.stanford.edu        36.14.0.200     ham radio, space science, highspeed
+ bodega.stanford.edu                       networking papers
+boombox.micro.umn.edu      128.101.95.95   networking stuff (POPmail)
+boulder.colorado.edu       128.138.240.1   3b1, sun, Esperanto, ghostscript
+brazos.rice.edu            128.42.42.2     pub/X11R3/core.src
+brokaw.lcs.mit.edu         18.30.0.33      pc-omega, bison, scheme utilities
+brownvm.brown.edu          128.148.128.40  mac
+bu.edu                     128.197.2.6     RFCs. mail utils, games source,
+ bu.edu                                    siod, etc.
+buacca.bu.edu              128.197.2.4     math software (/u/mike/netlib-paper)
+bugs.cs.wisc.edu           128.105.2.126   nhfsstone
+bugs.nosc.mil              128.49.16.1     Minix
+bulldog.cs.yale.edu        128.36.0.3      dict, uucp paths, kafka
+burdvax.prc.unisys.com     128.126.10.33   diana
+c.scs.uiuc.edu             128.174.90.3    unknown
+cac.washington.edu         128.95.112.1    unknown
+cad.berkeley.edu           128.32.132.3    apte
+cadre.dsl.pittsburgh.edu   128.147.128.1   JOVE, misc.
+caf.mit.edu                18.62.0.232     giraphe3
+caip.rutgers.edu           128.6.37.16     almost nothing
+calpe.psc.edu              128.182.66.148  GPLOT, GTEX
+cardinal.lanl.gov          128.165.96.120  cellsim_1.0 (cellular automata)
+cayuga.cs.rochester.edu    192.5.53.209    Xfig, JOVE, NL-KR mail list, ET++
+cc.sfu.ca                  128.189.32.250  msdos, mac
+cc.utah.edu                128.110.8.24    unknown
+ccb.ucsf.edu               128.218.1.13    comp.sources, GNU stuff
+celray.cs.yale.edu         128.36.0.25     ispell, dictionary
+cerl.cecer.army.mil        129.229.1.101   path #7 for Pcomm
+cert.sei.cmu.edu           128.237.253.5   unknown
+cfdl.larc.nasa.gov         128.155.24.55   vmail
+chalmers.se                129.16.1.1      RFCs, sunet information (runs whois
+ chalmers.se                               server)
+chamartin.ai.mit.edu       18.43.0.171     liar, scheme
+charon.mit.edu             18.80.0.13      perl+patches, xdvi, world map data
+cheddar.cs.wisc.edu        128.105.2.113   Common Lisp stuff, X11 courier fonts
+cheops.cis.ohio-state.edu  128.146.8.62    alt.sources, unix-pc
+cica.cica.indiana.edu      129.79.20.22    misc unix, pc, NeXT updates
+citi.umich.edu             35.1.128.16     pathalias, CITI macIP, webster
+cli.com                    192.31.85.1     unknown
+clouso.crim.ca             192.26.210.1    CA domain reg., AI related
+ clouso.crim.ca                            distribution lists, RFCs, ideas,
+ clouso.crim.ca                            IEFT, etc.
+clover.ucdavis.edu         128.120.57.1    eepic, fig2epic, HOL
+clvax1.cl.msu.edu          35.8.2.1        MS Windows
+clvms.clarkson.edu         128.153.4.4     CMU TCP V6.3 for VMS V5, VMODEM
+cmns.think.com             131.239.2.100   Connection machine starlisp
+ cmns.think.com                            simulator
+columbia.edu               128.59.16.1     NEST network simulation testbed
+connemara.math.arizona.edu 128.196.224.5   irisplot
+coral.hss.cmu.edu          128.2.229.218   unknown
+cqpi.mrc.wisc.edu          128.104.142.12  unknown
+crvax.sri.com              128.18.10.1     RISKS Digest archive
+cs.arizona.edu             128.196.128.118 Icon, SR, SBProlog languages
+cs.columbia.edu            128.59.16.20    ispell
+cs.orst.edu                128.193.32.1    Xlisp, smalltalk, TOPS Terminal,
+ cs.orst.edu                               NeXT
+cs.toronto.edu             128.100.1.65    AIList, sun-Spots, many other
+ cs.toronto.edu                            mailing list archives, CA domain
+ cs.toronto.edu                            reg. forms, RFCs, NETINFO, DOMAIN,
+ cs.toronto.edu                            IETF, INET-DRAFTS, Current C News,
+ cs.toronto.edu                            dvix, logging ftpd, Jove, sunOS SLIP
+ cs.toronto.edu                            et al, S/SL, TeX, UofT BIND, X
+ cs.toronto.edu                            applications
+cs.ubc.ca                  128.189.97.5    raster files, MuTeX, ca-domain regs,
+ cs.ubc.ca                                 sun utils, ASCII-Postscript filter
+cs.uiuc.edu                128.174.252.1   epoch
+cs.uoregon.edu             128.223.4.13    raytracing archive (markv), not much
+cs.utah.edu                128.110.4.21    Worm Tour, amiga, forth, utah raster
+cs.utexas.edu              128.83.139.9    QSIM, FIG
+cs.utk.edu                 128.169.201.1   DECnet mail gateway for VAXen and
+ cs.utk.edu                                suns
+cs.williams.edu            192.31.45.1     unknown
+cs.wm.edu                  128.239.1.30    texsun, animal-rights, pargen, ALV,
+ cs.wm.edu                                 raster images
+csab.larc.nasa.gov         128.155.26.10   unknown
+csd4.csd.uwm.edu           129.89.2.4      high-audio
+csd4.milw.wisc.edu         129.89.2.4      high-audio
+cse.ogc.edu                129.95.40.2     suntools graphics tools, old
+ cse.ogc.edu                               Kerberos, old mush, neuro-evolution
+ cse.ogc.edu                               mailing list archive, speech
+ cse.ogc.edu                               recognition archive
+csli.stanford.edu          36.9.0.46       Gandalf
+csri.toronto.edu           128.100.2.30    unknown
+csvax.caltech.edu          192.12.18.1     p2c
+ctrsci.math.utah.edu       128.110.198.1   unknown
+cu-arpa.cs.cornell.edu     128.84.254.3    Isis, bromley
+cunixc.cc.columbia.edu     128.59.40.130   MM mailer, CAP/KIP
+cuvmb.cc.columbia.edu      128.59.40.129   unknown
+cyclone.stanford.edu       36.83.0.188     unknown
+dartvax.dartmouth.edu      129.170.16.4    dartmouth stuff (rn, mail, etc.)
+dcsprod.byu.edu            128.187.7.3     unknown
+dept.csci.unt.edu          129.120.1.2     Texas Packet Radio Society, MixView,
+ dept.csci.unt.edu                         GNUPlot
+devvax.tn.cornell.edu      192.35.82.200   tn3270, gated
+dftsrv.gsfc.nasa.gov       128.183.10.134  VMS stuff
+dinorah.wustl.edu          128.252.118.101 X11R3/core.src, portability issues
+ dinorah.wustl.edu                         text
+doc.cso.uiuc.edu           128.174.73.30   msdos (pcsig), mac
+dolphin.mit.edu            18.86.0.5       X11r3 device driver for S, LISA
+dopey.cs.unc.edu           128.109.136.82  sunOS 3.5 traceroute, theorem prover
+drycas.club.cc.cmu.edu     128.2.232.11    ANU_NEWS
+dsl.cis.upenn.edu          130.91.6.12     GIF, IBM
+dsrgsun.ces.cwru.edu       129.22.16.2     Minix, TOS Atari ST, gcc from bammi
+durer.cme.nist.gov         129.6.32.4      8mm backup (Exabyte), pdes,
+ durer.cme.nist.gov                        microemacs 3.10
+dxi.nih.gov                128.231.128.11  unknown
+eddie.mit.edu              18.62.0.6       nothing
+ef.ecn.purdue.edu          128.46.154.18   nothing
+eg.ecn.purdue.edu          128.46.129.20   nothing
+ei.ecn.purdue.edu          128.46.129.30   career services stuff
+elbereth.rutgers.edu       128.6.7.26      sci-fic works, startrek guides, etc.
+elroy.jpl.nasa.gov         128.149.1.100   ANU_NEWS
+emil.csd.uu.se             130.238.64.4    Old GNU, X R10
+ems.media.mit.edu          18.85.0.6       unknown
+emsworth.andrew.cmu.edu    128.2.30.62     Andrew Toolkit
+emunix.emich.edu           35.157.1.2      Ultrix, VMS (soon)
+emx.utexas.edu             128.83.1.33     net directory
+encore.com                 129.91.1.14     mach.doc
+eng.clemson.edu            130.127.8.11    sendmail
+enh.nist.gov               129.6.16.1      unknown
+eniac.seas.upenn.edu       130.91.6.22     unknown
+eru.mt.luth.se             130.240.0.9     gnews 19, gated, plp, gcc(old)
+expo.lcs.mit.edu           18.30.0.212     X, portable bitmaps, CLX and CLUE,
+ expo.lcs.mit.edu                          gwm
+f.ms.uky.edu               128.163.128.6   mac, msdos, unix-pc
+fcs280s.ncifcrf.gov        129.43.1.11     unknown
+fiol.uib.no                129.177.10.24   pcip packet driver
+fits.cx.nrao.edu           192.33.115.8    FITS (astronomy image transfer
+ fits.cx.nrao.edu                          system)
+fnord.umiacs.umd.edu       128.8.120.3     misc DECstation stuff
+foobar.colorado.edu        128.138.243.105 BDF fonts
+freja.diku.dk              129.142.96.1    GNU, X11R3, TeX 2.9, nn newsreader,
+ freja.diku.dk                             RFCs, misc stuff, 4.3 public,
+ freja.diku.dk                             previous versions of GNU software
+funet.fi                   128.214.1.1     msdos, minix, FUNET/NORDUNET info,
+ funet.fi                                  isode, pc nfs server, telnet &
+ funet.fi                                  ftp-resolver binaries, RFCs, amiga
+ funet.fi                                  (many Fish disks), BSD sources, NeWS
+ funet.fi                                  software
+gaffa.mit.edu              18.62.0.11      unknown
+gang-of-four.stanford.edu  36.8.0.118      unknown
+gargoyle.uchicago.edu      128.135.20.100  named-kit
+gatekeeper.dec.com         16.1.0.2        X11, recipes, cron, map, Larry Wall
+ gatekeeper.dec.com                        stuff, STDWIN, lots of source
+gb.ecn.purdue.edu          128.46.129.24   boring
+genbank.bio.net            134.172.1.160   National Repository for Gene
+ genbank.bio.net                           Sequence Data
+genvax.psycha.upenn.edu    128.91.22.103   unknown
+geom.umn.edu               128.101.25.31   Differential Geometry stuff
+geomag.gly.fsu.edu         128.186.10.2    unknown
+girch1.hsch.utexas.edu     129.106.4.1     Physiological Research info and
+ girch1.hsch.utexas.edu                    programs
+giza.cis.ohio-state.edu    128.146.8.61    X11R3, PEX
+gmu90x.gmu.edu             129.174.1.4     nothing
+gmuvax2.gmu.edu            129.174.1.8     Intel Hypercube library, hp28
+ gmuvax2.gmu.edu                           software, statistical software
+gold.bacs.indiana.edu      129.79.1.1      (login:indp0080,passwd:anonymous )
+gollum.hcf.jhu.edu         128.220.2.19    some stuff
+goober.phri.nyu.edu        128.122.136.10  cnews, nntp, kcl docs, psnup,
+ goober.phri.nyu.edu                       sequence analysis stuff
+grape.ecs.clarkson.edu     128.153.13.196  Opus BBS, msdos, graphics, lots
+gregorio.stanford.edu      36.8.0.11       vmtp-ip, ip-multicast
+grinch.umiacs.umd.edu      128.8.121.1     unknown
+gtss.gatech.edu            128.61.4.1      amiga rexx stuff
+gumby.cc.wmich.edu         35.132.1.114    MAINT (VMS)
+gumby.dsd.trw.com          129.193.72.50   some RFCs, networking progs
+gw.ccie.utoronto.ca        128.100.49.104  cold fusion papers (pub/cld.fsn)
+gwen.cs.purdue.edu         128.10.2.8      cypress
+hamlet.caltech.edu         131.215.139.3   Nanny (VMS)
+hanauma.stanford.edu       36.51.0.16      Vplot graphical system
+handies.ucar.edu           128.117.64.4    uucp maps, src, feminism archive
+harvard.harvard.edu        128.103.1.1     sendmail, rmtlib.shar, lots of VMS
+hcfdemo.hcf.jhu.edu        128.220.2.15    unix-pc
+helens.stanford.edu        36.2.0.99       kjv, sultrix, secure.tar.Z
+hemuli.tik.vtt.fi          130.188.52.2    unknown
+hercules.csl.sri.com       192.12.33.51    unknown
+herky.cs.uiowa.edu         128.255.28.100  theorem prover
+hipl.psych.nyu.edu         128.122.132.2   Jove (v4.9 is latest)
+hmcvax.claremont.edu       134.173.4.32    cyrillic fonts
+hobiecat.cs.caltech.edu    131.215.131.167 unknown
+hogg.cc.uoregon.edu        128.223.32.9    NorthWestNet site info
+hotel.cis.ksu.edu          129.130.10.12   XBBS, msdos, U3G toolkit, unix-pc,
+ hotel.cis.ksu.edu                         pd-modula
+hp4nl.nluug.nl             192.16.184.9    GNU and much more
+hplpm.hpl.hp.com           15.255.176.205  Neuron digest archives and software
+hub.cs.jmu.edu             134.126.20.10   Mic-1 microarchitecture simulator,
+ hub.cs.jmu.edu                            package to boot minix from hard
+ hub.cs.jmu.edu                            drive
+hub.ucsb.edu               128.111.24.40   unknown
+hubcap.clemson.edu         130.127.8.1     RFCs
+hurratio.tde.lth.se        192.36.121.22   GNU stuff, some local elisp stuff
+husc6.harvard.edu          128.103.1.56    pcip, appleII, uumap copy, ucb tahoe
+hydra.helsinki.fi          128.214.4.29    misc, TeX, X, comp.sources.misc,
+ hydra.helsinki.fi                         comp.sources.sun, comp.sources.unix,
+ hydra.helsinki.fi                         comp.bugs.4bsd.ucb-fixes,
+ hydra.helsinki.fi                         comp.binaries.ibm.pc
+ibm1.cc.lehigh.edu         128.180.2.1     Virus-L programs/archives
+icarus.cns.syr.edu         128.230.1.49    misc Syr U. and other net doc
+icarus.riacs.edu           134.12.1.1      SLIP, chkpt, macdump, Xpostit
+icdc.llnl.gov              128.115.2.1     unknown
+ics.uci.edu                128.195.1.1     perfect hash function gen., web-to-c
+indri.primate.wisc.edu     128.104.230.11  macintosh TransSkel TransDisplay
+ indri.primate.wisc.edu                    TransEdit
+inria.inria.fr             128.93.8.1      RFCs, /pub (edu dirs)
+interviews.stanford.edu    36.22.0.175     InterViews X toolkit
+ipac.caltech.edu           131.215.139.35  gated, sendmail, named, kermit,
+ ipac.caltech.edu                          ftp-list
+iraun1.ira.uka.de          129.13.10.90    unknown
+iris613.gsfc.nasa.gov      128.183.10.147  tn3270 for IRIS and HPUX, other IRIS
+ iris613.gsfc.nasa.gov                     programs
+isdres.isd.usgs.gov        130.11.1.2      U.S. Geological Survey public files
+isy.liu.se                 130.236.1.3     GNU stuff, screen 2.0, world map,
+ isy.liu.se                                ccmd, ftpd, TIFF library, Cellsim
+iubio.bio.indiana.edu      129.79.1.101    biology archive, molecular bio
+iuvax.cs.indiana.edu       129.79.254.192  SIGPLAN, usenet oracle, whitewater,
+ iuvax.cs.indiana.edu                      webster, scheme84, etc.
+ix1.cc.utexas.edu          128.83.1.21     amiga
+ix2.cc.utexas.edu          128.83.1.29     amiga
+j.cc.purdue.edu            128.210.9.2     comp.sources.unix, comp.sources.x,
+ j.cc.purdue.edu                           comp.sources.amiga, elm, uupc, NeXT,
+ j.cc.purdue.edu                           comp.binaries.amiga,
+ j.cc.purdue.edu                           comp.sources.sun
+jacobs.cs.orst.edu         128.193.32.13   assorted stuff, mainly games
+jade.berkeley.edu          128.32.136.9    NNTP, ping, kermit, gcc
+jim.ultra.nyu.edu          128.122.129.21  unknown
+jpl-devvax.jpl.nasa.gov    128.149.1.143   perl, patch, warp
+jpl-mil.jpl.nasa.gov       128.149.1.101   TeX, mac, GNU, X11R2, X11R3
+julius.cs.umn.edu          128.101.230.1   PLP
+june.cs.washington.edu     128.95.1.4      TeXhax, dviapollo, SmallTalk, web2c,
+ june.cs.washington.edu                    gated, presto, maitrd
+jyu.fi                     128.214.7.5     unix, atari, amiga, mac, etherprint,
+ jyu.fi                                    abermud, ularn, conquer, knight,
+ jyu.fi                                    larn, moria, nethack 3.0
+ka.ecn.purdue.edu          128.46.129.14   nothing
+kampi.hut.fi               130.233.224.2   DES routines (unrestricted), GNU
+ kampi.hut.fi                              pascal
+kappa.rice.edu             128.42.4.7      X11R3, GNU for Sequent S27, Sun3
+kl.sri.com                 128.18.10.6     unknown
+kolvi.hut.fi               130.233.160.32  kermit stuff, radio amateur stuff
+ kolvi.hut.fi                              (ka9q etc.), memacs 3.10, packet
+ kolvi.hut.fi                              radio
+krypton.arc.nasa.gov       128.102.29.20   VMS Vnews, Swing, Profile
+kth.se                     130.237.72.201  misc, sendmail 5.61 w/ida
+kuhub.cc.ukans.edu         129.237.1.10    VMS news
+l.cc.purdue.edu            128.210.2.8     nothing
+labrea.stanford.edu        36.8.0.47       GNU, X, official TeX sources, lots
+ labrea.stanford.edu                       of other stuff
+lamont.ldgo.columbia.edu   129.236.10.30   unknown
+lampwick.berkeley.edu      128.32.131.141  unknown
+lancaster.andrew.cmu.edu   128.2.13.21     CMU PCIP, RFC1073 telnetd, RFC1048
+ lancaster.andrew.cmu.edu                  bootp
+larry.cs.washington.edu    128.95.1.7      Poker
+larry.mcrcim.mcgill.edu    132.206.4.3     RFCs, X, local nameserver, games,
+ larry.mcrcim.mcgill.edu                   scred (sun bitmap editor)
+lcs.mit.edu                18.26.0.36      RFCs, Map, telecom archive
+lib.tmc.edu                129.106.5.1     nntp
+lilac.berkeley.edu         128.32.136.12   POP3 for BSD/Ultrix/sunOS
+linc.cis.upenn.edu         130.91.6.8      psfig for ditroff, TeX, unix-pc
+lindy.stanford.edu         36.54.0.11      unknown
+lll-crg.llnl.gov           128.115.1.1     X11R4
+lll-lcc.llnl.gov           128.115.1.2     Sun Local Users Group arch. (huge!!)
+loke.idt.unit.no           129.241.1.103   mh 6.6, news, rrn, nntp, sun-spots,
+ loke.idt.unit.no                          webster server, GCC vms binaries,
+ loke.idt.unit.no                          net directories
+louie.udel.edu             128.175.1.3     net.exe, minix, NORD<>LINK, MH,
+ louie.udel.edu                            amiga
+lth.se                     130.235.16.3    NeWS, cnews, bind, nntp, sendmail,
+ lth.se                                    Poskanzer rasterxs, X11R4
+lurch.stanford.edu         36.22.0.14      InterViews
+lut.fi                     128.214.25.8    GIF, PD sources modified for hp-ux,
+ lut.fi                                    PC antivirus, uEmacs 3.10
+m2c.m2c.org                128.188.1.2     Archives for cavers mailing list
+m9-520-1.mit.edu           18.80.0.45      xim utils
+ma.ecn.purdue.edu          128.46.129.8    openw.c, not much more
+macbeth.stanford.edu       36.21.0.13      nothing
+maddog.llnl.gov            128.115.10.1    AWM X tutorial, PCP preprocessor &
+ maddog.llnl.gov                           libraries, Generic MCPI environment,
+ maddog.llnl.gov                           uw for mac, plot library
+mandarin.mit.edu           18.82.0.21      unknown
+mango.miami.edu            129.171.0.18    unknown
+marvin.cs.buffalo.edu      128.205.32.4    RFCs, sun
+maxwell.physics.purdue.edu 128.46.135.3    King James Bible, Commodore Kermit
+ maxwell.physics.purdue.edu                binary files
+mazama.stanford.edu        36.51.0.8       unknown
+mcnc.org                   128.109.130.3   ftpd bugfix, intro NIC docs, VLSI
+ mcnc.org                                  CAD tool benchmarks, some RFCs,
+ mcnc.org                                  triangle.jobs archive
+mcs.nlm.nih.gov            130.14.1.1      unknown
+meadow.stanford.edu        36.64.0.20      unknown
+media-lab.mit.edu          18.85.0.2       interesting
+merit.edu                  35.1.1.42       RFCs, ideas
+merlin.cs.purdue.edu       128.10.2.3      ConcurrenC, Xinu, mac, GIF
+mgm.mit.edu                18.82.0.114     homegrown GNUemacs hacks
+miki.cs.titech.ac.jp       131.112.16.39   Nemacs
+milnetgw.ornl.gov          26.16.0.162     unknown
+milton.u.washington.edu    128.95.136.1    still forming
+mims-iris.waterloo.edu     129.97.129.116  laser fonts & utilities
+mimsy.umd.edu              128.8.128.8     RCS, declarative languages bib,
+mimsy.umd.edu                             SLIP, misc
+monk.proteon.com           128.185.123.16  cc:mail to smtp gateway
+mordor.s1.gov              26.3.0.95       unknown
+morris.andrew.cmu.edu      128.2.110.12    unknown
+mrcnext.cso.uiuc.edu       128.174.73.105  amiga
+mthvax.cs.miami.edu        129.171.32.5    homebrew, constitution, worm, elm,
+ mthvax.cs.miami.edu                       nn
+mtsg.ubc.ca                128.189.103.1   msdos, unix, amiga
+munnari.oz.au              128.250.1.21    graphics progs (vogle, vopl, vort)
+ncnoc.concert.net          128.109.193.1   misc local network info
+net1.ucsd.edu              128.54.16.10    mac
+newell.arc.nasa.gov        128.102.25.43   unknown
+next.com                   129.18.1.2      unknown
+nic.ddn.mil                10.0.0.51       netinfo, RFCs, IEN, IETF
+nic.mr.net                 192.12.250.5    Minnesota Regional Net traffic data
+nic.near.net               192.52.71.4     unknown
+nigel.ee.udel.edu          128.175.2.18    unknown
+nis.nsf.net                35.1.1.48       Merit info, NSFnet Link Letter
+nisc.jvnc.net              128.121.50.7    unknown
+nisc.nyser.net             192.33.4.10     GNU Emacs, others, Nysernet, IETF,
+ nisc.nyser.net                            GOSIP
+nisca.ircc.ohio-state.edu  128.146.1.7     alt.fax
+njitgw.njit.edu            128.235.1.2     unknown
+nl.cs.cmu.edu              128.2.222.56    Fuzzy Pixmap 0.84
+nnsc.nsf.net               192.31.103.6    Network Info, Internet Resource
+ nnsc.nsf.net                              Guide
+noc.byu.edu                128.187.7.2     byu-telnet (login:guest,
+ noc.byu.edu                               password:anonymous)
+nog.calstate.edu           130.150.102.100 unknown
+nyssa.cs.orst.edu          128.193.32.17   GIF, games, misc.
+nyu.edu                    128.122.128.2   mod.sources, Tihor
+oddjob.uchicago.edu        128.135.4.2     NNTP, Sendmail, utils, Ethernet
+ oddjob.uchicago.edu                       stuff
+oddput.efd.lth.se          130.235.48.4    xps (postscript previewer)
+omnigate.clarkson.edu      128.153.4.2     PS maps of DNS, Clarkson NCSA telnet
+orc.olivetti.com           129.189.192.20  unknown
+oregon.uoregon.edu         128.223.20.2    unknown
+orion.arc.nasa.gov         128.102.128.2   unknown
+orville.nas.nasa.gov       129.99.23.7     hyperchannel network device driver,
+ orville.nas.nasa.gov                      panel-library (Sil. Graph.
+ orville.nas.nasa.gov                      workstation graphical interface
+ orville.nas.nasa.gov                      builder), Kyoto Common Lisp for
+ orville.nas.nasa.gov                      Cray2
+osi.ncsl.nist.gov          129.6.48.100    misc OSI info
+osi3.ncsl.nist.gov         129.6.48.108    unknown
+osu-20.ircc.ohio-state.edu 128.146.8.22    unknown
+oswego.oswego.edu          129.3.1.1       GNU, mac, kermit
+otax.tky.hut.fi            130.233.32.32   Mikkar accounting program
+p6xje.ldc.lu.se            130.235.133.7   NCSA telnet 2.2ds, PC networking
+ p6xje.ldc.lu.se                           etc.
+panarea.usc.edu            128.125.3.54    Archive for "maps"
+patience.stanford.edu      36.8.0.154      unknown
+paul.rutgers.edu           128.6.5.60      omega
+pawl.rpi.edu               128.113.10.2    sun rasters, showtool, raytracer,
+ pawl.rpi.edu                              fluid dynamics model
+pb.ecn.purdue.edu          128.46.129.13   nothing
+pc.ecn.purdue.edu          128.46.129.19   nothing
+pescadero.stanford.edu     36.8.0.8        dvi2ps
+phoenix.princeton.edu      128.112.128.43  mail stuff
+pilot.njin.net             128.6.7.38      Original distribution point of
+ pilot.njin.net                            ftp-list
+pine.circa.ufl.edu         128.227.128.55  this list, RFCs, Internet Worm
+ pine.circa.ufl.edu                        reports
+pitt.edu                   130.49.1.254    local nameserver source, local
+ pitt.edu                                  decnet database, National Institute
+ pitt.edu                                  of Health Guide Online, RFCs, local
+ pitt.edu                                  network docs
+plains.nodak.edu           134.129.111.64  apple, msdos, mac, amiga, ascii pics
+pokey.cs.wisc.edu          128.105.2.4     xproof (X11), gremlin (X10, X11)
+polyslo.calpoly.edu        129.65.17.1     xtrek, top 2.0, spaceout, cnews,
+ polyslo.calpoly.edu                       nethack, nntp, uucp, hosts, TR,
+ polyslo.calpoly.edu                       RFCs, Conquer Docs, usenix tape
+ polyslo.calpoly.edu                       files, short usenix files,
+ polyslo.calpoly.edu                       Hitchhikers guide to the Internet,
+ polyslo.calpoly.edu                       Internet Email list
+portia.stanford.edu        36.21.0.69      unknown
+postgres.berkeley.edu      128.32.149.1    University INGRES
+power.eee.ndsu.nodak.edu   134.129.123.1   DECUS TeX, dvidriver package
+pprg.unm.edu               129.24.13.10    bitmaps
+primost.cs.wisc.edu        128.105.2.104   comp.compilers
+princeton.edu              128.112.128.1   unknown
+psuvax1.cs.psu.edu         128.118.6.2     network/hosts stuff
+pyrite.rutgers.edu         128.6.4.15      Security mailing list archives
+qed.rice.edu               128.42.4.38     GNU, X11R3, plot2ps sources
+radio.astro.utoronto.ca    128.100.75.4    msdos, iris, SunUserGroup, UFGATE
+rascal.ics.utexas.edu      128.83.144.1    main Kyoto Common Lisp distributor
+relay.cdnnet.ca            128.189.97.41   CA domanin registrations, fonts,
+ relay.cdnnet.ca                           MuTeX, raster files, RFCs, sun and
+ relay.cdnnet.ca                           usenet utils
+research.att.com           192.20.225.2    TeX, gcc, ghostscript
+rigel.efd.lth.se           130.235.48.3    VMS emacs, decwindows diffs
+ringo.rutgers.edu          128.6.5.77      Omega sources
+rlg-rt.stanford.edu        36.95.0.26      unknown
+rogue.llnl.gov             128.115.2.99    DECnet security tools
+rohini.telecomm.umn.edu    128.101.55.1    UMN hostables
+roope.hut.fi               130.233.192.32  unknown
+rover.umd.edu              128.8.2.73      unknown
+rpi.edu                    128.113.1.5     some stuff
+rtsg.ee.lbl.gov            128.3.254.68    flex, compressed SLIP
+rusmv1.rus.uni-stuttgart.de129.69.1.12     RFCs, X11, atari, amiga, msdos,
+ rusmv1.rus.uni-stuttgart.de                unix, mathematics (Fortran)
+rutgers.edu                128.6.4.7       comp.sources.sun
+safe.stanford.edu          36.44.0.193     3COM/Interlan 4.X BSD unix
+saqqara.cis.ohio-state.edu 128.146.8.98    unknown
+sauna.hut.fi               130.233.251.253 GNU, unix, amiga, athena docs, some
+ sauna.hut.fi                              FTP dirs from US, security
+ sauna.hut.fi                              patches/docs, elm, nntp, news, X,
+ sauna.hut.fi                              jove, etc.
+sayshell.umd.edu           128.8.2.88      version of KA9Q
+sbcs.sunysb.edu            129.49.2.3      sun raster tools
+scam.berkeley.edu          128.32.138.1    X sources, etc.
+schizo.samsung.com         134.228.1.2     alt.sources, comp.sources.games,
+ schizo.samsung.com                        comp.sources.misc, comp.sources.sun,
+ schizo.samsung.com                        comp.sources.unix, comp.sources.x
+science.utah.edu           128.110.192.2   TeX things, Hershey (tenex)
+sdcsvax.ucsd.edu           26.5.0.3        unknown
+sds.sdsc.edu               192.12.207.22   supercomputer center info
+sdsu.edu                   130.191.229.14  GNU, M68K Xinu
+serv1.cl.msu.edu           35.8.2.41       msu hosts files
+sgi.com                    192.58.91.2     IRIS stuff
+sh.cs.net                  192.31.103.3    NetLists, NetMaps, etc. (lots)
+shambhala.berkeley.edu     128.32.132.54   xrn, xgraph
+shorty.cs.wisc.edu         128.105.2.8     Condor
+sics.se                    192.16.123.90   calc, ft1, gated, interviews, isode,
+ sics.se                                   mh, packet radio, ping, pmake,
+ sics.se                                   printmail, sps, Poskanzer bitmaps
+ sics.se                                   (runs whois server)
+skippy.umiacs.umd.edu      128.8.120.23    sun-nets archive
+slfs0.cs.rpi.edu           128.213.1.10    unknown
+snow.white.toronto.edu     128.100.2.160   mg
+sol.cs.ruu.nl              131.211.80.5    atari, GNU, HP-UX, TeX, Perl, etc.
+sol.ctr.columbia.edu       128.59.64.40    background, ethernet stuff, GNUserv,
+ sol.ctr.columbia.edu                      hpgl2ps, DES
+solar.stanford.edu         36.14.0.7       local Stanford info
+soma.neuro.bcm.tmc.edu     128.249.50.12   unknown
+sperm.ocean.washington.edu 128.95.252.7    RWVector, gcc, gdb, kermit, libg++,
+ sperm.ocean.washington.edu                liblinpack, liboops, oopsV2R2+,
+ sperm.ocean.washington.edu                plot5, spinup, sungraph,
+ sperm.ocean.washington.edu                superfilters, xmodem, xyplot
+sphere.mast.ohio-state.edu 128.146.7.200   phone (with bugs fixed)
+spot.colorado.edu          128.138.238.1   netinfo: stuff, RFCs
+squid.cs.ucla.edu          131.179.96.44   gifs
+src.honeywell.com          129.30.1.10     PAX (read/write tar and cpio format)
+ssyx.ucsc.edu              128.114.133.1   mac-hyperunix, some unix
+stat.wisc.edu              128.105.5.1     FACT, Statbib, S functions
+stolaf.edu                 130.71.192.1    news, anime, bitmaps
+stout.ucar.edu             128.117.80.30   VMS more, make
+subcomm.bacs.indiana.edu   129.79.16.32    A86/D86 Shareware Assembler, file
+ subcomm.bacs.indiana.edu                  listings of IU PC-Link Central BBS
+sumex-aim.stanford.edu     36.44.0.6       mac archives, Mycin (sun4), imap
+sun.cnuce.cnr.it           192.12.192.4    atalk, ka9q, GNU
+sun.soe.clarkson.edu       128.153.12.3    Packet Driver, X11 fonts, TeX, PCIP,
+ sun.soe.clarkson.edu                      Freemacs, LaTeX styles
+sun1.ruf.uni-freiburg.de   132.230.1.1     unknown
+suna.osc.edu               128.146.1.4     ape (animation production
+ suna.osc.edu                              environment)
+suned.zoo.cs.yale.edu      128.36.21.1     games, utils, other hacks
+sunic.sunet.se             192.36.125.2    RFCs, nntp, news, sendmail, ntp,
+ sunic.sunet.se                            comp.sources.unix,
+ sunic.sunet.se                            comp.sources.games,
+ sunic.sunet.se                            comp.sources.misc, alt.sources, GNU
+surya.waterloo.edu         129.97.129.72   tiff format, gif2ras
+sutcase.case.syr.edu       128.230.32.2    zoo, tcp stuff
+sutro.sfsu.edu             130.212.15.230  mostly NeXT-related files
+svax.cs.cornell.edu        128.84.254.2    TransFig, Fig-FS, NetHack
+swan.ulowell.edu           129.63.224.1    unknown
+tandem.com                 130.252.10.8    ham radio
+tank.uchicago.edu          128.135.4.27    mac
+tau.sm.luth.se             130.240.0.3     comp.binaries.ibm.pc
+tcgould.tn.cornell.edu     128.84.248.35   transputer archives
+terminator.cc.umich.edu    35.1.33.8       xscheme, msdos, atari
+testarossa.mach.cs.cmu.edu 128.2.250.252   unknown
+think.com                  131.239.2.1     pmdc, X11.2 Interviews 3d
+thor.ucar.edu              128.117.81.51   vxWorks archive, unix
+ti.com                     128.247.159.141 Explorer compress & en, CLUE, CLX
+titan.rice.edu             128.42.1.30     sun-spots, amiga ispell
+tmc.edu                    128.249.1.1     FUBBS bbs list
+tolsun.oulu.fi             128.214.5.6     amiga, atari, c64, msdos, mac, irc
+tomcat.gsfc.nasa.gov       128.183.10.100  G8BPQ
+topaz.rutgers.edu          128.6.4.194     amiga, others, too much to list
+trantor.harris-atd.com     26.13.0.98      unknown
+trident.arc.nasa.gov       128.102.18.13   vms-nntp, trek73
+trout.nosc.mil             26.1.0.3        X11R3, benchmarks, popd, GNU emacs
+trwind.trw.com             129.4.16.70     NNStat, cisco, ibmpc, isode, ka9q,
+ trwind.trw.com                            mac, named, sendmail, sun-utils,
+ trwind.trw.com                            traceroute, unix-utils
+tumtum.cs.umd.edu          128.8.128.49    NeWS pd software
+tut.cis.ohio-state.edu     128.146.8.60    GNU, tcsh, lots of interesting
+ tut.cis.ohio-state.edu                    things
+tut.fi                     128.214.1.2     Images, lots of misc. unix
+twg.com                    26.5.0.73       network stuff
+tybalt.caltech.edu         131.215.139.100 GraphWidget
+uafcseg.uark.edu           130.184.64.202  (login bbs. telnetable)
+ub.d.umn.edu               131.212.32.6    unknown
+uc.msc.umn.edu             128.101.1.3     unknown
+ucbarpa.berkeley.edu       128.32.130.11   tn3270, pub/4.3, Exntended DCG
+ ucbarpa.berkeley.edu                      Prolog
+ucbvax.berkeley.edu        128.32.133.1    nntp, gnews, awm, empire
+ucdavis.ucdavis.edu        128.120.2.1     dSLIP, POP2, NetHop, UCDwhois,
+ ucdavis.ucdavis.edu                       UCDMail, IETF-PPP records
+ucece1.ece.uc.edu          129.137.32.106  unknown
+uceng.uc.edu               129.137.33.1    VLSI Hardware Description Language
+ucsd.edu                   128.54.16.1     graphics programs and images, ham
+ ucsd.edu                                  radio stuff, MIDI programs and data,
+ ucsd.edu                                  sound bites for Sparcstation, usenet
+ ucsd.edu                                  sources
+ug.utah.edu                128.110.4.24    not much
+uhccux.uhcc.hawaii.edu     128.171.1.101   unknown
+uhecs.helsinki.fi          128.214.4.1     unknown
+uhura.cc.rochester.edu     128.151.224.17  nothing
+uicbert.eecs.uic.edu       128.248.166.25  AT&T stuff, unix-pc
+uicsle.csl.uiuc.edu        128.174.30.5    not much
+uihub.cs.uiuc.edu          128.174.252.27  amiga
+umaxc.weeg.uiowa.edu       128.255.64.80   NCSA telnet, sendmail
+umd5.umd.edu               128.8.10.5      unknown
+umigw.miami.edu            128.116.10.1    unknown
+ummts.cc.umich.edu         35.1.1.43       atari st (cd PC7:)
+umn-cs.cs.umn.edu          128.101.224.1   Sendmail, vectrex, mac, unix-pc,
+ umn-cs.cs.umn.edu                         atari, apple II, GIF
+umnstat.stat.umn.edu       128.101.51.1    XlispStat, S Bayes
+unh.cs.cmu.edu             128.2.254.150   cold-fusion paper
+ unh.cs.cmu.edu                            /afs/cs/user/vac/ftp
+unicorn.wwu.edu            192.35.140.10   GNU dbm (beta)
+unido.informatik.uni-dortmund.de129.217.4.64    unknown
+unix.secs.oakland.edu      35.146.180.2    unknown
+unix2.macc.wisc.edu        129.89.6.2      hosts.txt
+unmvax.cs.unm.edu          129.24.16.1     getmaps
+unsvax.nevada.edu          131.216.1.11    ftp-list
+urth.acsu.buffalo.edu      128.205.7.9     unknown
+usc.edu                    128.125.1.45    amd (automounter)
+utadnx.cc.utexas.edu       128.83.1.26     VMS sources (zetaps, laser, sxlps)
+utsun.s.u-tokyo.ac.jp      133.11.7.250    Japanese PD, msdos, mac, unix, etc.
+uunet.uu.net               192.48.96.2     usenet archives, much more
+uvaarpa.virginia.edu       128.143.2.7     csound
+uwasa.fi                   128.214.12.3    mac, pc, suntools, unix, vms
+uwm.edu                    129.89.2.1      info-tahoe
+ux.acs.umn.edu             128.101.63.2    unknown
+uxa.cso.uiuc.edu           128.174.2.1     mac, msdos (pcsig)
+uxc.cso.uiuc.edu           128.174.5.50    games, misc, HitchHiker's Guide to
+ uxc.cso.uiuc.edu                          the Internet, recipes, GIF
+uxe.cso.uiuc.edu           128.174.5.54    amiga (Fish)
+valhalla.ee.rochester.edu  128.151.160.11  RFCs, Network load balancer
+van-bc.wimsey.bc.ca        128.189.233.155 interim (uupc), comp.archives
+ van-bc.wimsey.bc.ca                       archive
+vax.cs.pitt.edu            130.49.2.1      ka9q
+vax.ftp.com                128.127.25.100  FTP software, inc.
+vaxa.isi.edu               128.9.0.33      clf-act, X, db
+vaxb.acs.unt.edu           129.120.1.4     DOWN for VMS and other VMS utils
+vega.hut.fi                130.233.200.42  msdos, mac, Kermit, fusion docs,
+ vega.hut.fi                               food recipes (alt. gourmand), SF
+ vega.hut.fi                               author lists
+venera.isi.edu             128.9.0.32      statspy (NNstat), GNU Chess
+venus.ycc.yale.edu         130.132.1.5     SBTeX
+vgr.brl.mil                192.5.23.6      info-iris, brl-cad, bump,
+ vgr.brl.mil                               ping+record route, ttcp, mon, pmon,
+ vgr.brl.mil                               images
+vlsi.cs.umn.edu            128.101.230.15  PLP (Public line printer)
+vm1.nodak.edu              134.129.111.1   FIXES, minix
+vmd.cso.uiuc.edu           128.174.5.98    Hurricane Hugo GIF pictures
+vmsd.oac.uci.edu           128.200.15.2    VMS stuff
+watmath.waterloo.edu       129.97.128.1    lots of stuff
+watmsg.waterloo.edu        129.97.129.9    GNU, pd BSD, uSystem docs, virus,
+ watmsg.waterloo.edu                       cryptography
+watsun.cc.columbia.edu     128.59.39.2     kermit
+weedeater.math.yale.edu    130.132.23.17   rayshade, misc. raytracing goodies
+wheaties.ai.mit.edu        128.52.32.13    supdup, t3.1, tX11
+whitechapel.media.mit.edu  18.85.0.125     OBVIUS, macnh
+wilma.cs.brown.edu         128.148.32.66   Brown CS Field and Thread packages
+winnie.princeton.edu       128.112.128.180 music software (unix & NeXT)
+wpi.wpi.edu                130.215.24.1    dspl, anime, fusion, mac, GNU, ash,
+ wpi.wpi.edu                               DES, misc Unix, TeX_DS3100,
+ wpi.wpi.edu                               TeX_Umax, misc X
+wsmr-simtel20.army.mil     26.2.0.74       msdos, unix, cpm, mac (tenex)
+wuarchive.wustl.edu        128.252.135.4   GNU, X.11R3, GIF, IEN, RFCs, TeX,
+ wuarchive.wustl.edu                       UUPC, info-mac, 4.3BSD-Tahoe,
+ wuarchive.wustl.edu                       comp.binaries.amiga,
+ wuarchive.wustl.edu                       comp.binaries.apple2,
+ wuarchive.wustl.edu                       comp.binaries.atari.st,
+ wuarchive.wustl.edu                       comp.binaries.ibm.pc,
+ wuarchive.wustl.edu                       comp.sources.amiga,
+ wuarchive.wustl.edu                       comp.sources.atari.st,
+ wuarchive.wustl.edu                       comp.sources.games,
+ wuarchive.wustl.edu                       comp.sources.misc, comp.sources.sun,
+ wuarchive.wustl.edu                       comp.sources.unix, comp.sources.x,
+ wuarchive.wustl.edu                       msdos, simtel20 (24 hours/day)
+xanth.cs.odu.edu           128.82.8.1      comp.sources.x, comp.sources.unix,
+ xanth.cs.odu.edu                          comp.sources.misc,
+ xanth.cs.odu.edu                          comp.sources.games,
+ xanth.cs.odu.edu                          comp.sources.amiga, X, amiga
+xlnvax.excelan.com         130.57.4.1      misc. (looking for suggestions)
+ymir.claremont.edu         134.173.4.23    lots of VMS, TeX-for-VMS
+z.andrew.cmu.edu           128.2.30.8      bugfixar + div
+zaphod.ncsa.uiuc.edu       128.174.20.50   NCSA Telnet source, Mathematica
+zariski.harvard.edu        128.103.1.107   macaulay
+zeus.mgmt.purdue.edu       128.210.1.3     unknown
+zip.eecs.umich.edu         35.3.64.8       Esperanto sentence analyser
+zurich.ai.mit.edu          18.26.0.176     liar, scheme
+
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+
+------------------------------------------------------------------------------
+                  LOG DE UMA SESSAO FTP
+
+Date:         Tue, 04 Feb 92 01:45:58 BRA
+From:         ***************************
+To:           BITFTP@PUCC
+========================================================================
+Enter text of mail
+DMSXMD573I Input mode:
+.FTP wuarchive.wustl.edu NETDATA
+.USER anonymous
+.CD/pub/Internet-BBS
+.DIR
+.QUIT
+-------------------------------------------------------------------------------
+
+Received: from PUCC.PRINCETON.EDU by UFRJ.BITNET (Mailer R2.08 R208004) with
+ BSMTP id 0396; Tue, 04 Feb 92 01:52:25 BRA
+Received: from PUCC.PRINCETON.EDU by PUCC.PRINCETON.EDU (Mailer R2.08 PTF008)
+ with BSMTP id 9821; Mon, 03 Feb 92 22:47:39 EST
+Received: by PUCC (Mailer R2.08 R208004) id 5055; Mon, 03 Feb 92 22:47:39 EST
+Date:     Mon, 3 Feb 1992 22:47:39 EST
+From:     Princeton BITNET FTP Server <BITFTP1@PUCC>
+To:       COP01001@UFRJ
+Subject:  BITFTP REPLY
+
+22:47:28 > FTP wuarchive.wustl.edu NETDATA
+22:47:28 > USER anonymous
+22:47:28 > CD/pub/Internet-BBS
+22:47:28 >> OPEN WUARCHIVE.WUSTL.EDU
+22:47:30 <<< 220 wuarchive.wustl.edu FTP server (Version 6.14 Fri Jan
+              17 12:57:07 CST 1992) ready.
+22:47:30 >> USER anonymous COP01001@UFRJ
+22:47:32 >>> USER anonymous
+22:47:32 <<< 331 Guest login ok, send e-mail address as password.
+22:47:32 >>> PASS ********
+22:47:32 <<< 230-  This is an experimental FTP server.  If your FTP c
+             lient crashes or
+             230-  hangs shortly after login please try using a dash
+             (-) as the first
+             230-  character of your password.  This will turn off th
+             e informational
+             230-  messages that may be confusing your FTP client.
+             230-
+             230-  This system may be used 24 hours a day, 7 days a w
+             eek.  The local
+             230-  time is Mon Feb  3 21:48:06 1992.
+             230-
+             230-Please read the file README
+             230-  it was last modified on Wed Nov 20 15:04:55 1991 -
+              75 days ago
+             230-Please read the file README.NFS
+             230-  it was last modified on Tue Dec 10 09:59:58 1991 -
+              55 days ago
+             230 Guest login ok, access restrictions apply.
+
+22:47:33 > DIR
+22:47:33 >> DIR ( DISK
+22:47:36 >>> PORT 128,112,129,123,23,140
+22:47:36 <<< 200 PORT command successful.
+22:47:36 >>> LIST
+22:47:36 <<< 150 Opening ASCII mode data connection for /bin/ls.
+22:47:36 <<< 226 Transfer complete.
+total 12717
+-rw-r--r--  1 root     archive         0 Nov 28  1990 .notar
+-rw-r--r--  1 root     archive      2317 Nov 20 15:04 README
+-rw-r--r--  1 root     archive      2050 Dec 10 09:59 README.NFS
+-rw-r--r--  1 root     archive      5353 Jan 23 17:20 arrangement
+d--x--x--x  2 root     wheel         512 Aug 21 17:39 bin
+drwxr-xr-x 13 root     wheel         512 Jan  9 14:44 decus
+drwxr-xr-x 14 root     wheel         512 Jan 30 05:50 doc
+-rw-r--r--  1 root     wheel      276648 Feb  3 01:10 du.out
+d--x--x--x  5 root     wheel         512 Jan  9 14:19 etc
+-rw-r--r--  1 root     archive   9709571 Feb  3 02:46 files.lst
+-rw-r--r--  1 root     archive   1454575 Feb  3 02:48 files.lst.Z
+lrwxr-xr-x  1 root     archive        12 Sep 10 11:41 gnu -> mirrors2/gnu
+drwxrwxr-x  7 root     archive       512 Nov  9 00:58 graphics
+drwxrwxr-x  2 root     archive       512 Jan 23 17:05 info
+drwx------  2 root     archive      4096 Mar 12  1991 lost+found
+-rw-r--r--  1 root     wheel     1224704 Feb  3 02:16 ls-lR
+-rw-r--r--  1 root     archive    283129 Feb  3 02:48 ls-lR.Z
+drwxr-xr-x 13 root     archive       512 Feb  3 17:35 mirrors
+drwxr-xr-x 13 root     archive       512 Feb  3 17:58 mirrors2
+drwxrwxr-x  2 root     wheel         512 Jun 28  1991 network_info
+drwxrwxr-x 21 root     archive      1024 Jan  6 15:44 packages
+drwxr-x--x  4 root     archive       512 Jan 27 08:10 private
+drwxrwxrwx 15 root     archive      1024 Feb  3 18:13 pub
+drwxrwxr-x 20 root     archive       512 Sep  5 11:48 systems
+drwxr-xr-x  3 root     archive       512 Feb 28  1991 techreports
+drwxrwxr-x  4 root     archive       512 Nov 28  1990 unix
+drwxrwxr-x 28 root     archive      1024 Jan 16 11:35 usenet
+drwxr-xr-x  3 root     archive       512 Aug 16 08:37 vendorware
+
+22:47:36 > QUIT
+22:47:36 >> CLOSE
+22:47:38 >>> QUIT
+22:47:38 <<< 221 Goodbye.
+-------------------------------------------------------------------------------
+
+              Log de uma sessao FTP teste 2
+
+Received: from PUCC.PRINCETON.EDU by UFRJ.BITNET (Mailer R2.08 R208004) with
+ BSMTP id 1567; Wed, 05 Feb 92 10:53:06 BRA
+Received: from PUCC.PRINCETON.EDU by PUCC.PRINCETON.EDU (Mailer R2.08 PTF008)
+ with BSMTP id 1659; Wed, 05 Feb 92 01:56:37 EST
+Received: by PUCC (Mailer R2.08 R208004) id 2254; Wed, 05 Feb 92 01:56:37 EST
+Date:     Wed, 5 Feb 1992 01:56:36 EST
+From:     Princeton BITNET FTP Server <BITFTP3@PUCC>
+To:       COP01001@UFRJ
+Subject:  BITFTP REPLY
+ 
+ 
+01:56:11 > FTP f.ms.uky.edu NETDATA
+01:56:11 > USER anonymous
+01:56:11 > CD/pub/msdos/Games
+01:56:12 >> OPEN F.MS.UKY.EDU
+01:56:20 <<< 220 f.ms.uky.edu FTP server (Version 5.123 Tue Dec 17 09
+             :28:37 EST 1991) ready.
+01:56:20 >> USER anonymous COP01001@UFRJ
+01:56:23 >>> USER anonymous
+01:56:23 <<< 331 Guest login ok, send ident as password.
+01:56:23 >>> PASS ********
+01:56:23 <<< 230 Guest login ok, access restrictions apply.
+ 
+01:56:24 > DIR
+01:56:24 >> DIR ( DISK
+01:56:34 >>> PORT 128,112,129,123,15,182
+01:56:34 <<< 200 PORT command successful.
+01:56:34 >>> LIST
+01:56:34 <<< 150 Opening ASCII mode data connection for /bin/ls.
+01:56:34 <<< 226 Transfer complete.
+total 30
+-rwxr-xr-x  1 root     0            2059 Apr  2  1990 .cshrc
+-rwxr-xr-x  1 root     0               0 Aug  7  1988 .hushlogin
+-rwxr-xr-x  1 root     0            1020 Aug  7  1988 .login
+-rwxr-xr-x  1 root     0             106 Aug  7  1988 .logout
+-rw-r--r--  1 ftp      132           463 May 15  1990 .maildelivery
+-rwxr-xr-x  1 root     0             170 Aug  7  1988 .profile
+-rwxr-xr-x  1 root     0             250 Sep 22  1990 .rhosts
+-rw-r--r--  1 1770     132           454 Oct  8  1990 0-NOTICE-10.1.90
+-rw-r--r--  1 1770     132          1987 May  9  1990 0-NOTICE.5.9
+-rw-r-----  1 1770     132           331 Jul 24  1990 0-NOTICE.7.24
+-rw-r--r--  1 1770     132           575 May 15  1990 0-RESTRICTIONS
+-rw-r--r--  1 1770     132          2148 Jul 24  1990 README
+-rw-rw-r--  1 1770     132          1164 Jul 24  1990 WELCOME
+drwxrwxr-x  3 ftp      132           512 Oct 30 01:20 archive
+dr-xrwxr-x  2 ftp      132           512 Nov 10  1988 bin
+dr-xrwxr-x  2 ftp      132           512 Jul 21  1987 etc
+drwxrwxr-x  4 1770     132           512 Jan 13  1991 forumnet
+drwxrwxrwx  8 ftp      132           512 Jan 29 07:31 incoming
+drwxrwxrwx  2 ftp      132           512 Feb  3 14:45 outgoing
+drwxrwxr-x 20 root     132           512 Feb  5 01:29 pub
+drwxr-xr-x 10 root     0             512 Dec  5 22:16 pub2
+drwxr-xr-x  5 651      132          1024 Jun 11  1991 textures
+drwxr-xr-x  2 root     132           512 Sep 16 20:30 tmp
+drwxrwxr-x 11 root     132           512 Dec  1 21:04 working
+drwxr-xr-x  2 root     132           512 Oct 24  1990 xdvi
+ 
+01:56:34 > BINARY
+01:56:34 >> BINARY VARIABLE
+01:56:35 >>> TYPE i
+01:56:35 <<< 200 Type set to I.
+ 
+01:56:35 > GET robotron.arc msdos.robotron
+01:56:35 >> GET robotron.arc MSDOS.ROBOTRON.D ( REPLACE
+01:56:35 >>> PORT 128,112,129,123,15,183
+01:56:35 <<< 200 PORT command successful.
+01:56:35 >>> RETR robotron.arc
+01:56:35 <<< 550 robotron.arc: No such file or directory.
+ 
+01:56:35 > QUIT
+01:56:35 >> CLOSE
+01:56:36 >>> QUIT
+01:56:36 <<< 221 Goodbye.
+
+*******************************************************************************
+
+
+
+
+
+
+Downloaded From P-80 Systems 304-744-2253
+

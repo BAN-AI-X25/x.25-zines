@@ -1,0 +1,168 @@
+This is a PC PURSUIT address list and probsolver manual.
+Befor a bit of Knowledge is essential....  hehehehee
+PC Pursuit is a service for US people to call at lower rates data phone
+numbers using the Packet Network (Telenet) to do so you call your local
+access Telenet Port (DIALUP or PAD) it is a data phone number and you are
+on the Packet Network paying a local rate call.
+From there with a special id (you pay for it if you haven't hacked one!)
+you can call a HOST ( that is a system connected to the Packet Network and
+has an identifing id NUA (Network User Address) that is like a Phone number 
+this id can be in two forms a mnemonic one eg DIAL213 or all numeric eg 213 114
+When you are connected to this host that usually is placed in a distant area
+from yours you can give instructions to the modem that is over there to place
+a data call to any Phone number in the area code where it resides......
+this is the DIALOUT!! .
+So PCPursuit is a network of dialouts that are placed all around US states.
+Who has a real PCP account is used to call it's local access telenet node
+to the TELENET Packet Switching Network (PSN) or System (PSS).
+Then types at the @ prompt DIALnpa/baud,myid,mypw<CR>
+where npa is the AREA CODE only supported ones!!
+and baud is 3 for 300 12 for 1200 24 for 2400.
+Supprted areas are here listed with also their host number. This is for 
+people that have (legal or not) a Telenet id or use a Gateway on the Telenet
+Network .
+so for area code 202  at the Telenet @ prompt you can also write
+C 202 116<CR> if you have a previously set your telenet id or your pad has
+a direct line to Telenet no id is needed!!
+For FOREIGNERS if you have access to other packet nets connected to Telenet
+type this NUA (Network User Address) 0311020200116
+where 03110 is to call Telenet network the 0 infront may be different for each
+country eg UK is A93110 see your net representative (or hacker better!)
+then 202 is the npa or area code desired and supported by PC Pursuit
+and then follows the port number always padded with zeros in front to make a
+five digit number so for 1 type 00001 and for 16 type 00016 and so on..
+If from foreign countries you keep getting a busy or Network Congestion the
+best way is to call some US Hosts that have a Telenet Gateway and call from
+there the pcp dialouts.(i dunno why it seems always busy from europe and if i
+call from us is always free or almost!! may be they give lower privs to calls
+from other states!!)
+
+The remote modems are Racal Vadic and can work in two modes: Hayes Compatible
+and Racal Vadic (more infos on call progressing!).
+when you get connected the modem will not say anything unless you type AT<CR>
+or better ATZ<CR> to reset the modem.
+now you are in hayes mode so to dial :
+ATDT1234567<cr> as usual
+if you want to go in racal mode just type CTRL-E i mean the control char!!
+and <CR> and it will reply Hello I'm Ready.
+now you can dial by typing d and at the number prompt t1234567 to tone dial.
+you can get a full menu by typing M or P or ?
+yuo can get the version of the firmware by typing CTRL-V
+and you can also do a analogue test :that is all the data you type is converted
+to the corect analogue signal to be sent to the remote modem but it is fed back
+into the modem receive circuits and decoded to the correct digital (ascii) signal
+and sent down to you so you can see if the remote modem works ok and if all
+characters are fed through sometimes some chars get stripped out or interpreted!
+to get out of an analogue loop test type CTRL-C CTRL-D one after the other
+This procedure is also used to disconnect the modem when you are connected to
+a bbs or whatever ( it's a sort of hayes + + + A T H 0 i had to type spaces 
+not to upset my modem when uploading this File HEHEHE!!!).
+Another fundamental thing is needed for those who want to dload:
+you have to set correctly the X3 parameters of Telenet.
+to see the parameters you need to call up the telenet prompt @ if you are 
+connected to a host you have to type <CR>@<CR> to call the prompt
+now you can give commands to the telenet PAD eg to see the actual settings
+}itype PAR?<CR>
+to set them type
+SET? 3:0,4:2,5:0,9:0,10:0,12:0,13:0,14:0,15:0,7:8,2:0,1:0<CR>
+you will see how they change and to go back to the connection (remote Host)
+type CONTINUE<CR>
+but if you have set the pad like i have told you now you cannot anymore
+recall the PAD by <CR>@<CR> (that is 1:0 ->reset 1:1) but only with the
+<BREAK> signal (that is 7:8 ) also you loose al editing facilities (15:0)
+no word wrap line feeds after cr etch...no echo (2:0 ->reset 2:1) no
+Xon Xoff (5:0 and 12:0 ->reset 5:1 12:1)
+I have to remember if Foreigners call a telenet dialout through their packet
+net they have to set their PAD parameters sure they are similar to the normal
+telenet ones (X3 is now almost standard for all world! PADs) and if they go
+also through a telenet gateway both network pads (the local and remote gateway
+must be set to these values!)
+Now if you still don't manage x/ymodem u/dloads you have a chanche to find
+out the reason!! by setting the dialout in Racal mode and then going in 
+Analogue Loop Back test mode (CTRL-A) at the * prompt!
+Then if you have a term prog that will show control codes (set that option
+otherwise capture all data to a file and then analyze it with a hex dumper
+so that you see all control chars)
+now start typing control chars to do it with a good rule get an ascii chart
+and you start with CTRL-@ that is hex 00 or ^0 and then CTRL-A that is 01 or
+^A then go on in order with all capital letters of the alphabet and when you
+reached CTRL-Z continue with 5 symbols following Z in your ascii chart 
+usually they are [ \ ] ^ _ 
+there is one more problem be careful you have not to type CTRL-C followed
+by CTRL-D otherwise you go out of the analogue loop back test mode so when is
+their turn swap them round do CTRL-D and then CTRL-C and the go on with the
+rest of the alphabet.
+Now what you should get is , if your comms prog can show contrlol chars, you
+will see something like this :^@^A^B^D^C^E^F^G....and so on all ascii chart up
+to ^Z^[^\^]^^^_ or if it shows control chars in hex you should get 00 01 02
+....and so on all digits in hex or decimal from 00 (00hex) to 31 (1F hex)
+with only two of them in the wrong order around that are the CTRL-C and CTRL-D
+Usually the problem is that the network you use are not fully transparent
+and they don't return all chars you have sent usually these ate the CTRL-S
+and CTRL-Q usually used to control (stop and restart) data flow if this is
+your case the new Zmodem Protocol will solve your problem (this comms protocol
+escapes CTRL-Q CTRL-S CTRL-P <CR>@<CR> and the DEL char) also Kermit and 
+SuperKermit will solve your problem but they are aufully slow compared to
+Zmodem!! if you see that there are other ctrl chars that are filtered then 
+you have to use the same protocols as before but with an option that tells them
+to escape all ctrl chars (this will make it but...it will be a lot slower!!)
+if instead the prob is that the network adds come chars (sometimes adds a line
+feed to a CR ) you almost surely cannot solve the problem!! (use another system!)
+Last thing is that if no ctrl chars are stripped out you have to look if all
+the rest flow through so start typing with the ascii chart in hand all chars
+from the Space then to all simbols all digits and on up to all lower case letters
+and the following simbols if all ok the next step is looking for problems with
+all the rest of the ascii codes that have the most significant bit set (the
+ones from 128 to 255 decimal).
+If you haven't got a comms prog with show ctrl chars option just capture all
+you receive as you type and then close the file and and dump it with a hex dump
+utility and analyze it you will discover too the same things as online!
+
+
+PCPursuit Telenet nodes list scanned up to now.
+
+AREA  Ports.......                    Town         State
+----  ------------                    ----         -----
+201   1 301                           Newark       NJ New Jersey
+ok
+202   115 116 117 230                 Washinhgton  DC 
+203   -Not yet scanned!               Hartford     CT Connecticut
+206   17 19                           Seattle      WA Washington
+212   16 315 316 412                  New York     NY New York
+213   412 413                         Los Angeles  CA California
+214   117 118                         Dallas       TX Texas
+215   5 112                           Philadelphia PA Pennsylvania
+301   -once was a backdoor of 202     Baltimore    MD Maryland
+303   20 21 114 115                   Denver       CO Colorado
+305   19                              Miami        FL Florida
+312   411 412                         Chicago      IL Illinois
+313   216                             Detroit      MI Michigan
+314   -Not yet scanned!               St.Louis     MO Missouri
+404   -Not yet scanned!               Atlanta      GA Georgia
+408   20 21                           San Jose     CA California
+414   20 21                           Milwaukee    WI Wisconsin
+415   215 217 220                     San Francis. CA California
+503   20 21                           Portland     OR Oregon
+602   20 21                           Phoenix      AZ Arizona
+612   -Not yet scanned!               Minneapolis  MN Minnesota
+617   311 313                         Boston       MA Massachusetts
+619   -Not yet scanned!               San Diego    CA California
+703   -once was a backdoor of 202     Alexandria   VA Virginia
+713   113 114                         Houston      TX Texas
+714   -Not yet scanned!               Riverside    CA California
+718   -once was a backdoor of 212     Brooklyn     NY New York
+       (1718+phone number)
+801   20 21                           SaltLakeCity UT Utah
+813   20 21                           Tampa        FL Florida
+815   -once was a backdoor of 312     Rockford     IL Illinois
+       (1815+phone number)
+816   -Not yet scanned!               Kansas City  MO Missouri
+817   -once was a backdoor of 214     Fort Worth   TX Texas
+818   21                              Glendale     CA California
+916   -Not yet scanned!               Sacramento   CA California
+919   20 21                           Res.Tri.Park NC North Carolina
+----------------------------------------------------------------------
+Happy Pursuiting .......... BlackHack   (DTE222)
+
+DOWNLOADED FROM P-80 SYSTEMS.....
+

@@ -1,0 +1,240 @@
+                              RULES OF THUMB
+                             NETWARE LINK/X.25
+
+Link/X.25 is part of the NetWare Link family of internetworking products. 
+The Link product family provides transparent and reliable LAN-to-LAN
+connectivity for NetWare networks using asynchronous, X.25 and high-speed
+synchronous communications lines.  Each product takes maximum advantage of
+the reliability, security, performance and routing features of the NetWare
+operating system.  Link/X.25 is Novell's multi-point member of the Link
+family which connects multiple NetWare LANs through a private or Public
+Data Network (PDN).  To aid you in configuring Link/X.25 for optimal
+performance, reliability and ease of use, we asked our engineers to
+recommend components for the router installation.  We have also included
+some helpful general information regarding LAN-to-LAN links in a wide area
+networking environment.  Here is what the experts have to say:
+
+WIDE AREA NETWORK CONFIGURATIONS
+The optimal LAN-to-LAN configuration is a blend of products that best serve
+the economic and performance requirements of the organization.  Many
+organizations will require a combination of several NetWare Link products
+to meet specific needs.  Studies show that users typically need to perform
+a number of activities over the internetwork, including:
+
+FILE TRANSFER - Uploading and downloading files, for example, between
+branch offices.
+
+ELECTRONIC MAIL - An increasingly used tool for communications in large, 
+geographically distributed organizations.
+
+HOST ACCESS - Most large organizations need to be able to provide users
+with access to key applications on mini or mainframe based systems.  
+
+DIRECT FILE ACCESS - Real-time manipulation of data on a remote
+workstation, file server or mainframe; for example, accessing a centrally
+maintained database.
+
+NETWORK MANAGEMENT - The ability to monitor the activity of separate local
+area networks and to distribute software and other LAN utilities from a
+centralized location.
+
+NETWARE LINK PERFORMANCE CONSIDERATIONS
+Each type of data access across the link must be analyzed carefully to
+determine the numbers of users transferring data and/or accessing files, as
+well as the number of links that must be crossed in order to get the data.
+These issues must also be weighed against performance requirements and cost
+considerations.  These topics are discussed in the Novell report,
+Internetworking Your NetWare LANs (479-000046-002), available from your
+NetWare reseller, Novell sales office, or by calling the Product
+Information Center for Communication Products (800-221-6402 x4410).
+
+GENERAL NETWARE LINK REQUIREMENTS
+Link products require a number of separate components for establishing the
+LAN-to-LAN link, including the router software, communication adapter, data
+communications equipment (such as modems, CSU/DSUs, or data switches) and
+the telecommunications service (such as a standard phone line, X.25 line or
+leased line).  The correct evaluation of user needs and selection of the
+above components is necessary for cost-effective and optimal data
+communications.  
+
+Customers purchasing NetWare Link products should work closely with the
+telecommunications and/or MIS personnel to identify the types of services
+already available in the organization to determine if new services or
+devices are required.
+
+THE LINK/X.25 ROUTER
+As a general rule of thumb, NetWare Link/X.25 is ideal for organizations
+with existing connections to X.25 private or public data networks, or where
+X.25 is needed for international access.  Electronic mail, host access,
+centralized network management and occasional file transfer applications
+work well over Link/X.25.  Intensive applications that require availability
+of high data bandwidth, such as direct file access (including all database
+applications) and large file transfers, will require faster wide area
+network connections such as T1.
+
+The X.25 protocol overhead used by Link/X.25 and the delay introduced by
+the PDN can slow response time.  At any given data rate, a point-to-point
+connection such as Link/64 or Link/T1 provide higher throughput.
+
+SOFTWARE CONFIGURATION
+> External Router Only
+Link/X.25 operates as a real mode NetWare external router, so you will need
+a workstation separate from the NetWare file server to act as the router
+PC.  The router attaches to either a CSU/DSU or full-duplex synchronous
+modem, which in turn connects to the X.25 line.
+
+> Nondedicated or Dedicated Router?
+While there are good reasons to run a non-dedicated router (one that
+combines the router with a regular user workstation), we do not recommend
+this configuration.  If, for any reason, the user should reboot the system
+or hang the system while running a particular DOS application, all of the
+users dependent upon the link could lose important information and hours of
+productivity.  Used properly, however, a non-dedicated router can be useful
+for running network management programs, such as the ECSTATUS program
+provided with Link/X.25, which provides information on router status.      
+
+Recommendation: If running the router as a non-dedicated router, leave     
+it in 'console' mode except when running a network management application.
+
+> NetWare Version
+Link/X.25 works with NetWare version 2.10 and higher.  Note that a router
+created from one version of NetWare 2.10 or higher (including NetWare 386)
+can accommodate SPX/IPX packets from any other router running NetWare v2.0a
+and above, including NetWare 386 v3.x.  However, print services may be
+disrupted if you mix NetWare v2.0a with later releases of NetWare. 
+
+> DOS Version
+Link/X.25 is designed to use PC-DOS 3.x. 
+
+> NetWare Link Compatibility
+Link/X.25 can coexist in the same router machine with Link/64 and Link/T1
+but not with NetWare Link/Async or another Link/X.25 router.  Of course,
+all NetWare Link products can coexist on the same network or internetwork.
+
+> Optimal X.25 Configuration Parameters
+Link/X.25 can accommodate packet sizes from 128 to 1,024.  We recommend a
+packet size of 1,024 for optimal performance.  Setting a window size of 7
+is also recommended. These parameters may be defined by the PDN upon
+subscription.
+
+APPLICATION NOTES
+> Accessing IBM SNA Mainframes
+With a NetWare SNA Gateway installed on your central LAN, NetWare users can
+run the NetWare 3270 LAN Workstation software on remote LANs to access
+their SNA host across the X.25 links.  This eliminates the need for QLLC or
+NPSI (IBM Network Packet-Switching Interface) software.
+
+> Macintosh Connections
+NetWare for Macintosh will only work at speeds of 19.2 kbit/s or faster.
+AppleTalk timeouts may occur if WAN delays are encountered going through
+multiple packet switches.  The NetWare router (previously known as a
+bridge) routes only SPX/IPX packets.  Therefore, a NetWare for Macintosh
+Service Protocol Gateway must be installed at the same site as the
+Macintosh workstations to convert AppleTalk protocols to SPX/IPX before
+crossing the router.  The NetWare for Macintosh value-added processes
+(VAPs) run in protected mode and Link/X.25 runs in real mode, so the VAPs
+need to be installed in another external router or file server in order to
+operate correctly.
+
+> NetBIOS Support
+Link/X.25 does not support NetBIOS emulation packets.  NetBIOS is only
+suited to bridging and routing over high-speed network links such as those
+supported by Link/T1.  With Link X.25, timeouts occur when transferring
+NetBIOS packets.
+
+> NetWare Care
+NetWare Care allows a network manager to view the network status for the
+local LAN.  It does not view sessions across the Link/X.25 router.  NetWare
+Care only recognizes the local router.  At this writing, NetWare Care must
+be used only with NetWare 2.1x-based file servers. 
+
+HARDWARE CONFIGURATION
+For the router PC hardware, we recommend you select from one of the tested
+machines listed in this booklet.  A fast processor is needed for optimal
+performance and we recommend at least an AT-compatible 286-based machine.
+
+MEMORY
+Link/X.25 needs at least 512K RAM in the router PC.  Link/X.25 will also
+work in extended memory, protected mode.
+
+> LAN Adapters
+The Link/X.25 router also requires a LAN adapter to connect the router to
+the network.  A list of tested adapters for Link/X.25 is included in this
+document.
+NOTE: In a 386-based PC, some 'dumb' LAN adapters actually perform faster
+than 'smart' LAN adapters that have on-board processors and memory. 
+
+> WAN Adapter
+You will also need a Novell X.25 Adapter for PC or a Novell X.25 Adapter
+for PS/2 to provide the connection to the X.25 communications line.
+
+WAN CONNECTION
+> Physical Connection
+A CSU/DSU or full duplex synchronous modem is required at each router
+location.  We have listed only the modems tested and certified in our
+Novell laboratories. Note that if the CSU/DSU is equipped with a V.35
+interface, an RS-232 to V.35 interface converter is also needed.
+
+PDN CERTIFICATION 
+NetWare Link/X.25 has been tested or certified with the following PDNs.    
+NORTH AMERICA       
+     Canada (Telecom)    Datapac
+     Canada (CN/CP)      Infoswitch
+     Mexico              Telepac
+     United States       Accunet
+     United States       Infonet
+     United States       SpiritNet (Telenet)
+     United States       Tymnet
+     United States       CompuServe
+
+EUROPE    
+     Austria             Radaus Data    
+     Belgium             DCS  
+     Bahamas             BATELCO   
+     Denmark             Datapak   
+     Finland             Datapak   
+     Finland             Digipak   
+     France              Transpac  
+     Germany             Datex-P             
+     Italy               ITAPAC    
+     Luxembourg          Luxpak    
+     Netherlands         Datanet-1
+     Norway              Datapak
+     Portugal            Telepac
+     Spain               Iberpac
+     Sweden              Datapak
+     Switzerland         Telepac             
+     United Kingdom      PSS       
+
+EURASIA        
+     Australia           Austpac   
+     Hong Kong           Datapak   
+     Hong Kong           Intelpak  
+     Japan (NTT)         DDX-P     
+     Singapore           Telepac   
+     
+
+RECOMMENDED HARDWARE ENVIRONMENTS  
+Personal Computers            LAN Adapters                  Modems    
+Routers                       Router LAN Adapters 
+Novell AT 286 (10 MHz)        Novell NE/2 Ethernet (MCA)    UDS 2425  
+Novell 386 (16 MHz)           Novell NE1000 Ethernet        UDS 224 AT/O   
+Zenith 386 (20 MHz)           Novell NE2000 Ethernet*  
+IBM PS/2 55 SX (16 MHz)       Novell RX-NET Arcnet     
+IBM PS/2 80 (16 MHz)          3COM 3C505 Ethernet 
+Compaq Deskpro 386/S (16 MHz) 3COM 3C523 Ethernet (MCA)     
+Compaq 386/25                 IBM Token-Ring 4**       
+IBM Token-Ring 16/4**         Standard Micro RX-NET    
+
+* These are 16-bit adapter cards and are recommended for optimal NetWare
+Link/X.25 performance.        
+
+**   Must use IBM LAN Support Program.  
+
+ORDERING INFORMATION
+NetWare Link/X.25                  883-000896-001
+Novell X.25 Adapter for PC         905-301928-001
+Novell X.25 Extended Adapter       905-302013-001
+Novell X.25 Adapter for PS/2       905-301929-001 
+
+Novell, Inc., 1990122 East 1700 South Provo, UT  846061

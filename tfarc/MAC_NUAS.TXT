@@ -1,0 +1,148 @@
+TELEFONOS DE ARPAC:
+-------------------
+954-2424 //953-0756/0759/3705/3805/3905/0761/0749/0750/7313/7533/7603/7793/3390
+
+COMUNICACIONES POR MODEM:
+------------------------
+
+--------------------------------------------------------------------------------PROCEDIMIENTO EXACTOA COMUNICARSE CON ARPAC:
+--------------------------------------------------------------------------------1) DISCAR EL NUMERO RPAC.
+   UNA VEZ CONECTADO, TIPEAR ..  (DOS VECES . Y  [ENTER] )
+2) EN LA PANTALLA DEBE APARECER ARPAC
+AHORA, TIPEAR LA NUI CORRESPONDIENTE -(EXACTAMENTE COMO ES, SI LAS LETRAS 
+ESTAN  CON MAYUSCULA, DEBEN PONERSE CON MAYUSCULA. CUALQUIER ERROR DE TIPEO 
+PUEDE SER  CAUSA DE UNA COMUNICACION NO EXITOSA)- SEGUIDO DE LA NUA CON LA 
+QUE UD. QUIERE COMUNICARSE. POR EJEMPLO, PARA COMUNICARSE CON LA NUA 
+NRO: 208057040540 (QSD BBS FRANCE)  
+
+N910499817/DEMOS-0208057040540    [ENTER]   (no esperaras que el NUA /DEMOS
+|----------------||----------|                     funcione, no???)
+|  <NUI ARPAC>   || <NUA QSD>|
+ ----------------------------
+IMPORTANTE:  Las Bases de Datos (NUA's) en Argentina NO REQUIEREN NUI, 
+por lo tanto, para llamar a ACAMATICA, debe tipear .. y luego 211101216 [ENTER]
+--------------------------------------------------------------------------------
+CIBA: RED ARGENTINA 300 BPS.  Telefonos: 40-0100 / 40-0190
+Terminal ID: Poner "a" (Sin ENTER)
+Username: enarg588net
+Password: silgete
+(el Password lo pregunta 2 veces, la primera con la palabra "Password", y la se- 
+gunda vez con el signo ";" ... Vuelva a tipear el PASSWORD. 
+--------------------------------------------------------------------------------
+NUAs DE DISTINTOS PAISES:
+------------------------
+NOTA: Los numeros que comienzan con el signo + (MAS), no son NUA's, son Telefo-
+nos, a los cuales se puede tener acceso mediante los GOD's o los OD's.
+
+211101216.........: ACAMATICA - ARGENTINA -             WITHOUT NUI
+211103021.........: TELECHAT - ARGENTINA -              WITHOUT NUI
+211103127.........: GUIA ENTEL - ARGENTINA -            WITHOUT NUI
+211107173.........: INFO ARPAC - ARGENTINA -            WITHOUT NUI
+21110717..........: DELPHI - ARGENTINA -                WITHOUT NUI
+211103122.........: AEROLINEAS ARENTINAS - ARGENTINA -  WITHOUT NUI
+211101217.........: ACINDAR - ARGENTINA -               WITHOUT NUI
+208057040540......: QSD - FRANCIA - SISTEMA MULTICHAT (Varios Users en Linea)
+228475212574......: PEGASUS - SUIZA - Amplia Lista de NUAs de BBS del MUNDO
+310600584401......: WASHINGTON POST - (Password: KRON)
+724111320430......: BBS DE SAO PAULO (005GUEST Password for NewUsers)
+2502030500........: CCCP1 - MOSCU (En Febrero 28 abajo 250299000036)
+2502040300........: CCCP2 - Inst. Automatica - Lvov, Robot, New-Russia
+959574312417......: CCCP3 - RUSIA -
+60593910711.......: GALIPUS - HOLANDA -
+27401199100.......: GALACTICOM BBS - ISLANDIA -
+274011991222......: ELITE BBS
+23226221127023....: TRABANT BBS - BERLIN - Account: Merlin
+2422450134........: BBB (Micro Man,ID:crazy,Password:join_hub)
+2841321606........: BullPac - BULGARIA -
+234219201156......: ESA
+208075000394......: AIEA
+655011101207......: UNIT NET SCO - SUDAFRICA -
+22222700096.......: UNKNOWN NAME - MILAN -
+72411188058.......: UNO BBS - BRASIL -
+26245400080177....: LUCIFER - ALEMANIA -
+23226181139.......: DREAM ISLAND - VIENNA - SISTEMA MULTICHAT -
+310690157800......: BIX
+311020200202......: COMPUSERVE
+440881807401......: KAMOME - JAPON -
+2240013400........: CITYBANK
+22225110373.......: ITAPAC SAMNET
+274011991222......: PLASTIC BBS (AMIGA)
+274011991000......: VILLA BBS
+274011999519......: VILLA BBS
+23226181139.......: UNKNOWN - USA - 
+26245213120133....: ALEMANIA - GUEST GUEST
+23421920014880....: UNIVERSITY
++(617)354-8873....: NET1 BBS - BOSTON -
++(617)258-7111....: TERMINUS - BOSON -
++(617)354-8873....: CHANNEL 1 - BOSTON -
++(305)354-0873....: CHANNEL 1 - MIAMI -
++(305)235-4335....: SparrowHawk - MIAMI -
++(714)226-3310....: - SANTA ANA -
++(714)662-1748....: - SANTA ANA -
++(714)251-2698....: - SANTA ANA -
++(714)444-5615....: - SANTA ANA -
++(714)596-6077....: - SANTA ANA -
++(714)247-1305....: - SANTA ANA -
++(714)599-3004....: - SANTA ANA -
++(714)821-3316....: - SANTA ANA -
++(714)221-1571....: FLORIDA BBS - SANTA ANA -
++(408)867-5139....: THE WARDEN -
++(408)971-0172....: UNKNOWN - UNKNOWN -
++(408)563-2206....: UNKNOWN - UNKNOWN -
++(201)988-4004....: HOMEBASE Mc Afees BBS - NEW JERSEY -
++(305)988-4004....: HOMEBASE Mc Afees BBS - MIAMI -
++(813)332-5306....: SYNTAX BBS - TAMPA -(Miko Lox, Henry Marx, PASS:BASIDOUPTC)
++(813)436-1988....: IBM Connection - TAMPA -
++(813)696-8910....: UNKNOWN - TAMPA -
++(213)289-3314....: GodFather BBS - LOS ANGELES -
++(213)287-3984....: SunShine BBS - LOS ANGELES -
++(213)274-1333....: ELITE BBS - LOS ANGELES -
+
+--------------------------------------------------------------------------------LISTA DE PADS:
+--------------
+302071100215......: CANADA - Poner "DATAPAC" [ENTER] y despues P1+NUA
+26245803113059....: ALEMANIA - (PAD: OPCION 20)
+425130000221......: ISRAEL - Service: PAD   UserID: GOLAN
+3106000633........: USA - TYMNET UNIVERSITY -
+2680202106026.....: PORTUGAL -
+72411672182.......: BRASIL - (Name:X25  Pass:GATEWAY)
++55111533.........: BRASIL - RENPAC - NUI: NUA+85FIFT1111
++39228720.........: ITALIA -NUIs: NBIBJL6-0+NUA  NQ34E68-0+NUA  NE1OFTI-0+NUA
++470165...........: NORUEGA - NUI: N00128HAMMER-0+NUA
++190123...........: UNKNOWN - NUI: N000566REFLEX-0+NUA
+85002379741149....: VUI PORTUGAL
+--------------------------------------------------------------------------------LISTA DE VAX:
+-------------
+22011110002062....: Serbia VAX -  UserID: SABINA  Pass: YANYASVSAN
+2201611001738.....: User: PCSOFT  Pass: PCSOFT
+22222800173.......: NODE LINA - GUEST
+20233181282010....: GRECIA - User: AMETROP  Pass: EIEEIE
+PAD COMMAND: RLOGIN LEON   Pass: EIEEIE  despues: PAD 0+NUA
+20233181282042....: GRECIA - GUEST
+set proc/priv=all
+--------------------------------------------------------------------------------LISTA DE GODS (Globat Dials):
+---------------------------------
+MODO DE USO: Una vez conectado (COM) debe tipear: ATZ .Debe aparecer OK.
+Luego, si quiere comunicarse a un BBS en USA, tipee: ATDT 1+AREA CODE+NUMBER
+Si el BBS que ud. desea comunicarse, no es en dentro de U.S.A, debe tipear:
+ATDT 011+COUNTRY CODE+NUMBER.  Ejemplo ARGENTINA ARPAC: ATDT 0115419533705
+GODS:
+31105120000803
+302091600123
+7222211103127
+31106170002604
+LISTA DE ODS (Out Dials):
+-------------------------
+MIAMI.............: 311030500121               AREA CODE: 305
+SANTA ANA.........: 3110741400213/311071400021 AREA CODE: 714
+NEW JERSEY........: 311020100301               AREA CODE: 201
+TAMPA.............: 311081300124/311081300021  AREA CODE: 813
+LOS ANGELES.......: 311021300413               AREA CODE: 213
+UNKNOWN...........: 311040800111/311040800110  AREA CODE: 408
+BOSTON............: 311061700026/311061700313  AREA CODE: 617
+--------------------------------------------------------------------------------TARJETAS DE CREDITO: son NUA's, son numeros de Tarjetas Truchas)
+--------------------
+323432353425423...: MASTER CARD
+376400359102025...: AMERICAN EXPRESS
+--------------------------------------------------------------------------------
+

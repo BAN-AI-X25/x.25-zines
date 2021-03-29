@@ -1,0 +1,507 @@
+                 TODO LO QUE QUISO SABER SOBRE
+                       TELEFONICA (CTNE)
+                  Y NO SE ATREVIA A PREGUNTAR.
+
+        Seg£n la informaci¢n disponible al respecto de la red de abonado
+este bolet¡n se distribuye de la siguiente manera.
+
+TEMA 1 RED IBERPAC
+
+1.1- Redes P£blicas de datos.
+        .Conmutaci¢n de Circuitos.
+        .Conmutaci¢n de Paquetes.
+
+1.2- IBERPAC.
+
+        1.2.1. Generalidades.
+        .Tecnolog¡a empleada (Ordenadores).
+        .Tipos de Terminales -D.E.P.
+        .IBERPAC -R.S.A.N.
+        .IBERPAC -X.25
+
+        1.2.2. Estructura.
+
+                1.2.2.1. Red de transporte.
+                        .Nivel de Concentraci¢n.
+                        .Nivel de Conmutaci¢n.
+
+                1.2.2.2. Area de Acceso.
+                        .Circuitos dedicados Punto a Punto.
+                        .Circuitos dedicados Multipunto.
+                        .Acceso por Red Telef¢nica Conmutada.
+                        .Acceso por Red T‚lex Conmutada.
+
+        1.2.3. Servicios.
+
+        1.2.3.1. Servicio de transporte de datos.
+
+                1.2.3.2. Servicios Normalizados.
+                        .Servicio P£blico de Conmutaci¢n de Mensajes 
+			(SPCM).  .Teletex.  .Ibertext.
+                        .Dat fono 1/2.
+
+-------------------------------------------------------------------------------
+
+                                TEMA 1 RED IBERPAC.
+
+1.1     Redes p£blicas de datos.
+
+        Responden a la necesidad de hacer asequible, a gran n£mero de 
+usuarios el uso de las aplicaciones basadas en la conmutaci¢n de datos, 
+lo que hasta su aparici¢n s¢lo resultaba posible a usuarios con un 
+potente soporte t‚cnico y econ¢mico. En definitiva, han venido a a 
+democratizar y potenciar el uso y el desarrollo de la teleinform tica.
+
+        Para el establecimiento de las redes p£blicas de datos puede emplearse
+alguna de las siguientes t‚cnicas:
+
+        1.1.1 Conmutaci¢n de circuitos.
+
+        En ellas, entre el terminal que llama y el llamado se establece un
+circuito f¡sico y directo. La red recibe la se¤alizaci¢n de la llamada, esta-
+blece la conexi¢n directa y permanece a la espera del fin de la conexi¢n, que-
+dando toda la responsabilidad de la transmisi¢n en los terminales de datos, que
+podr n usar cualquier c¢digo, protocolo de comunicaciones, etc...
+
+        Estas redes se basan en el uso de sistema de transmisi¢n digital, con
+multiplexores por divisi¢n en el tiempo (MDT) y t‚cnicas de conmutaci¢n tem-
+poral, por lo que, debido a su complejidad, t‚cnica y alto coste economico
+hacen que no sean comunes actualmente, pero sin duda ser n las redes del futu-
+ro, permitiendo de manera simult nea la transmisi¢n de voz y datos.
+
+        1.1.2 Conmutaci¢n de paquetes.
+
+        La conmutaci¢n de paquetes consiste en la aceptaci¢n, almacenamiento,
+y posterior retransmisi¢n de cantidades normalizadas de datos (paquetes), los
+cuales al pasar por cada uno de los nodos que componen la red (llamados centros
+de conmutaci¢n de paquetes), son procesadas y retransmitidas al siguiente cen-
+tro de conmutaci¢n o al abonado destinatario.
+
+        Tal como se ha indicado, en estas redes las informaciones y datos se
+transmiten en cantidades discretas, llamados paquetes, con un formato normali-
+zado y un tama¤o m ximo predeterminado. "Un paquete" consta de:
+
+        * Un campo de "cabecera" que contiene informaci¢n de control, tal como
+        la direcci¢n del terminal y destino, y a veces tambien del origen, etc.
+
+        * Un sector de datos que contiene la informaci¢n que se desea trans-
+        mitir.
+
+        * Un sector de cola que lleva informaci¢n para la detecci¢n de errores
+        en la transmisi¢n.
+
+        Los mensajes del usuario se descomponen en un n£mero variable de paque-
+tes de longitud predeterminada, en los que el £ltimo paquete ser  algo menor al
+resto.
+
+        Veamos ahora un ejemplo de conmutaci¢n de paquetes:
+
+        Supongamos que el terminal 1 quiere transmitir informaci¢n al terminal
+2.
+
+        La informaci¢n se divide en bloques de longitud normalizada, (general-
+mente 128 o 256 bytes), llamados paquetes.
+
+        Cada paquete est  compuesto de la informaci¢n neta a transmitir m s in-
+formaci¢n adicional de origen y destino de la comunicaci¢n.
+
+        El enlace de datos transporta el paquete desde el terminal 1 al nodo de
+red A. Este almacena el paquete, estudia el destino y lo retransmite al nodo B,
+el nodo B, almacena, estudia el destino y se lo entrega al terminal 2.
+
+        El terminal 1 colocar  en su enlace de datos los paquetes unos a conti-
+nuaci¢n de otros, aunque tengan diferentes destinatarios.
+
+        Cada nodo que recibe estos paquetes actuar  de la forma antes indicada.
+
+        La t‚cnica de conmutaci¢n de paquetes es la preferentemente adoptada
+por la mayor¡a de las redes de transmisi¢n de datos, tanto p£blicas como priva-
+das. Entre otras: TRANSPAC (Francia), TYMNET (USA), TELENET (USA), ARPANET
+(USA), DATAPAC (USA), EURONET (Europa C.E.E.) ARPAC (Argentina) e IBERPAC.
+
+1.2 IBERPAC
+
+        1.2.1. Generalidades.
+
+        Iberpac es la red p£blica de transmisi¢n de datos existente en Espa¤a.
+Est  explotada por Telef¢nica y est  concebida para transmitir y conmutar datos
+en forma de paquetes.
+
+        En el a¤o 1970 el estado espa¤ol encomienda a Telef¢nica la creaci¢n y
+explotaci¢n de una red p£blica de datos.
+
+        Telef¢nica, dando cumplimiento a ese encargo, y entendiendo que la sa-
+tisfacci¢n de las necesidades de transmisi¢n de datos que se planteban se ha-
+br¡an de resolver en el marco de una red p£blica, inaugura en Noviembre de 1971
+el primer centro de la entonces llamada Red Especial de Transmisi¢n de Datos
+(R.E.T.D.) nombre que se mantiene hasta 1982 a¤o en el que pasa a denominarse
+IBERPAC.
+
+        Con el establecimiento de la R.E.T.D., que fue la primera red p£blica
+de transmisi¢n de datos con conmutaci¢n de paquetes de Europa, se persegu¡an
+los siguientes objetivos:
+
+A) Ofrecer un medio, que por ser espec¡fico para el trasporte de datos resul-
+tase t‚cnicamente bueno, y en el que, adem s, al compartir los medios de la
+red (ordenadores y de transmisi¢n) entre todos sus usuarios, los costes econ¢-
+micos se redujeran sensiblemente, resultando ‚stos proporcionales al uso que se
+hace de ellos.
+
+B) Hacer llegar las t‚cnicas de teleproceso a zonas geogr ficamente alejadas de
+los centros econ¢micos, los costes del usuario son independientes de la distan-
+cia, y  reas de la econom¡a a las que no resulta posible la creaci¢n de un so-
+porte de datos propio.
+
+C) Hacer innecesario y desaconsejable el establecimiento de redes privadas de
+datos, ya que estas, al dar lugar a una gran variedad de normas (cada una de
+ellas m s o menos adecuada a las necesidades del usuario), hacen muy dif¡cil
+la compatibilidad entre sistemas inform ticos, comportando casi de seguro una
+verdadera "babel" telem tica.
+
+        Desde entonces Iberpac ha estado en continuo crecimiento, evolucionando
+de acuerdo con las nuevas tecnolog¡as y de los nuevos servicios surgidos.
+
+        Tecnolog¡a empleada.
+
+        Respecto a la tecnolog¡a utilizada indicar que al principio los centros
+de red estaban constituidos por ordenadores de prop¢sito general (v lidos para
+cualquier uso), lo que exig¡a una adaptaci¢n para que hiciesen funciones de
+ordenadores de comunicaciones (se le sobredimensionaban algunos perif‚ricos de
+comunicaciones). Concretamente la R.E.D.T. se inaugur¢ con dos ordenadores
+UNIVAC 418-III, ya desaparecidos, y prosigui¢ su desarrollo con la utilizaci¢n
+de los Honeywell BULL 716, a£n presentes en Iberpac, si bien est n siendo re-
+tirados.
+
+        En el a¤o 1978 Telef¢nica aborda el dise¤o y desarrollo de un ordenador
+espec¡ficamente orientado a las comunicaciones, para que sea soporte de  los
+centros de red Iberpac. Este equipo, dise¤ado y fabricado por la industria
+nacional es el sistema TESYS (Telef¢nica, Secoinsa y Sitre) que se empieza a
+utilizar en 1981 en Iberpac, inicialmente s¢lo en su modalidad TESYS I (Unidad
+no operada) y posteriormente el TESYS CINCO (Centro de interconexi¢n y conmuta-
+ci¢n).
+
+
+        Tipos de terminales D.E.P.
+
+        En Iberpac, desde el punto de vista del modo de operaci¢n, se contempla
+la conexi¢n de dos tipos de terminales de datos.
+
+        .Terminales de paquetes (TP), dotados de capacidad para enviar y trans-
+mitir la informaci¢n estructurada en paquetes.
+
+        Inicialmente, estos terminales eran exclusivamente potentes ordenadores
+de los centros de c lculo del abonado (C.C.A.), asociandose as¡, impl¡cita-
+mente, la caracter¡stica de Terminal de Paquetes a una gran potencia de c lculo
+e importancia funcional del terminal. En la actualidad, esta modalidad es
+soportada por terminales cada vez m s sencillos, y accesible a pr cticamente
+todos los usuarios.
+
+        .Terminales que no trabajan en modo paquete, tambi‚n llamados de "ca-
+racteres".
+
+        Las redes de paquetes, como Iberpac, para trabajar con estos terminales
+han de incorporar en sus centros de red ciertos programas que adaptan las ca-
+racter¡sticas de estos terminales a la exigencia de una red de paquetes. Estos
+programas se denominan desensambladores-ensambladores de paquetes (D.E.P.) y
+los hay de varios tipos, ya que son tambi‚n las clases de terminales de carac-
+teres.
+
+        La mencionada funcion de DEP para cada uno de estos terminales estar 
+localizada en el nodo de red al que se conecte, es decir: donde esta su punto
+de acceso (llamado tambien "puerta") a la red.
+
+        As¡ pues, este nodo de red dispondr  de un espacio en su memoria donde
+almacenar  los mensajes de usuario, los segmentar , conformar  en paquetes,
+(les pondra cabecera) y proceder  a enviarlos. En recepci¢n actuar  de modo
+inverso.
+
+
+        IBERPAC RSAN y X.25
+
+        Iberpac, si bien conceptualmente es s¢lo una red, en la pr ctica est 
+dividida en dos redes distintas, com£nmente conocidas como "entornos"
+Iberpac-RSAN e Iberpac-X.25
+
+        Estos "entornos" (RSAN y X.25) comparten medios de transmisi¢n, edi-
+ficios, personal de mantenimiento y operaci¢n, e incluso admiten para su so-
+porte el mismo tipo de ordenadores (Sistema TESYS), pero est n totalmente se-
+parados, de forma que un usuario conectado a uno de ellos no puede establecer
+comunicaciones con un usuario del otro.
+
+        Las razones de la existencia de los dos nodos se encuentran en el
+particular desarrollo de Iberpac. Tal como se ha indicado, Iberpac (antes RETD)
+fue pionera en la comunicaci¢n de datos por paquetes, tanto es as¡, que al
+iniciar sus actividades en 1971, al no existir procedimientos normalizados en
+este tipo de redes, Telef¢nica hubo de desarrollar unos propios, lo que da
+lugar a lo que hoy se llama RSAN (Red Secundaria de Alto Nivel), denominaci¢n
+con la que, a£n incorrectamente se engloban procedimientos y normas, tanto
+internas de la Red (para entendimiento de los nodos de la Red), como para el
+acceso de terminales a la Red.
+
+        Muy posteriormente, al producirse una normalizaci¢n de procedimientos
+para Redes de Conmutaci¢n de paquetes. Telef¢nica los adopta y establece lo
+que se llama el entorno Iberpac X-25, donde tanto en terminales de paquetes,
+como en nodos de Red (entre ellos), se conectan conforme a procedimientos
+X-25 (Conjunto de normas establecidas por CCITT: Comit‚ Consultivo Interna-
+cional Telegr fico y Telef¢nico).
+
+        Entre otras diferencias, los terminales conectados a uno u otro entor-
+no se distinguen por una diferente identificaci¢n, es decir: una diferente
+estructura de numeraci¢n.
+
+        As¡, los terminales conectados a Iberpac-RSAN se identifican por el
+llamado I/O (Input-Output), n£mero corespondido entre 0 y 65535, mientras que
+los conectados a Iberpac-X.25 se identifican mediante el NRI (Numeraci¢n Red
+Iberpac) que consta de 9 cifras, de las cuales la primera es siempre un 2,
+es decir: 2XXXXXXXX.
+
+
+       1.2.2. Estructura.
+
+        Iberpac, desde un punto de vista estructural, puede considerarse divi-
+dida en dos grandes areas:
+
+        a) Red de Transporte, que es la red Iberpac propiamente dicha.
+
+        b) Area de Aceso a Iberpac, donde se conectan los terminales.
+
+
+        1.2.2.1 Red de Transporte.
+
+        Se distinguen en ella dos niveles, que se conforman en una red jer r-
+quica:
+
+        a) Niveles de concentraci¢n.
+
+        Es lo que facilita la entrada a la Red a la mayor¡a de los terminales
+        de datos.
+
+        Est  soportado por dos tipos de Nodos de Red:
+
+        - En los entornos R.S.A.N. son los conocidos como CONCENTRADORES. Una
+        caracter¡stica de ellos es la de no poder conectar a terminales de
+        paquetes.
+
+        - En el entorno X-25 son los llamados NODOS SECUNDARIOS o CENTROS DE
+        CONMUTACION LOCAL, pues adem s de las labores de concentraci¢n, per-
+        miten conexi¢n directa entre los terminales que acceden a ellos.
+
+        En ambos casos, dependen y tiene salida hacia un £nico nodo de Red de
+        orden superior.
+
+        b) Nivel de conmutaci¢n.
+
+        Est  soportado por un Nodo de Red que en el entorno R.S.A.N. recibe el
+        conocido nombre de CCR (Centro de Conmutaci¢n Regional) y en el X-25 el
+        menos conocido de Nodo Primario, pero que funcionalmente es el mismo.
+
+        La interconexi¢n entre centros de este nivel se determina en funci¢n
+        del tr fico, cre ndoseles una ruta directa cuando el volumen del mismo
+        as¡ lo aconseja.
+
+        A ellos se conectan algunos terminales de abonado (s¢lo terminales de
+        paquetes), y los centros de orden inferior (Concentradores y Nodos Se-
+        cundarios respectivamente) que dependen de ellos.
+
+        Su funci¢n fundamental consiste en encaminar el tr fico recibido hacia
+        otro CCR/Nodo Primario, Concentrador/Nodo Secundario, o terminal de
+        paquetes dependiente de ‚l para que la informaci¢n llegue a su destino.
+
+        Actualmente la velocidad de transmisi¢n entre los centros de red es de
+        9.600 b.p.s. cuando se encuentran ubicados en dependencias distintas y
+        de 19.200 b.p.s. cuando est n en el mismo centro, utiliz ndose en este
+        caso "supresores de modem". En un pr¢ximo futuro se unir n a la veloci-
+        dad de 64.000 b.p.s.
+
+
+        1.2.2.2. Area de acceso.
+
+        Los abonados acceden a Iperpac mediante circuitos dedicados (Punto a
+Punto o Multipunto) o por las redes conmutadas de telefon¡a o t‚lex.
+
+        - Circuitos dedicados Punto a Punto.
+
+        Son enlaces permanentes instalados entre el domicilio del abonado y un
+        punto de entrada a la Red. Los circuitos utilizados son de tipo tele-
+        gr fico, por enlaces de 50 a 200 b.p.s. y de tipo telef¢nico para las
+        velocidades superiores.
+
+        - Circuitos dedicados Multipunto.
+
+        En ellos, mediante circuitos secundarios y utilizando equipos espec¡-
+        ficos se conectan varios terminales de datos instalados en una misma
+        dependencia (Multipunto Local) o en distintas dependencias (Multipunto
+        Remoto), a un solo circuito que los une a un punto de entrada a la Red.
+
+        Existe otra variante para conexiones Multipunto, en la que un terminal
+        de abonado, de tipo "inteligente" controla a varios terminales y les da
+        acceso a la red, constituyendo un multisistema de abonado.
+
+        - Acceso por Red Telef¢nica Conmutada (R.T.C.).
+
+        El acceso a trav‚s de la Red Telef¢nica Conmutada, permite a los termi-
+        nales de datos establecer una conexi¢n f¡sica con una puerta de la Red,
+        mediante un proceso de se¤alizaci¢n telef¢nica (marcaci¢n de un n£mero
+        de tel‚fono). Una vez establecida la conexi¢n, el terminal y la red
+        pueden operar exactamente igual que en el caso que de acceso directo,
+        eso si, con la limitaci¢n que la R.T.C., no dise¤ada para la transmi-
+        sion de datos, impone respecto a la velocidad, fiabilidad, y tasa de
+        errores.
+
+        - Acceso por la Red T‚lex Conmutada.
+
+        Este acceso permite a los abonados del servicio t‚lex conmutado, esta-
+        blecer comunicaciones con terminales de la red Iberpac, en concreto con
+        un tipo espec¡fico de ellos que son los pertenecientes al Servicio P£-
+        blico de Conmutaci¢n de Mensajes (S.P.C.M.). Estas conexiones solo se
+        posibilitan en el sentido Red T‚lex -> Red Iberpac, y se realizan me-
+        diante un proceso de se¤alizaci¢n tipo T‚lex.
+
+
+        1.2.3.  SERVICIOS.
+
+        Desde el punto de vista del usuario existen dos grupos de servicios:
+Los llamados "Servicios de Transporte de Datos", para aplicaciones teleinfor-
+m ticas no normalizadas, y el grupo de "Servicios Normalizados", tales como
+Teletex, Ibertext, etc..
+
+        1.2.3.1. Sercios de transporte de datos.
+
+        En estos servicios Iberpac se limita a establecer una v¡a para el
+transporte de datos entre los dos extremos de la comunicaci¢n, el llamado
+"circuito virtual", ya que aparentemente, es como si existiese un camino direc-
+to y exclusivo entre ambos terminales. Estos han de cumplir unas normas b sicas
+que permiten su entendimiento con Iberpac (protocolo de conexi¢n), pero la
+aplicaci¢n teleinform tica que establezcan entre ellas es competencia exclusiva
+suya, y dise¤ada, por tanto, a la medida de sus necesidades.
+
+        Estos servicios permiten la conexi¢n de terminales que trabajen con las
+siguientes velocidades y protocolos de conexi¢n:
+
+        -Velocidades.- 134'5, 200, 300, 1200, 4800, 9600 b.p.s.
+
+        -Protocolos de Conexi¢n (a t¡tulo de referencia nominal).
+
+        .Para terminales que trabajen en modo PAQUETE
+        ..X-25
+        ..RSAN
+
+        .Para terminales que no trabajen en modo PAQUETE (necesitar n por tanto
+        una adaptaci¢n a la Red Iberpac, que trabaja en paquetes, lo que se
+        consigue con los DEP).
+
+        TERMINALES CON PROTOCOLOS x-28
+            "       "      "      IBM 2740
+            "       "      "      IBM 2970
+            "       "      "      OLIVETTI 349 AB/BI
+            "       "      "      NCR 270
+            "       "      "      IBM 3270
+            "       "      "      HDLC-MMR
+
+        1.2.3.2. Servicios Normalizados.
+
+        Son servicios que utilizan la red Iberpac para el transporte, pero
+en los que adem s se han de cumplir unos requisistos y normas que definen por
+completo la aplicaci¢n teleinform tica.
+
+        Dentro de este grupo se encuentran:
+        -Servicio P£blico de Conmutaci¢n de Mensajes (SPCM)
+        -Servicio Teletex.
+        -Servicio Ibertex.
+        -Servicio Dat fono 1/2
+
+        De los que a continuaci¢n se hace una breve rese¤a:
+
+        -SPCM
+
+        Este servicio, que inicialmete se denomin¢ Servicio Auxiliar de Datos
+(SAD) de Telef¢nica, facilita la transmisi¢n de mensajes entre ellos.
+
+        Existen dos tipos de usuarios de este servicio:
+
+        .Usuarios conectados a Iberpac por circuitos dedicados.
+
+        .Usuarios que acceden a Iberpac a traves de la Red de T‚lex Conmutada.
+
+        Los primeros pueden enviar y recibir mensajes por el SPCM.
+
+        Los segundos s¢lo pueden enviar mensajes.
+
+        El servicio, desde el 1 de enero de 1980, se viene presentando bajo la
+titulaci¢n de la Direcci¢n General de Correos y Telecomunicaciones, la cual
+tiene contratada con Telef¢nica la explotaci¢n del servicio.
+
+        El servicio se presta mediante un ordenador de Telef¢nica conectado a
+Iberpac (R.S.A.N.) como terminal de Paquetes, al que Iberpac hace llegar los
+mensajes de los usuarios del servicio, para que ‚ste los almacene, analice
+cu les son sus destinatarios, y los retransmita.
+
+        Entre otras, el SPCM ofrece facilidades tales como destinos m£ltiples,
+recuperaci¢n hist¢rica de los mensajes, destinos alternativos, etc., y otra
+inherente al servicio, muy importante, como la de posibilitar el intercambio
+de mensajes entre terminales de diferentes velocidades y c¢digos (Baudot,
+ASCII...).
+
+        - TELETEXT
+
+        Este servicio permite el intercambio de textos alfanum‚ricos mediante
+transferencia autom tica entre las memorias de dos terminales, a trav‚s de la
+Red Iberpac.
+
+        Los terminales Teletex han de tener la capacidad suficiente para pro-
+ducir, editar, presentar y enviar textos compuestos por un repertorio b sico
+de car cteres gr ficos y determinadas funciones de control, que hacen posible
+establecer y mantener comunicaciones nacionales e internacionales entre termi-
+nales de diferentes marcas y modelos (compatibilidad de terminales TELETEX
+lograda por ser un servicio normalizado).
+
+        Este acceso b sico de un terminal Teletex a la Red Iberpac se efect£a
+por l¡neas dedicadas con protocolos de conexi¢n X-25 (por tanto se conecta a
+Iberpac-X25), siendo la velocidad de transmisi¢n de 2400 b.p.s. Est  previsto,
+en un futuro, ofrecerlo a traves de la Red Telef¢nica Conmutada.
+
+        - SERVICIO IBERTEXT
+
+        Es la modalidad bajo la cual se explota en Espa¤a el Servicio de Video-
+text P£blico.
+
+        El servicio ofrece la posibilidad de recuperaci¢n y/o introducci¢n de
+informaci¢n en Bases de Datos, mediante una amplia gama de terminales de
+pantalla, dise¤ados para el mismo.
+
+        Inicialmente el servicio se ofrece mediante la conexi¢n de los termi-
+nales de la Red Telef¢nica Conmutada, accediendo a las Bases de Datos (llamados
+Control de Servicios) a trav‚s de la Red Iberpac. En un futuro est  previsto
+que tambi‚n se ofrezca el acceso directo (circuitos dedicados) a Iberpac.
+
+        En un futuro pr¢ximo, el acceso por RTC, que actualmente se realiza con
+la marcaci¢n de n£meros telef¢nicos normales, se realizar  por la marcaci¢n re-
+ducida OXX (utilizando los trenes de Servicios Especiales) con lo que se logra-
+r  que el coste del servicio sea independiente de la distancia del terminal
+a Iberpac.
+
+        - SERVICO DATAFONO 1/2
+
+        Es el servicio que posibilita la intercomunicaci¢n entre terminales
+(Dat fonos) y Centros de C lculo, que por medio de mensajes de datos, propor-
+cionan soporte para aplicaciones comerciales y transferencia electr¢nica de
+fondos.
+
+        El servicio Dat fono 1/2 va conceptualmete unido a las "tarjetas de
+cr‚dito" y f¡sicamente al equipo "Dat fono".
+
+        La conexi¢n entre los equipos Dat fono y los Centros de C lculo se
+realiza, bien a traves de la RTC y de la red Iberpac o bien con la RTC.
+
+        En ambas modalidades, el acceso se realiza por simple marcaci¢n tele-
+f¢nica, que es efectuada de manera autom tica por el Dat fono, pudiendo esta-
+blecer comunicaci¢n con diez Centros de C lculo distintos.
+
+        El equipo Dat fono, adem s de posibilitar las comunicaciones de datos,
+para lo que necesita realizar la lectura y escritura en tarjetas de cr‚dito,
+transferir informaci¢n a la impresora de boletos que normalmente lleva asociada
+y actuar como modem (Modulador-Demodulador), permite su utilizaci¢n como simple
+aparato telef¢nico con memoria.
+
+
+

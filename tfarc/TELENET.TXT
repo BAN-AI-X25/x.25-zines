@@ -1,0 +1,167 @@
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><
+                     Telenet/Tymnet dial up numbers
+                      (copied from America Online)
+
+                 If no baud rate is given, 1200 is assumed.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>>Access numbers for area code: 617
+
+Updated: Dec. 3, 1991
+
+BOSTON                   MA 2400  (617)574-9244    Telenet 
+LEXINGTON                MA 2400  (617)863-1745    Telenet 
+NEW BEDFORD              MA 2400  (508)999-9667    Telenet 
+WOODS HOLE               MA 2400  (508)457-9390    Telenet 
+WORCESTER                MA 2400  (508)792-1785    Telenet 
+BOSTON                   MA 2400  (617)439-3531    Tymnet 
+CAMBRIDGE                MA 2400  (617)439-3531    Tymnet 
+KINGSTON                 MA 2400  (617)585-7616    Tymnet 
+BOSTON                   MA       (617)292-0662    Telenet 
+BROCKTON                 MA       (508)580-0721    Telenet 
+FALL RIVER               MA       (508)677-4477    Telenet 
+FRAMINGHAM               MA       (508)879-6798    Telenet 
+LEXINGTON                MA       (617)863-1550    Telenet 
+NASHUA                   NH       (603)880-6241    Telenet 
+NEW BEDFORD              MA       (508)999-2915    Telenet 
+SALEM                    MA       (508)744-1559    Telenet 
+BOSTON                   MA       (617)439-3400    Tymnet 
+CAMBRIDGE                MA       (617)439-3400    Tymnet 
+NASHUA                   NH       (603)882-0435    Tymnet 
+BEDFORD                  MA       (617)271-0420    Tymnet 
+BROCKTON                 MA       (617)986-0500    Tymnet 
+FALL RIVER               MA       (508)676-3087    Tymnet 
+LYNN                     MA       (617)593-4051    Tymnet 
+NEW BEDFORD              MA       (508)999-4521    Tymnet 
+RANDOLPH                 MA       (617)986-0500    Tymnet 
+WOBURN                   MA       (617)271-0420    Tymnet 
+Access numbers for area code: 508
+
+Updated: Dec. 3, 1991
+
+LEXINGTON                MA 2400  (617)863-1745    Telenet 
+NEW BEDFORD              MA 2400  (508)999-9667    Telenet 
+WOODS HOLE               MA 2400  (508)457-9390    Telenet 
+WORCESTER                MA 2400  (508)792-1785    Telenet 
+NASHUA                   NH 2400  (603)880-3901    Telenet 
+GROTON                   MA 2400  (508)448-9361    Tymnet 
+LAWRENCE                 MA 2400  (508)683-2680    Tymnet 
+LOWELL                   MA 2400  (508)452-5112    Tymnet 
+MANCHESTER               MA 2400  (508)526-1506    Tymnet 
+MARLBOROUGH              MA 2400  (508)481-0026    Tymnet 
+BROCKTON                 MA       (508)580-0721    Telenet 
+FALL RIVER               MA       (508)677-4477    Telenet 
+FRAMINGHAM               MA       (508)879-6798    Telenet 
+LAWRENCE                 MA       (508)975-2273    Telenet 
+LEXINGTON                MA       (617)863-1550    Telenet 
+LOWELL                   MA       (508)937-5214    Telenet 
+NASHUA                   NH       (603)880-6241    Telenet 
+NEW BEDFORD              MA       (508)999-2915    Telenet 
+PROVIDENCE               RI       (401)751-7912    Telenet 
+SALEM                    MA       (508)744-1559    Telenet 
+WOODS HOLE               MA       (508)540-7500    Telenet 
+WORCESTER                MA       (508)755-4740    Telenet 
+NASHUA                   NH       (603)882-0435    Tymnet 
+ATTLEBORO                MA       (508)226-6441    Tymnet 
+BROCKTON                 MA       (617)986-0500    Tymnet 
+FALL RIVER               MA       (508)676-3087    Tymnet 
+FITCHBURG                MA       (508)537-6451    Tymnet 
+LAWRENCE                 MA       (508)689-0186    Tymnet 
+LEOMINSTER               MA       (508)537-6451    Tymnet 
+NEW BEDFORD              MA       (508)999-4521    Tymnet 
+SOMERSET                 MA       (508)676-3087    Tymnet 
+TAUNTON                  MA       (508)824-6692    Tymnet 
+WOONSOCKET               RI       (401)765-5994    Tymnet 
+WORCESTER                MA       (508)791-9000    Tymnet 
+Access numbers for area code: 412
+
+Updated: Dec. 3, 1991
+
+PITTSBURGH               PA 2400  (412)471-6430    Telenet 
+GREENSBURG               PA 2400  (412)836-4771    Telenet 
+MONROEVILLE              PA 2400  (412)856-1330    Telenet 
+PITTSBURGH               PA 2400  (412)642-2015    Tymnet 
+LATROBE/GREENSBURG       PA 2400  (412)838-1920    Tymnet 
+PITTSBURGH               PA       (412)288-9950    Telenet 
+PITTSBURGH               PA       (412)288-9974    Telenet 
+JOHNSTOWN                PA       (814)535-7576    Telenet 
+MORGANTOWN               WV       (304)292-0104    Telenet 
+WHEELING                 WV       (304)233-7732    Telenet 
+PITTSBURGH               PA       (412)642-6778    Tymnet 
+BUTLER                   PA       (412)283-2286    Tymnet 
+JOHNSTOWN                PA       (814)539-5059    Tymnet 
+MORGANTOWN               WV       (304)292-3092    Tymnet 
+NEW CASTLE               PA       (412)658-5056    Tymnet 
+Access numbers for area code: 203
+
+Updated: Dec. 3, 1991
+
+BRIDGEPORT               CT 2400  (203)367-9130    Telenet 
+DANBURY                  CT 2400  (203)792-5354    Telenet 
+HARTFORD                 CT 2400  (203)724-9396    Telenet 
+NEW HAVEN                CT 2400  (203)773-3569    Telenet 
+NEW LONDON               CT 2400  (203)437-0909    Telenet 
+STAMFORD                 CT 2400  (203)359-9404    Telenet 
+WATERBURY                CT 2400  (203)756-0342    Telenet 
+BLOOMFIELD               CT 2400  (203)242-1986    Tymnet 
+HARTFORD                 CT 2400  (203)242-1986    Tymnet 
+STAMFORD                 CT 2400  (203)327-2974    Tymnet 
+BRIDGEPORT               CT 2400  (203)332-7256    Tymnet 
+NEW HAVEN                CT 2400  (203)865-5770    Tymnet 
+NEW HAVEN/NORTH HAVEN    CT 2400  (203)787-4674    Tymnet 
+SPRINGFIELD              MA 2400  (413)785-1762    Tymnet 
+BRIDGEPORT               CT       (203)335-5055    Telenet 
+DANBURY                  CT       (203)794-9075    Telenet 
+HARTFORD                 CT       (203)247-9479    Telenet 
+MIDDLETOWN               CT       (203)344-8217    Telenet 
+NEW BRITAIN              CT       (203)225-7027    Telenet 
+NEW HAVEN                CT       (203)624-5954    Telenet 
+NEW LONDON               CT       (203)447-8455    Telenet 
+NORWALK                  CT       (203)866-7404    Telenet 
+STAMFORD                 CT       (203)348-0787    Telenet 
+WATERBURY                CT       (203)753-4512    Telenet 
+BLOOMFIELD               CT       (203)242-7140    Tymnet 
+HARTFORD                 CT       (203)242-7140    Tymnet 
+STAMFORD                 CT       (203)965-0000    Tymnet 
+BRIDGEPORT               CT       (203)579-1479    Tymnet 
+HOLYOKE                  MA       (413)787-0048    Tymnet 
+STRATFORD                CT       (203)579-1479    Tymnet 
+WESTPORT                 CT       (203)454-2129    Tymnet 
+DANBURY                  CT       (203)797-9539    Tymnet 
+MERIDEN                  CT       (203)634-9249    Tymnet 
+MIDDLETOWN               CT       (203)634-9249    Tymnet 
+NEW LONDON               CT       (203)444-7030    Tymnet 
+NORWICH                  CT       (203)444-7030    Tymnet 
+SOMERS                   CT       (203)763-3521    Tymnet 
+WATERBURY                CT       (203)755-5994    Tymnet 
+Access numbers for area code: 212
+
+Updated: Dec. 3, 1991
+
+NEW YORK CITY            NY 2400  (212)645-0560    Telenet 
+NEW YORK                 NY 2400  (212)809-9660    Tymnet 
+NEW YORK CITY            NY       (212)620-6000    Telenet 
+NEW YORK CITY            NY       (212)741-4950    Telenet 
+NEW YORK CITY            NY       (212)741-8100    Telenet 
+NEW YORK                 NY       (212)943-4700    Tymnet 
+Access numbers for area code: 412
+
+Updated: Dec. 3, 1991
+
+PITTSBURGH               PA 2400  (412)471-6430    Telenet 
+GREENSBURG               PA 2400  (412)836-4771    Telenet 
+MONROEVILLE              PA 2400  (412)856-1330    Telenet 
+PITTSBURGH               PA 2400  (412)642-2015    Tymnet 
+LATROBE/GREENSBURG       PA 2400  (412)838-1920    Tymnet 
+PITTSBURGH               PA       (412)288-9950    Telenet 
+PITTSBURGH               PA       (412)288-9974    Telenet 
+JOHNSTOWN                PA       (814)535-7576    Telenet 
+MORGANTOWN               WV       (304)292-0104    Telenet 
+WHEELING                 WV       (304)233-7732    Telenet 
+PITTSBURGH               PA       (412)642-6778    Tymnet 
+BUTLER                   PA       (412)283-2286    Tymnet 
+JOHNSTOWN                PA       (814)539-5059    Tymnet 
+MORGANTOWN               WV       (304)292-3092    Tymnet 
+NEW CASTLE               PA       (412)658-5056    Tymnet
+
