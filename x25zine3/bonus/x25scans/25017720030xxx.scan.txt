@@ -1,0 +1,5026 @@
+Starting scan frome file 25017720030xxx
+
+
+NUA 25017720030000
+CALL CLEARED
+Not Obtainable : Invalid called DTE address
+
+
+NUA 25017720030001
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030002
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030003
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030004
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030005
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030006
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030007
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030008
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030009
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030010
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030011
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030012
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030013
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030014
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030015
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030016
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030017
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030018
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030019
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030020
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030021
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030022
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030023
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030024
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030025
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030026
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030027
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030028
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030029
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030030
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030031
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030032
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030033
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030034
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030035
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030036
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030037
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030038
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030039
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030040
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030041
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030042
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030043
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030044
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030045
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030046
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030047
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030048
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030049
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030050
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030051
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030052
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030053
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030054
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030055
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030056
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030057
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030058
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030059
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030060
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030061
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030062
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030063
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030064
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030065
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030066
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030067
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030068
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030069
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030070
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030071
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030072
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030073
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030074
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030075
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030076
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030077
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030078
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030079
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030080
+CALL CLEARED
+Number Busy : No additional information
+
+
+NUA 25017720030081
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030082
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030083
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030084
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030085
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030086
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030087
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030088
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030089
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030090
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030091
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030092
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030093
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030094
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030095
+CALL CLEARED
+Incompatible Destination : Facility parameter not allowed
+
+
+NUA 25017720030096
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030097
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030098
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030099
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030100
+CALL CLEARED
+Not Obtainable : Invalid called DTE address
+
+
+NUA 25017720030101
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030102
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030103
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030104
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030105
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030106
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030107
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030108
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030109
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030110
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030111
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030112
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030113
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030114
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030115
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030116
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030117
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030118
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030119
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030120
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030121
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030122
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030123
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030124
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030125
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030126
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030127
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030128
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030129
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030130
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030131
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030132
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030133
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030134
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030135
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030136
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030137
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030138
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030139
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030140
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030141
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030142
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030143
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030144
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030145
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030146
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030147
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030148
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030149
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030150
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030151
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030152
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030153
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030154
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030155
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030156
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030157
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030158
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030159
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030160
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030161
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030162
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030163
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030164
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030165
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030166
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030167
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030168
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030169
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030170
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030171
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030172
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030173
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030174
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030175
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030176
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030177
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030178
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030179
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030180
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030181
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030182
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030183
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030184
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030185
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030186
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030187
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030188
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030189
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030190
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030191
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030192
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030193
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030194
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030195
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030196
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030197
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030198
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030199
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030200
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030201
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030202
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030203
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030204
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030205
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030206
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030207
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030208
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030209
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030210
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030211
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030212
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030213
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030214
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030215
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030216
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030217
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030218
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030219
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030220
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030221
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030222
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030223
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030224
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030225
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030226
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030227
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030228
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030229
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030230
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030231
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030232
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030233
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030234
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030235
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030236
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030237
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030238
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030239
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030240
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030241
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030242
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030243
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030244
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030245
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030246
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030247
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030248
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030249
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030250
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030251
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030252
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030253
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030254
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030255
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030256
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030257
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030258
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030259
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030260
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030261
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030262
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030263
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030264
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030265
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030266
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030267
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030268
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030269
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030270
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030271
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030272
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030273
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030274
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030275
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030276
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030277
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030278
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030279
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030280
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030281
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030282
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030283
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030284
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030285
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030286
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030287
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030288
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030289
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030290
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030291
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030292
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030293
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030294
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030295
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030296
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030297
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030298
+CALL ACCEPTED
+
+Connected to the Control Port on Node "roilcom", at 13-FEB-2003  1:39:05
+VANGUARD 200, Version V5.1_Seattle_V200
+Copyright (C) 1989-1995 Motorola, Inc.
+Information Systems Group
+Copyright (c) 1995 by AGE Logic Inc., San Diego, CA
+All rights reserved
+
+Enter Password:
+
+NUA 25017720030299
+CALL CLEARED
+DTE Originated : No logical channel available
+
+
+NUA 25017720030300
+CALL CLEARED
+Not Obtainable : Invalid called DTE address
+
+
+NUA 25017720030301
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030302
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030303
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030304
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030305
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030306
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030307
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030308
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030309
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030310
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030311
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030312
+CALL ACCEPTED
+
+
+
+PLEASE LOGIN: 
+
+NUA 25017720030313
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030314
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030315
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030316
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030317
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030318
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030319
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030320
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030321
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030322
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030323
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030324
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030325
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030326
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030327
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030328
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030329
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030330
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030331
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030332
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030333
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030334
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030335
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030336
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030337
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030338
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030339
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030340
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030341
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030342
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030343
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030344
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030345
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030346
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030347
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030348
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030349
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030350
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030351
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030352
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030353
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030354
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030355
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030356
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030357
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030358
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030359
+CALL CLEARED
+Access Barred : Unknown 187
+
+
+NUA 25017720030360
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030361
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030362
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030363
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030364
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030365
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030366
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030367
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030368
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030369
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030370
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030371
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030372
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030373
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030374
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030375
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030376
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030377
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030378
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030379
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030380
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030381
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030382
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030383
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030384
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030385
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030386
+CALL CLEARED
+Out Of Order : No additional information
+
+
+NUA 25017720030387
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030388
+CALL ACCEPTED
+ance
+with the terms of such license.  Use by the Government is restricted in
+accordance with the RESTRICTED RIGHTS provisions 
+
+NUA 25017720030389
+CALL ACCEPTED
+Time Out , sending Reset Request packet 
+RESET CONFIRMATION
+Received nothing
+
+
+NUA 25017720030390
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030391
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030392
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030393
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030394
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030395
+CALL CLEARED
+Number Busy : Unknown 152
+
+
+NUA 25017720030396
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030397
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030398
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030399
+CALL CLEARED
+Access Barred : Unknown 128
+
+
+NUA 25017720030400
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030401
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030402
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030403
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030404
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030405
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030406
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030407
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030408
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030409
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030410
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030411
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030412
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030413
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030414
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030415
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030416
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030417
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030418
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030419
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030420
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030421
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030422
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030423
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030424
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030425
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030426
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030427
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030428
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030429
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030430
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030431
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030432
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030433
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030434
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030435
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030436
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030437
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030438
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030439
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030440
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030441
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030442
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030443
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030444
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030445
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030446
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030447
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030448
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030449
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030450
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030451
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030452
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030453
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030454
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030455
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030456
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030457
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030458
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030459
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030460
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030461
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030462
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030463
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030464
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030465
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030466
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030467
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030468
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030469
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030470
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030471
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030472
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030473
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030474
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030475
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030476
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030477
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030478
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030479
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030480
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030481
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030482
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030483
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030484
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030485
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030486
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030487
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030488
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030489
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030490
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030491
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030492
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030493
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030494
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030495
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030496
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030497
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030498
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030499
+CALL CLEARED
+DTE Originated : Unknown 128
+
+
+NUA 25017720030500
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030501
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030502
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030503
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030504
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030505
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030506
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030507
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030508
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030509
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030510
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030511
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030512
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030513
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030514
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030515
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030516
+CALL CLEARED
+DTE Originated : No additional information
+
+
+NUA 25017720030517
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030518
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030519
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030520
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030521
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030522
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030523
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030524
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030525
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030526
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030527
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030528
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030529
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030530
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030531
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030532
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030533
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030534
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030535
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030536
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030537
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030538
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030539
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030540
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030541
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030542
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030543
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030544
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030545
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030546
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030547
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030548
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030549
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030550
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030551
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030552
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030553
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030554
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030555
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030556
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030557
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030558
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030559
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030560
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030561
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030562
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030563
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030564
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030565
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030566
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030567
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030568
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030569
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030570
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030571
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030572
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030573
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030574
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030575
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030576
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030577
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030578
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030579
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030580
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030581
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030582
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030583
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030584
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030585
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030586
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030587
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030588
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030589
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030590
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030591
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030592
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030593
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030594
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030595
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030596
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030597
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030598
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030599
+CALL CLEARED
+DTE Originated : Unknown 253
+
+
+NUA 25017720030600
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030601
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030602
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030603
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030604
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030605
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030606
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030607
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030608
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030609
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030610
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030611
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030612
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030613
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030614
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030615
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030616
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030617
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030618
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030619
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030620
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030621
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030622
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030623
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030624
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030625
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030626
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030627
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030628
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030629
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030630
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030631
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030632
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030633
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030634
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030635
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030636
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030637
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030638
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030639
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030640
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030641
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030642
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030643
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030644
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030645
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030646
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030647
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030648
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030649
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030650
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030651
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030652
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030653
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030654
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030655
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030656
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030657
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030658
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030659
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030660
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030661
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030662
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030663
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030664
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030665
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030666
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030667
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030668
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030669
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030670
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030671
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030672
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030673
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030674
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030675
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030676
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030677
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030678
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030679
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030680
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030681
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030682
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030683
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030684
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030685
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030686
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030687
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030688
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030689
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030690
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030691
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030692
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030693
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030694
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030695
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030696
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030697
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030698
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030699
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030700
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030701
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030702
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030703
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030704
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030705
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030706
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030707
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030708
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030709
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030710
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030711
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030712
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030713
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030714
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030715
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030716
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030717
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030718
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030719
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030720
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030721
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030722
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030723
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030724
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030725
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030726
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030727
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030728
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030729
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030730
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030731
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030732
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030733
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030734
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030735
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030736
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030737
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030738
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030739
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030740
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030741
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030742
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030743
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030744
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030745
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030746
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030747
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030748
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030749
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030750
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030751
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030752
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030753
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030754
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030755
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030756
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030757
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030758
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030759
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030760
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030761
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030762
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030763
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030764
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030765
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030766
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030767
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030768
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030769
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030770
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030771
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030772
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030773
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030774
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030775
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030776
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030777
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030778
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030779
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030780
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030781
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030782
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030783
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030784
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030785
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030786
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030787
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030788
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030789
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030790
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030791
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030792
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030793
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030794
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030795
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030796
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030797
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030798
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030799
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030800
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030801
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030802
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030803
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030804
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030805
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030806
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030807
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030808
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030809
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030810
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030811
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030812
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030813
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030814
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030815
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030816
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030817
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030818
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030819
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030820
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030821
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030822
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030823
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030824
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030825
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030826
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030827
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030828
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030829
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030830
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030831
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030832
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030833
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030834
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030835
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030836
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030837
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030838
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030839
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030840
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030841
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030842
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030843
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030844
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030845
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030846
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030847
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030848
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030849
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030850
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030851
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030852
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030853
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030854
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030855
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030856
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030857
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030858
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030859
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030860
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030861
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030862
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030863
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030864
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030865
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030866
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030867
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030868
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030869
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030870
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030871
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030872
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030873
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030874
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030875
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030876
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030877
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030878
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030879
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030880
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030881
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030882
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030883
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030884
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030885
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030886
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030887
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030888
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030889
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030890
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030891
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030892
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030893
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030894
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030895
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030896
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030897
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030898
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030899
+CALL CLEARED
+Network Congestion : Unknown 237
+
+
+NUA 25017720030900
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030901
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030902
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030903
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030904
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030905
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030906
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 250177200A 25017720030910
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030911
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030912
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030913
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030914
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030915
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030916
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030917
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030918
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030919
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030920
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030921
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030922
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030923
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030924
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030925
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030926
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030927
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030928
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030929
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030930
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030931
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030932
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030933
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030934
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030935
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030936
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030937
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030938
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030939
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030940
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030941
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030942
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030943
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030944
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030945
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030946
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030947
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030948
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030949
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030950
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030951
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030952
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030953
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030954
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030955
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030956
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030957
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030958
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030959
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030960
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030961
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030962
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030963
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030964
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030965
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030966
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030967
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030968
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030969
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030970
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030971
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030972
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030973
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030974
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030975
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030976
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030977
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030978
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030979
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030980
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030981
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030982
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030983
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030984
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030985
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030986
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030987
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030988
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030989
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030990
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030991
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030992
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030993
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030994
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030995
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030996
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030997
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030998
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.
+
+
+NUA 25017720030999
+CALL CLEARED
+DTE Originated : Call set-up/clearing or registration pb.

