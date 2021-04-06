@@ -1,0 +1,296 @@
+
+Mit dem Befehl STELLVERTRETER k|nnen Sie einen Empf{nger de-
+finieren der w{hrend Ihrer Abwesenheit an Sie gerichtete
+Nachrichten empfangen sollen. Bei Eingabe von nur STELLVER-
+TRETER wird der eventuell definierte Stellvertreter ange-
+zeigt. Um diesen nach Ihrer R}ckkehr zu l|schen geben Sie
+bitte STELLVERTRETER L\SCHEN ein. Um einen Stellvertreter zu
+definieren geben Sie bitte STELLVERTRETER gefolgt von dem
+Namen des Empf{ngers ein. Beispiel: STELLVERTRETER G.MAILER
+
+
+Befehl: LESEN
+
+Welche Nachricht im Briefkasten soll angezeigt werden? L
+
+
+Bitte nur numerische Zeichen eingeben.
+
+Befe*hl: *
+
+"**" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: 1
+
+Was wollen Sie mit der Nachricht 1 machen? LESEN
+
+Nachricht Nr.:   1
+Nachricht an:    I.LAZI
+Betrifft:        HALLO INGO
+Abgesandt am:    02-07-85, 13:41:18
+Empf{nger:       I.LAZI
+Kopien:          I.LAZI
+Text:
+
+*** kein Text eingegeben ***
+
+WEiterleiten, WIedervorlage oder L\schen? L
+
+Nachricht Nr.:   1
+Nachricht an:    I.LAZI
+Betrifft:        HALLO INGO
+Gelesen am:      09-07-85, 16:05:44
+Empf{nger:       I.LAZI
+Kopien:          I.LAZI
+Text:
+
+*** kein Text eingegeben ***
+
+WEiterleiten, WIedervorlage oder L\schen? 
+
+Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+NORWIG           00:12:39        1 
+ABG              00:03:13        5 
+M.AUCH           00:32:25        7            ONLINE
+AVERARA          00:05:20        8        RUECKNAHME
+
+Befehl: DIALOG ABG
+
+
+TAG!
+B~SIND SIE ONLINE?
++*
+
+
+
+
+
+
+
+A
++/
+-
+E
+ENDE
+
+
+
+
+KOENNEN SIE MIR EINB PAAR ITTEINTERESSANTSCEHOEN
+ WASSIE ?
+W]NSCHEN?
+KONEENE~~~~~ENNEN SIE MIR EIN PAAR DATEX P 
+NUMMERN GEBENNN?
+(ANTW.)
+
+HHHHAAAA**L* DILALOGL ***
+L
+
+AF
+HALLOOOOOOOO!
+KLAPPT ES NICHT WIE ERHOFFT?
+KOENNEN SIE MICH EIGENTLICH "LESEN?"
+
+ALSO GUT,MACHEN WIR SCHLUSS.
+Befehl: 
+Befehl: ONLINE
+
+"MACHEN" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+H.RUEHLEMANN     00:01:40        0             LESEN
+ABG              00:08:33        5 
+M.AUCH           00:37:45        7            ONLINE
+AVERARA          00:10:40        8 
+
+Befehl: 
+Teilnehmer       Dauer        Port            Befehl
+
+H.RUEHLEMANN     00:01:53        0             LESEN
+ABG              00:08:49        5 
+M.AUCH           00:38:02        7            ONLINE
+AVERARA          00:10:56        8            SENDEN
+
+Befehl: DIALOG ABG
+
+ABG ist zur Zeit besch{ftigt.
+
+Befehl: #
+
+Befehl          Abk.      Befehl          Abk.      Befehl          Abk. 
+--------------- -----     --------------- -----     --------------- -----
+ANRUF           ANR       ANSAGE          ANSA      ANSCHRIFT       A    
+ANTWORTEN       ANT       ARCHIVIEREN     AR        BETREFF         BE   
+BRETT           B         DATENBANK       DA        DIALOG          DI   
+ENDE            E         GEBRAUCH        G         HILFE           H    
+INHALT          I         KENNWORT        K         LESEN           L    
+LOESCHEN        LO        ONLINE          O         PUBLIC           PU   
+RUECKNAHM
+E      R         SENDEN          S   
+      SPRACHE         SP   
+STATUS          STA       STELLVERTRETER  STE       TEILNEHMER      T    
+TELEX           TEL       TEXT            TEX       UMLAUT          U    
+VERTEILER       V         VERZEICHNIS     VERZ      WEITERLEITEN    WE   
+WIEDERVORBefehl: DA
+
+  AP              2.30        Associated Press News of the past 7 days
+* CERGY     0.30  0.15 0.005  Messagerie Electronique 3M, Cergy
+  DOLLAR    2.00              Dollar-Kurs
+  ECHO-1          0.55        ECHO (GRIPS/DIRS3)
+  ECHO-2          0.55        ECHO (Eurodicautom)
+  ECHO-3          0.55        Diane Guide (Deutsch mit Benutzerhilfe)
+  EFH             0.95        EF Hutton HUTTONLINE
+* EMS       0.30  0.15 0.005  EMS Ltd., London
+  ENQUIRY         0.55        Euronet Enquiry Service
+  HOSTESS         0.55        PSS directory of host computers
+* ITS       0.30  0.15 0.005  Messagerie Electronique ITS, Lyon
+* NEUSS     0.30  0.11 0.003  3M Mailbox System, Neuss
+  OAG             3.50        Official Airline Guides
+  OAG-S     1.50              Official Airline Guides (Einzelabfrage)
+* RABOX     0.30  0.15 0.005  TELEBOX der Radio Austria AG
+* RMI       0.30  0.11 0.003  RMI-NET CBBS System, Aachen
+* SOURCE    0.30  0.30 0.016  The Source, Virginia, USA
+* TELEBOX   0.30  0.11 0.016  TELEBOX-Dienst der DBP
+  TELEINFO        0.95        Telenet International Access Information
+  TYMINFO         0.95        Tymnet directory of host computers
+  UPI             2.30        UPI News of the past 7 days
+  WPOST           2.30        Washington Post News of the past 7 days
+
+Befehl: SOURCE
+
+"SOURCE" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: * SOURCE
+
+"*" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: DATEN~~~ *SOURCE
+
+.
+Verbindung abgebrochen. (6)
+
+
+HILFE
+
+.
+
+
+
+
+
+Befeh
+
+l: 
+
+
+Be
+fehl: 
+Befehl: 
+
+Gerne!
+
+Sie k|nnen bei der Befehlsaufforderung das Zeichen ? einge-
+ben. Danach wird eine kurze Liste aller g}ltigen Befehle aný-
+gezeigt. Wenn Sie ausf}
+hrlichere Informationen }ber ein ge-
+w}nscht
+es Kommando habege Erkl{rung deshl: Befehl: Befehl: 
+"." ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+H.RUEHLEMANN     00:06:09        0 
+J.LAMM-EDV       00:02:40        1             TELEX
+KBH              00:02:08        3             LESEN
+M.AUCH           00:42:14        7            ONLINE
+AVERARA          00:15:09        8       ARCHIVIEREN
+
+Befehl: DIALOG H.RUEHLEMANN
+
+*** DIALOG ***
+
+++
+H>~~
+HALLO?
+
+ONLINE?
+GUTEN TAG.MFG, ~ ~~ ~~ ~~ ~~ ~+?
+
+HABEN SIE EIN PAAR INTERESSANTE
+DATEX P NUMMERN?
+
+SICHER "45667313330
++?
+I>~~SIND DAS ALLE?
+
+IST DAS NICHT GENUG?
+ALLES ANDERE W[HRE NICHT ERLAUBT.
++?
+SICHER?
+GIBT ES NICHT EINE BOX IN AMERIKA?
+
+DOCH DEPHI ~ ~~ ~~ ~~ ~LPHI~ ~I UND THE SOUCE.
++?
+WIE KOMMT MAN DA REIN?
+IND ~ ~~ ~ DEM MAN DORT WOHNT UND EIN KONTO DORT HAT.
++?
+KANN MAN MIT DATEX NUR DIE AUGE -M.ý
+BETREIBEN?
+
+*** DIALOG beendet ***
+
+Befehl: 
+"-M." ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: 
+"BETREIBEN" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: DIALOG 
+
+Uninterpretierbare Eingabe. N{heres mit HILFE DIALOG
+
+Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+TRIUMPH-ADLER    00:04:09        2 
+KBH              00:08:03        3 
+M.AUCH           00:48:09        7            ONLINE
+AVERARA          00:21:04        8       ARCHIVIEREN
+
+Befehl: ENDE
+
+
+Sie haben 1 ungelesene Nachrichten. Trotzdem beenden (J/N)? N
+
+Nr. ST Datum Zeit  Abs./Empf.   Zeilen  Betreff
+
+  2 EU 09-07 16:12 ABG               2  DIALOG
+
+Befehl: DIALOG ABG
+
+ABG ist nicht online.
+
+Befehl: LESEN
+
+Nachricht Nr.:   2
+Nachricht von:   ABG
+Betrifft:        DIALOG
+Abgesandt am:    09-07-85, 16:12:18
+Empf{nger:       M.AUCH
+Text:
+
+bitte melden Sie sich,wenn Sie mit dem Dialog nicth zurecht kommen.
+Mfg.G.Kirschenmannc/o ABG
+
+ANTworten, WEiterleiten, WIedervorlage oder L\schen? L/
+
+~wn`~~I~f8?MV~

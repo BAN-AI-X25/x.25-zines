@@ -1,0 +1,642 @@
+            
+
+
+ <<< DATA BASE >>> << USER >>
+
+TIMELIMITýý
+
+
+
+
+
+
+
+System time: 21:18
+
+Good bye and call again, MIKE.S!
+
+**** END OF CONNECTION ****
+
+
+:~n@S~39t
+
+
+                <<<< Befehle in Datex-P - 03.08.85 >>>>
+                ----------------------------------y<-----
+NUA eingeben:
+-------------
+
+Hiezu  tippt  man  normalerweise nur die gew}nschte  Nummer  ein.
+Zul{ssig sind aber dar}ber hinaus noch folgende Sachen:
+
+R <nua>
+--------
+
+Hier  }bernimmt  der  Angerufene die Kosten  f}r  die  Verbindung
+(diese  freundliche  Rechnerspezies findet man  in  letzter  Zeit
+immer seltener)
+
+CUG(nnn) <nua>
+--------------
+
+CUG = Closed User Group,  gibt gleich beim Anrufen eine bestimmte
+Kategorie an. (nnn) ist 'ne 3-stellige Nummer.
+
+<nua>,xxxxxxxxxxxx
+------------------
+
+Hier  wird  das  erste Password gleich an  die  NUA  drangeh{ngt.
+Stimmts nicht, schmei~t der Rechner den Anruf gleich wieder raus.
+
+Selbstverstaendlich gehen auch  Kombinationen  aus  allen   o.g.
+M|glichkeiten.
+
+Zu den NUAs selber:
+-------------------
+
+Bundesdeutsche NUAs sind folgenderma~en aufgebaut:
+
+XX YYYY ZZZZZ
+
+XX   = 45, 44 oder 43
+YYYY = Ortsnetzkennzahl (h}stel),  d.h. "die Telefon-Vorwahl ohne
+erste Null (immer 4stellig,  ggf.  rechts mit Null auff}llen" (O-
+Ton Post).  Im Klartext:  F}r Berlin 3000,  f}r M}nchen 8900, f}r
+Frankfurt zum Teil 6900, zum Teil noch 6110.
+ZZZZZ = die Teilnehmernummer.  F{ngt meistens mit 4, ab und zu auch
+mit 9 oder 2 an.
+
+F}r  die ausl{ndischen Netze mu~ man {hnlich dem Telefonnetz eine
+Vorwahl eingeben:
+
+Z.B. 2342 = PSS in England
+     2442 = FINNPAK in Finnland
+     6282 = GABOPAC in Gabun
+
+So  stellt  z.B.  2342  75317173 eine NUA  im  englischen  Packet
+Switchstream  System dar (und zwar die von LINX Computers  Ltd.),
+2222  620021  ist die NUA der European Space Agency in  ROM  (via
+ITAPAC),  und  mit  31060111 erreicht man Honeywell  in  den  USA
+}ber's Tymnet.  Die einzelnen Netzkennzuffern stehen u.a.  in der
+"Kurzbedienungsanleitung Datex-P20",  Bestell-Nr. 189 (aber nicht
+bei uns, sondern bei der Post).
+
+Jedoch  ist  allen diesen Auslands-NUAs noch die Zugangsziffer  0
+(Null)   voranzustellen,   d.h.   nicht   234223519191,   sondern
+0234223519191 (Sercnet Help-System) eingeben.
+Dann noch was wichtiges: Um von einem Rechner wieder wegzukommen,
+gibt  es  das Kommando CLEAR oder CLR.  Wenn man  also  an  einem
+Rechner  pappt,  der einen immer wieder nach User-ID und Password
+fragt,    und   einem   nach   SYSTEM/MASTER,    VISITOR/VISITOR,
+GUEST/GUEST,  SERVICE/SERVICE und in Gottes Namen auch JOSHUA nix
+mehr  einf{llt,  gibt  man zuerst Control P ein (damit  geht  das
+n{chste  Kommando nicht an den Rechner,  sondern an den PAD)  und
+dann  CLR.  Beim  Modem-7 sollte man sich tunlichst  die  Printer
+ON/OFF   Umschaltung  von  Control P  auf  was  anderes   umlegen
+(Control E wird selten gebraucht).
+
+Padset oder was geht mit Datex-P 20?
+------------------------------------
+
+Das   bundesdeutsche  Datex-Netz  erlaubt  die   Festlegung   der
+einzelnen Uebertragungsparameter mittels dem Kommando SET.
+Dieses Kommando wird folgendermassen verwendet:
+
+entweder als Einzelkommando set param
+-------------------------------------
+
+Der Parameter 1 gibt an, ob man mittels CTRL-P (DLE), vom Zustand
+Datentransfer in den Zustand Befehlseingabe kommt.
+Steht der Parameter auf 0,  so ist CTRL-P moeglich,  steht er auf
+1, wird CTRL-P unterdr}ckt. Dies ist aber nur dann sinnvoll, wenn
+man z.B. Programme }bertraegt.
+
+F}r  den Echobetrieb ist der Parameter 2 zust{ndig.  Bei 0 werden
+die  Eingaben  vom  Pad geechot,  d.h.  sie  erscheinen  auf  dem
+Bildschirm, bei 1 ist dies nicht der Fall. Wenn man grunds{tzlich
+nicht  raten will,  ob der Host nun ein Echo sendet,  so  ist  es
+ratsam,  den Parameter auf 1 zu setzen und das Terminal auf Bild-
+schirmecho   EIN  einstellen.   Auch  f}r  die  NUI-Eingabe  sehr
+n}tzlich, da die eingebenen Zeichen nicht geechot werden.
+
+Der Parameter 3, gibt das/die Datenweiterleitungszeichen an, nach
+dessen  Empfang  der PAD die angesammelten Daten  als  Datenpaket
+absendet.
+
+Dabei bedeutet:
+
+0        kein Datenweiterleitungszeichen.
+2        Wagenruecklauf <CR>.
+
+126      Alle ASCII-Steuerzeichen.
+
+Wenn  man  will,  da~ die Daten sofort an einen  Host  gehen,  so
+stellt man kein Datenweiterleitungszeichen ein.
+
+Der 4 Parameter,  sagt,  nach welcher Zeit die gesammelten  Daten
+als   Paket   weitergeleitet   werden.   Hierbei  ist   0   keine
+Weiterleitung  der  Daten nach Zeit und 1-255 das  Vielfache  von
+40ms,  nach  deren  Ablauf die gesammelten  Daten  weitergeleitet
+werden.
+Dieser Parameter ist eigentlish our dann sinnvoll, wenn man DATEX
+mit 1200 Baud f{hrt, da man so Hostgeb}hren spart.
+
+Parameter  5  ist fuer das XOFF/XON-Protokoll  zust{ndig.  Bei  0
+sendet  der PAD kein XON/XOFF,  bei 1 schon.  XON/XOFF  ist  dann
+sinnvoll,   wenn   man  gr|~ere  Datenmengen  mit  dar  maximalen
+Geschwindigkeit sendet, da das PAD die volle Uebertragunsrate nie
+erreicht.
+
+Der  6.  Parameter bedient die PAD- Meldungen,  welche bei 1  zum
+Endger{t gesendet und bei 0 unterdr}ckt werden.
+
+Mit   den   Parameter  7  ist  es   m|glich,   das   Break-signal
+(Anhaltesignal)  zu  {ndern,   was  aber  f}r  die  meisten   von
+untergeordneter Rolle ist, da man es bei einer 3-Draht Verbindung
+ohnehin  nicht  ben|tigt.  Die m|glichen Werte,  ohne  auf  deren
+Auswirkung einzugehen, sind:
+
+
+--> 0,1,2,8,21
+
+Der  8.  Parameter bestimmt die Ausgabe zum Datenendger{t.  Bei 0
+werden alle Daten weitergeleitet,  diese aber bei 1  unterdr}ckt.
+Hiermit  kann man bestimmen,  ob man nur Sender oder aber  Sender
+und Empf{nger ist.
+
+Mit  Parameter 9 kann man die Anzahl der F}llzeichen (ASCII  NUL,
+$00) definieren, die nach jeden <CR> gesendet werden.
+
+Parameter 10 bestimmt die Zeilenl{nge. Bei 0 wird die Zeile nicht
+begrenzt, Werte zwischen 1 - 255 geben die L{nge der Zeile an.
+
+Der  11.  Parameter kann nur abgefragt     werden,  er  gibt  die
+]bertragungsgeschwindigkeit an.
+
+0     110   bit/s
+2     300   bit/s
+3    1200   bit/s
+5      75   bit/s
+8     200   bit/s
+11  1200/75 bit/s
+
+Der  PAD  erkennt  aus  dem  Dienstanforderungssignal  .<CR>  die
+verwendete ]ertragungsgeschwindigkeit. Dar}ber hinaus gibt es f}r
+die  wichtigsten  Baudraten 300,  1200 und  1200/75  verschiedene
+Rufnummern der PADs.
+
+Mit  dem  12.  Parameter  kann der Datenfluss vom  PAD  gesteuert
+werden.  Bei 0 kann der Datenfluss nicht beeinflusst werden  (die
+Kiste  sendet  auf  Byte  komm raus),  bei 1  kann  er  }ber  das
+XON/XOFF-Protokoll  gesteuert werden,  was fuer Teletermbenutzer,
+die mitspeichern wollen, sehr nuetzlich ist.
+
+Mit  Parameter  118 kann ein Zeichen definiert  werden,  mit  dem
+bereits eingegebene Zeichen gel|scht werden k|nnen.  (Par 4  muss
+dabei 0 sein).
+0     kein L|schen m|glich.
+1-127 gibt das ASCII-Zeichen an, mit dem gel|scht wird.
+      F}r ASCII-Terminals also 8 (= CTRL-H, Backspace) bzw.
+      127 (= Delete).
+
+Mit  den Parameter 119 kann man hingegen ein Zeichen  definieren,
+mit dem eine ganze Zeile gel|scht wird.
+
+Auch  mit dem Parameter 120 kann man ein Zeichen  definiern,  nur
+da~ man hier die letzte eingebene Zeile zur}ckholt.
+
+Mit  Parameter 121 kann hier nochmal ein zus{tzliches Zeichen zur
+Datenweiterleitung eingegeben werden.
+
+Der Parameter 122 enspricht der Bedeutung von 121.
+
+Parameter 123 ist f}r die Paritaetspr}fung zust{ndig, wobei bei 0
+keine Pr}fung erfolgt,  bei 1 wird die Parit{t gescheckt und  bei
+]bertragungsfehlern  (vorausgesetzt Par 6 ist auf 1 gesetzt) eine
+entsprechende Meldung ausgegeben.
+(Die  verwendete  Parit{t wird aus dem  Anforderungssignal  .<CR>
+abgeleitet)
+
+Der 125. Parameter verz|gert die anstehenden Ausgabe vom PAD wenn
+sich Ein- und Ausgabe kreuzen.
+0  ergibt keine Verzoegerung (bedingt Vollduplex),  1 - 255  gibt
+die Verzoegerungszeit in Sekunden an.
+
+Der 126.  und letzte Parameter ist f}r das Einf}gen von <LF> nach
+<CR> zusaendig, wobei gilt:
+
+0     kein Einf}gen
+
+1     Einf}gen nach <CR> vom Zentralrechner
+4     Einf}gen nach <CR> vom Datenendgeraet
+5     Wie 1 und 4 zusammen (1+4=?)
+
+Die  derzeit  eingestellten Parameter k|nnen mit dem  Befehl  PAR
+<CR> abgefragt werden.  Der PAD gibt dann eine vollst{ndige Liste
+der Parameter mit ihren aktuellen Werten aus.
+
+So und wer nun noch mal bi~chen Trockenkurs betreiben  will,  der
+kann ja 0211-414579 anrufen. Da l{uft ein PAD-Trainer.
+
+
+
+
+
+
+ <<< DATA BASE >>> << USER >>
+
+ Limit 8:19 / Online 6:42
+
+
+<?>-<SYSTEM>-<TYPE>-<LIST (system,type)>-<nr>-<MA>-<SM>--->System: ???, Type: ???
+
+Your Command -->ý96
+
+
+
+      <<< Datex P Nummern Inland - *PFM - 01.06.1986>>>
+      -------------------------------------------------
+
+
+Nummer                         Bez.
+-------------------------------------------------------------------
+44208040381                     dvo Datenservice
+44209040393                     Veba Oel AG
+44211040325                     OKI
+44243340307                     CMES
+44400090330                     Allg. Bank der NL
+44400090342                     BATIG
+44421040304                     Gebr. Specht
+44421090302                     Computerland Bremen
+44615440307                     DECATES (oder 44615440371)
+44621040334                     ABACUS
+44644190335                     Leitz GmbH
+44755290320                     ALNO-Moebel
+44761040306                     ALPHA-Buch-GmbH
+44772190226                     *
+44813690323                     Genesys GmbH
+44890090311                     Agfa
+44890090313                     Max-Plank-Institut
+44890090341                     Uni Muenchen
+45201040116                     AEG-Telefunken
+45204140141                     *
+45210130030 (R)                 3M
+45211040005 (R)                 Cierr 1402
+45211040009                     Primenet CSL
+45211040016                     ADV/Orga Meyer u. Co.
+45211040018                     dto
+45211040026 (R)                 Primenet Due
+45211040036                     ADAC
+45211040123                     Data General
+45211040134                     VAX
+45211040214                     Primenet Epwon
+45211040232                     VAX
+45217540172                     *
+45221040004 (R)                 Prime
+45221040006                     DIMDI
+45221040015                     Kaufhof Koeln
+45221040027                     ADAC
+45221040029                     Primenet G1D1
+45221040030                     Primenet P750
+45221040035 (R)                 Primenet
+45221040104                     DIMDI
+45221040113                     DIMDI
+45221040128                     *
+45221040136                     AEG-Telefunken
+45221040138                     *
+45221040143                     *
+45221040202                     Allianz
+45221040203                     Allianz
+45221090124                     ATM Koeln
+45228040152                     *
+45228040187                     VAX Bonn
+45228040191                     Infas
+45228090020                     Amtsgericht Bonn
+45230640064                     Reinhard Rohrbau
+45231040017 (R)                 Primnet Do
+45231040103                     AEG-Telefunken
+45234040140                     Uni Bochum
+45234040169                     Brockmeier GmbH
+45234040194                     Uni Bochum Cyber 205
+45241040149                     Aachener u. Muenchner Versicherungen
+45241090014                     *
+45259040220                     *
+45293140196                     Handwerksk. Arnsb.
+453000217                       HMI Berlin
+45300021713                     VAX 1
+45300021721                     VAX 2
+45300021714                     *
+45300040013                     Uni Berlin
+45300040014                     GFC AG
+45300040020                     *
+45300040023                     Uni Berlin
+45300040037                     ADAC
+45300040058                     *
+45300040110                     *
+45300040112                     ABC Bank
+45300040129                     *
+45400008001                     MRK JVAX at Desy (HH)
+45400040014                     E. Hahn RZ
+45400040044                     Primenet MUF
+45400040100                     ADV/Orga
+45400040103                     Airbus HH
+45400040109                     *
+45400040177                     MPI
+45400040198                     ARGUS/IPP
+45400040536                     q200 Prime
+45400090047                     AEG-Telefunken
+45400090092                     Data General
+45400090241                     *
+45400090560                     EMBL VAX
+4540009306                      DESY VAX
+45410390161                     Astra Chemicals
+45410600206                     RCA
+45421004108                     RCA
+45421040244                     RCA
+45421040245                     RCA
+45427300128                     Reinhard
+45441040156                     *
+45442140045                     ADV/Orga
+45445340142                     *
+45448840147                     *
+45511040036                     Primenet H
+45511040081                     Airbus
+45511040503                     Primenet H
+45511040510                     VAX 1
+45511040534                     VAX 2
+45511040562                     VAX 3
+45511040538                     Kalichemie
+45515140212                     AEG-Telefunken
+45515140213                     AEG-Telefunken
+45521040007                     Primenet GB
+45521040026                     *
+45521040031                     *
+45521040033                     *
+45521040188                     Uni Bielefeld
+45536190074                     Dataswitch VW
+45536290057                     IVM
+45541040086                     Alli-Frischdienst
+45552190172                     Spadaka Poelde
+45591040094                     Essmann
+45593140095                     Reinhard
+45606140097                     Polydress
+45610290145                     *
+45610640254                     Primenet
+45610690119                     Alpha Metal Craft
+45611030040 (R)                 *
+45611040009                     *
+45611040028                     CMS-X29 Gateway
+45611040037                     *
+45611040074                     Autonet
+45611040106                     *
+45611040009                     GID
+45611040037 (R)                 Control Data
+45611040076                     Autonet 'C ADPNS' U#: 1300-7777 PW: AID (?)
+45611040107 (R)                 CN01
+45611040117                     *
+45611040123                     Aircharter
+45611040240                     Citybank Frankfurt
+45611040245                     EDCS
+45611040250                     Tymnet
+45611040505                     AEG-Telefunken
+45611090001 (R)                 Datema
+45611090126                     AEG-Telefunken
+45612140207                     ADV-Orga
+45613190031                     all. Kreditvers.
+45615140282                     BATIG
+45615140535                     BATIG
+45615190160                     BATIG
+45617290070                     A-Kredit
+45619340082                     Apothekenmarketing
+45619640095                     Data General
+45619640098                     TCP
+45621040000                     Telebox  ID: INF100  PW:TELEBOX
+45621090000                     Telebox  ID: INF100  PW:TELEBOX
+45621040025 (R)                 OEVA
+45621040097                     *
+45621040217                     Primenet
+45624540084                     *
+45634040136                     *
+45667313330,geheim              IMCA   PW:zzzz
+45667330070                     IMCA Mailbox
+45681040010                     Teleprint
+45681040071                     *
+45681040168                     Saarland Vers.
+45690030111                     *
+45690040240                     City Bank
+45690090010                     ATM
+45707190182                     ADW
+45711040035 (R)                 Primenet
+45711040124                     Stahl EDV
+45711040129                     All. Rentenanstalt
+45711040147                     MH
+45711040207                     *
+45711090103                     Data General
+45711090557                     Stahl
+45714190098                     Aigner
+45721040025 (R)                 Badenia
+45721040135                     Frauenhofer
+45724740001                     FIZ
+45724740141                     FIZ
+45724740211                     CAS
+45735140032                     AFD
+45753140051                     ATM
+45753140052                     ATM
+45761040079                     Albert Ludwig Unibibliothek
+45772140071                     Kienzle
+45772140072                     Kienzle
+45772190004                     Kienzle
+45817140120                     *
+45821040021                     Primenet New
+45871040171                     Transfer Data Test
+45871040175                     Transfer Data Test
+45890030021-26                  *
+45890040016                     ADV-Orga
+45890040020                     VAX
+45890040029                     ADAC
+45890040030                     *
+45890040046                     ]ath. Beratung
+45890040054                     *
+45890040065 (R)                 TSO
+45890040207 (R)                 Messerschmitt
+45890040222                     IBM
+45890040230,                    *
+45890040524                     RCA
+45890090014                     AOK
+45890090038                     Adressbuch
+45890090059                     Alldatat
+45890090069                     Iris RZ
+45890090073                     Patentstelle
+45890090167                     AKO
+45890090181                     Alldata
+45890090504                     Data General
+4589009301                      ESO
+45913190190                     Aachener u. Muenchener
+45941040143                     Meyer
+
+
+
+
+
+ <<< DATA BASE >>> << USER >>
+
+ Limit 3:00 / Online 12:01
+
+
+<?>-<SYSTEM>-<TYPE>-<LIST (system,type)>-<nr>-<MA>-<SM>--->System: ???, Type: ???
+
+Your Command -->ý97
+
+
+*PFM
+
+     <<< Datex P Nummern Ausland - *PFM - 01.06.1986>>>
+     --------------------------------------------------
+
+
+-----------------------------------------------------------------------------
+
+ADDRESS                  MNEMONIC              ESTABLISHMENT
+
+-----------------------------------------------------------------------------
+
+> R45890040207           iabg-cyber
+
+> R45211040026           primenet              STADT DUESSELDORF
+
+> R45611040037           cd                    CONTROL DATA LTD.
+
+> R45321040017           tyment                GATEWAY TO TYMENT
+
+> 2062221006             bbda                  BRUSSELS DEC A (BELGIUM)
+
+> 208034020258           cnusc                 CNUSC MONTPELIER
+
+> 20807802016901         inria                 INSTITUTE NUCLEARE RESERCHE
+
+> 08091000309*dcisifmst  cisi                  IBM (TSO)
+
+> 208091000309*dcisifmst cisi1                 IBM (TSO)
+
+> 208091000519*dcisifmst cisi2                 IBM - TSO
+
+> 208091000270*dcisifmst cisi3                 IBM - TSO
+
+> 208091010320           cjrce
+
+> 08091040047            saclay                SACLAY - FRANCE
+
+> 2223077*dquestd5       esa                   ESA
+
+> 2223078*dquestd5       esa2                  ESA
+
+> 2283101*dn             datastar              DATA-STAR, SWITZERLAND
+
+> 22846811405            cern                  CERN
+
+> 2284681140510*dlo      cernlo                CERN 300 BPS
+
+> 284681140510*dme       cernme                CERN 1200 BPS
+
+> 234212300120           dialnet               IGS LEASED LINE TO D.IN US
+
+> 234219200118           adpuk                 ADP NETWORK SERVICES LTD
+
+> 234219200146           cegb                  CEGB, PARK STREET, LONDON
+
+> 34219200190            infoline              PERGAMON - INFOLINE
+
+> 234247302022           mhga                  LDC AT MARTLESHAM
+
+> 234219200203           ipsh                  IP-SHARP
+
+> 234219200222           blaise                BRITISH LIBRARY INFO-SYSTEM
+
+> 34219200300            ucl                   UNIVERSITY  COLLEGE  LONDON
+                                               COMPUTER SCIENCE
+
+> 234219200333           euclid                UNIVERSITY COLLEGE  LONDON
+                                               COMPUTER CENTRE
+
+> 234219201002           poole
+
+> 34219201005            pssmail               PSS TELE-MAIL SERVICE
+
+> 23421920100515         tins                  BT ON LINE TINS
+
+> 23421920100615         pssdoc                PSS DOCUMANTATION SERVICE
+
+> 23421920101013         hostess               HOSTESS SYSTEM (BT)
+
+> 23421920101013         tsta                  HOSTESS SYSTEM (BT)
+
+> 3421920101030          tstb                  BRITISH TELECOM
+
+> 234219511311           gecb                  GEC COMPUTERS LTD. BOREHAMWOOD
+
+> 234219709111           npl1                  NATIONAL PHYSICAL LABORATORY
+
+> 234219709210           npl2                  NATIONAL PHYSICAL LABORATORY
+
+> 234219806160           qmc                   QUEEN MARY COLLEGE LONDON
+
+> 234220641141           essx                  UNIVERSITY OF ESSEX
+
+> 234221222122           midb                  MIDNET GATEWAY AT BIRMINGHAM
+
+> 234221222122           blend                 (BIRMINGHAM/LOUGHBOROUGH)
+
+> 234221222223           birp                  PRIME R & D AT BIRMINGHAM
+
+> 23422223616300         cardf                 UNIVERSITY OF CARDIFF
+
+> 234222236163           cardf                 UNIVERSITY OF CARDIFF
+
+> 34222236236            uwist                 UNIVERSITY OF WALES
+
+> 234222339399           camb                  UNIVERSITY OF CAMBRIDGE
+
+> 234222530303           swurcc                SOUTH WEST UNIVERSITIES
+
+> 234222715151           kent                  UNIVERSITY OF KENT
+
+> 34223440144            bed5                  PRIME R & D AT BEDFORD
+
+> 234223440345           ti                    TEXAS INSTRUMENTS LTD
+
+> 234223519111           aere                  ATOMIC ENERGY  RESEARCH
+                                               ESTABLISHMENTAT HARWELL
+
+> 23422351911198         ada                   ADA UK DATABASE
+
+> 234223519191           serc                  GATEWAY TO SERCNET AT
+                                               RUTHERFORD
+
+> 234227230230           brst                  UNIVERSITY OF BRISTOL (?)
+
+> 23422723033300         aucc                  AVON UNIVERSITIES COMPUTER
+                                               CENTRE
+
+> 34227230333            aucc                  AVON UNIVERSITIES COMPUTER
+                                               CENTRE
+
+> 23423135435422         ercc                  EDINBURGH REGIONAL COMPUTER
+                                               CENTRE
+
+> 234233458158           stan                  UNIVERSITY OF ST. ANDREWS
+
+> 3423923232304          extr                  UNIVERSITY OF EXETER
+
+> 234241260106           scrsx                 STRATHCLYDE 11/40 RSX SYSTEM
+
+> 234241260260           glsg                  UNIVERSITY OF GLASGOW
+
+> 234246240240           icll                  ICL AT LETCHWORTH
+
+> 234251248248           live                  UNIVERSITY OF LIVERPOOL
+
+> 34253265165            leeds                 UNIVERSITY OF LEEDS
+
+> 23425330012406         camtec                CAMTEC, LEICESTER
+
+> 234253300124  

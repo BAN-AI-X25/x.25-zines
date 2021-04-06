@@ -1,0 +1,902 @@
+HILFE *
+
+
+
+
+Befehl: HILFE
+
+
+Gerne!
+
+Sie k|nnen bei der Befehlsaufforderung das Zeichen ? einge-
+ben. Danach wird eine kurze Liste aller g}ltigen Befehle an-
+gezeigt. Wenn Sie ausf}hrlichere Informationen }ber ein ge-
+w}nschtes Kommando haben m|chten brauchen Sie nur HILFE und
+den Namen des Befehls eingeben. Beispiel: HILFE TEILNEHMER
+erl{utert die Funktion TEILNEHMER. Wenn Sie die gesamte Li-
+ste der Hilfe-Texte angezeigt bekommen m|chten, m}ssen Sie
+HILFE *  eingeben. Wenn Sie eine Tabelle aller Befehle sowie
+deren Abk}rzungen bekommen wollen, m}ssen Sie das Zeichen #
+eingeben. Bei jeder Abfrage k|nnen Sie das Zeichen ? einge-
+ben um eine einzeilige Erkl{rung des "Prompts" zu erhalten.
+
+
+Weiter mit CR - 
+
+
+Befehl: HILFE HILFE
+
+
+Mit der Funktion HILFE kann man entweder generelle Informa-
+tion }ber die m|glichen Funktionen bekommen, oder durch Ein-
+gabe von HILFE und den gew}nschten Befehl genauere Informa-
+tion }ber diesen bekommen. Beispiel: HILFE TELEX gibt n{here
+Auskunft }ber das Versenden von Telex-Nachrichten. Um die
+gesamte Liste aller Hilfe-Texte angezeigt zu bekommen m}ssen
+Sie HILFE * eingeben.
+
+
+Befehl: HILFE LESEN
+
+
+Mit LESEN k|nnen Sie den Text einer Nachricht lesen. Sie
+werden vom System aufgefordert, die Nummer der Nachricht
+einzugeben. Dieses ist die Nachrichtennummer die vorher mit
+INHALT oder BRETT angezeigt wurde. Beim Nachlesen k|nnen Sie
+folgende Parameter angeben:
+
+
+Weiter mit CR - 
+
+L ........ alle eingetroffenen, ungelesenen ("EU") Nachri-
+           chten lesen
+L * ...... alle "EU" Nachrichten lesen,  ohne zwischen den
+           einzelnen Nachrichten nach  "Antworten, Drucken
+           oder Weiterleiten?" zu fragen.
+L x PC ... Nachricht Nummer x lesen ohne zwischen den ein-
+           zelnen  Seiten  die  Kopfinformation zu wieder-
+           holen.
+L x A4 ... Nachricht  Nummer x lesen. Am Ende von jeder A4
+           Seite wartet das System auf  CR  damit Sie Zeit
+           haben, die einzelnen DIN A4 Seiten abzureissen.
+
+Nach dem Lesen der Nachricht werden Sie gefragt, ob Sie die
+Nachricht beantworten ("ANT") wollen, sie in die Wiedervor-
+lage legen wollen ("WI"), sie l|schen wollen ("L\") oder sie
+an jemanden weiterleiten ("WE") wollen. Beim Antworten sowie
+beim Weiterleiten k|nnen Sie die Anfangsbuchstaben, gefolgt
+von einer Leerstelle, und dann alle Parameter, die Sie auch
+beim Senden spezifizieren k|nnen, eingeben. Beispiel: A CC
+B.MAILER w}rde die Antwort an den Sender der Nachricht ab-
+schicken, und gleichzeitig eine Kopie Ihrer Antwort an den
+Teilnehmer B.MAILER senden. 
+
+Weiter mit CR - 
+
+
+Fernerhin k|nnen Sie nach dem Lesen einer Nachricht sie er-
+neut anzeigen lassen indem Sie bei der Abfrage am Ende der
+Nachricht mit LESEN antworten.
+
+
+Befehl: HILFE SENDEN
+
+
+Mit SENDEN k|nnen Sie eine Nachricht in das System eingeben.
+Das System fordert Sie auf, die Namen der Empf{nger der
+Nachricht einzugeben. Diese Namen d}rfen entweder einen den
+Namen sein, der mit der Funktion TEILNEHMER angezeigt wer-
+den, der Name eines der "Schwarzen Bretter", oder der Name
+eines Verteilers. Danach fragt das System, an wen Kopien
+dieser Nachricht gesandt werden sollen. Auch hier d}rfen es
+einzelne Teilnehmer, Bretter oder Verteiler sein. Zus{tzlich
+zu Namen k|nnen Sie beim Senden folgende Angaben machen:
+
+
+Weiter mit CR - 
+
+TT.MM.JJ .. Nachricht wird  erst zu dem genannten Datum ab-
+            abgeschickt
+CC ........ Alle restlichen  Namen  in der Zeile sollen nur
+            "carbon copies" der Nachricht erhalten
+(EB) ...... Beim  Lesen der Nachricht soll Ihnen eine Empf-
+            angsbest{tigung geschickt werden ("reciept con-
+            firmation")
+(PR) ...... Nachricht soll als  "Privat" versendet  werden,
+            d.H. der Empf{nger mu~  vor dem Lesen der Nach-
+            richt sein "PR-Kennwort" eingeben.
+/ ......... Der restliche Text auf dieser Zeile (hinter dem
+            /) ist als Betreffzeile zu interpretieren.
+
+Daraufhin werden Sie aufgefordert, den Text der Betreffspal-
+te einzugeben. Diese Spalte darf 50 Zeichen haben, und wird
+zusammen mit der restlichen "Umschlag-Information" bei IN-
+HALT oder LESEN angezeigt.
+
+
+Weiter mit CR - 
+
+Nun k|nnen Sie den tats{chlichen Text eingeben. Dieser kann
+beliebig lang sein. Am Ende des Texts mu~ dem System gesagt
+werden, da~ Sie mit der Eingabe fertig sind. Dieses ge-
+schieht, indem Sie auf einer seperaten Zeile NNNN oder nur
+das Zeichen . (Punkt) eingeben. Wenn Sie w{hrend der Text-
+eingabe beschlie~en, die Nachricht doch nicht zu versenden
+brauchen Sie nur die BREAK-Taste zu dr}cken.
+
+W{hrend der Text-Eingabe k|nnen Sie die folgenden Unter-Be-
+fehle eingeben um die "Umschlag-Information" der Nachricht
+zu ver{ndern:
+
+.ENDE .............. Versand abbrechen
+.SENDEN ............ Nachricht absenden
+.ANZEIGEN .......... Versand-Information anzeigen
+.AN Name Name ...... Neu-Eingabe der Empf{ngerliste
+.CC Name Name ...... Neu-Eingabe der Kopien-Empf{nger
+.BETREFF xxxx ...... Neue Betreffspalte definieren
+.DATUM tt-mm-yy .... Definition des Versand-Datums
+.EB ................ Empfangsbest{tigung anfordern
+.EB NEIN ........... Empfangsbest{tigung zur}cknehmen
+.PR ................ Nachricht als "privat" definieren
+
+Weiter mit CR - 
+
+.PR NEIN ........... Nachricht nicht als "privat" versenden
+.PC ................ Interpretation der "Punkt-Befehle"
+                     abschalten
+
+Nach der Text-Eingabe werden die Nachrichten verschickt.
+Nachdem die Nachricht verteilt wurde fragt das System, was
+Sie weiter mit dieser Nachricht machen wollen. Sie k|nnen
+ARchivieren (Kopie dieser Nachricht im eigenen Briefkasten
+mit dem Status AU ablegen) oder WEiterleiten (Nachricht an
+andere mit Kommentaren weiterleiten).
+
+
+Befehl: HILFE LOESCHEN
+
+
+L\SCHEN erlaubt das L|schen von gespeicherten Nachrichten.
+Je nachdem, ob Sie die Funktion BRETT oder INHALT zuletzt
+ausgef}hrt haben, wird die Nachricht, deren Nummer Sie ein-
+gegeben haben, im Schwarzen Brett oder in Ihren Briefkasten
+gel|scht. Wenn Sie die Nachricht noch nicht gelesen haben,
+so macht Sie das System darauf aufmerksam. Ist die Nachricht
+im Schwarzen Brett, so besteht das System darauf, da~ nur
+
+Weiter mit CR - 
+
+der Absender der Nachricht diese auch l|schen kann. Wenn Sie
+eine Bereinigung Ihres Briefkastens durchf}hren wollen, k|n-
+nen Sie auch eine Reihe von Nachrichten spezifizieren, z.B.
+L\SCHEN 5 - 18 . Beachten Sie, da~ die zweite Zahl gr|~er
+als die erste sein mu~, und da~ zwischen allen Parametern
+eine Leerstelle sein mu~.
+
+Hinweis: eine Nachricht wird erst vollst{ndig gel|scht wenn
+Sie ENDE eintasten. Bis dahin ist die Nachricht mit dem Sta-
+tus "L" in Ihrem Inhaltsverzeichnis. Sie k|nnen mit dem LE-
+SEN dieser Nachricht den Status von "L" in "EG" umwandeln
+und damit die L|schung r}ckg{ngig machen.
+
+
+Befehl: HILFE TEILNEHMER
+
+
+Mit TEILNEHMER bekommen Sie eine Liste der Kurznamen aller
+f}r Sie erreichbaren Benutzer dieses Systems angezeigt.
+
+
+Weiter mit CR - 
+
+
+Befehl: HILFE ZAEHLER
+
+
+Die Funktion ZAEHLER gibt Auskunft }ber den momentanen Stand
+der Z{hler f}r dieses Teilnehmerkonto. Unter Anderem werden
+Anzahl der Anrufe, Anzahl der Nachrichten und Verbindungs-
+zeit seit der letzten Abrechnung angezeigt.
+
+
+Befehl: HILFE INHALT
+
+
+Mit INHALT k|nnen Sie das Inhaltsverzeichnis aller Nachrich-
+ten in Ihrem Postfach auflisten lassen. Es werden die Nach-
+richten-Nummer, Status, Absender, Datum, Betreffspalte und
+Anzahl der Zeilen der Nachricht angezeigt. Folgende Abk}r-
+zungen werden in der zweiten Spalte angezeigt:
+
+
+Weiter mit CR - 
+
+       EU = Eingetroffene, ungelesene Nachricht
+       EG = Eingetroffene, gelesene Nachricht
+       AU = Archivierte, von Empf{nger ungelesene Nachricht
+       AG = Archivierte, vom Empf{nger gelesene Nachricht
+       AR = Archivierte, r}ckg{ngig gemachte Nachricht
+       L  = Zum L|schen vorgemerkte Nachricht
+       WI = auf Wiedervorlage gelegt Nachricht
+       ZZ = Nachricht wurde mit zeitverz|gertere
+            Auslieferung versandt
+
+Zum Selektieren gelten folgende Parameter:
+
+INHALT ....... Alle eingetroffenen, ungelesenen Nachrichten
+INHALT EG .... Alle eingetroffenen, gelesenen Nachrichten
+INHALT AU .... Alle archivierten, ungelesenen Nachrichten 
+INHALT AG .... Alle archivierten, gelesenen Nachrichten 
+INHALT AR .... Alle archivierten, r}ckg{ngig gemachten
+               Nachrichten
+INHALT L ..... Alle zum L|schen vorgemerkten Nachrichten
+INHALT WI .... Alle auf Wiedervorlage gelegten Nachrichten
+INHALT * ..... Alle Nachrichten anzeigen (gesamtes Inhalts-
+               verzeichnis)
+
+Weiter mit CR - 
+
+INHALT xxx ... Alle Nachrichten von Absender xxx anzeigen
+INHALT /xxx .. Alle Nachrichten mit Betreffspalte xxx
+               anzeigen
+INHALT HEUTE . Alle heutigen Nachrichten anzeigen
+INHALT 3.5.84  Alle Nachrichten anzeigen, die an oder nach
+               dem 3. Mai 1984 abgesandt wurden
+
+
+Befehl: HILFE BRETT
+
+
+BRETT gestattet das Selektieren eines "Schwarzen Bretts" an-
+stelle des eigenen Briefkastens. Nachdem das gew}nschte
+Brett selektiert ist k|nnen Sie die normalen Befehle INHALT,
+LESEN etc. eingeben um Nachrichten in diesem Brett zu lesen.
+
+Es gelten folgende Varianten f}r den Befehl:
+
+
+Weiter mit CR - 
+
+BRETT ............. Alle "Bretter" anzeigen in denen seit
+                    dem letzten Lesen eine Nachricht
+                    eingetragen wurde.
+BRETT * ........... Die Namen aller "Bretter" anzeigen.
+BRETT xxxxx ....... Das Brett mit Namen "xxxxxx" f}r
+                    sp{teres Lesen selektieren.
+BRETT TT.MM.JJ .... Liste aller "Bretter" anzeigen, in
+                    denen nach dem mit TT.JJ.MM spezifi-
+                    ziertem Datum ein Eintrag erfolgte
+
+Beispiel:  Sie haben mit dem Befehl BRETT gesehen da~ im
+           Brett NACHRICHTEN  eine neue Nachricht einge-
+           tragen wurde. Mit BRETT NACHRICHTEN wird dieses
+           Brett f}r sp{teres Lesen selektiert. Zur Best{-
+           tigung wird anstelle "Befehl:" nun die Auffor-
+           derung "(NACHRICHTEN) Befehl:" angezeigt. Nun
+           k|nnen Sie mit INHALT und sp{teren LESEN diese
+           neuen Nachrichten einsehen.
+
+
+Weiter mit CR - 
+
+Einige der "Bretter" k|nnen mit Schreib- oder Lese-Kennw|r-
+tern gesch}tzt sein. Bei Schreibschutz wird ein "#" nach dem
+Brett-Namen angezeigt. Bei Leseschutz wird ein "*" nach dem
+Brett-Namen angezeigt.
+
+Durch Eingabe des Befehls MAILBOX gelangen Sie wieder zu Ih-
+rem eigenen Briefkasten zur}ck.
+
+
+Befehl: HILFE ENDE
+
+
+Mit der Funktion ENDE k|nnen Sie die Arbeit mit dem System
+beenden. Hierbei bekommen Sie eine Meldung wie lange Sie
+"on-line" waren. Danach wird die Telefonverbindung unterbro-
+chen. Es st|rt nicht, wenn Sie die Verbindung durch einfa-
+ches Auflegen des Telefons beenden - h|flicher ist jedoch
+der Abgang mit ENDE. Wenn Sie nur die Abfrage des momentanen
+Briefkastens beenden wollen, ohne die Netzwerkverbindung ab-
+zubrechen, m}ssen Sie ENDE N eingeben. Daraufhin werden Sie
+erneut nach "Name?" gefragt. 
+
+
+Weiter mit CR - 
+
+Nachrichten die Sie zum L|schen vorgemerkt haben werden erst
+vollst{ndig gel|scht nachdem Sie ENDE eingegeben haben. Vor-
+her kann die Nachricht durch NACHLESEN wieder "ungel|scht"
+werden.
+
+
+Befehl: HILFE RUECKNAHME
+
+
+Mit R]CKNAHME k|nnen Sie eine fr}her gesandte Nachricht an
+einen anderen Teilnehmer r}ckg{ngig machen. Voraussetzung
+ist, da~ die Nachricht noch nicht vom Empf{nger gelesen wor-
+den ist. Es werden alle ungelesenen Nachrichten die Sie die-
+sem Teilnehmer geschickt hatten (auch solche, die zu einem
+sp{teren Zeitpunkt ausgelierfert werden sollen) zur Auswahl
+angeboten, und Sie bestimmen dann anhand der Inhaltsvezeich-
+nisnummer, welche sie storniert werden soll.
+
+
+Weiter mit CR - 
+
+Der Befehl R]CKNAHME kann auch verwendet werden um eine
+Nachricht im eigenen Briefkasten, die auf Wiedervorlage
+liegt, zur}ck in eine "normale" Nachricht umzuwandeln.
+
+
+Befehl: HILFE KENNWORT
+
+
+Die Funktion KENNWORT erlaubt das [ndern des pers|nlichen
+Kennwortes falls vermutet wird, da~ dieses nicht mehr geheim
+ist. Fernerhin kann das ZCZC- sowie das "private" Kennwort
+ge{ndert werden.
+
+Wenn KENNWORT ohne Parameter eingetastet wird, werden Sie
+zun{chst nach dem alten Pa~wort gefragt. Danach werden Sie
+zweimal nach dem neuen Kennwort gefragt. Erst dann wird das
+ge{nderte Pa~wort eingetragen.
+
+
+Weiter mit CR - 
+
+Wenn Sie KENNWORT ZCZC eingeben k|nnen Sie das ZCZC-Kennwort
+f}r Ihr Konto {ndern. Sie werden zweimal aufgefordert das
+neue Passwort einzugeben. Durch Eingabe von KENNWORT ZCZC
+L\SCHEN wird dieses gel|scht.
+
+Durch Eingabe von KENNWORT PR wird das "private" Kennwort
+ge{ndert. Wie beim normalen Kennwort m}ssen Sie zuerst das
+alte Kennwort eingeben, danach zweimal des gew}nschte neue
+Passwort.
+
+
+Bitte beachten Sie da~ die Kennw|rter nicht l{nger als 10
+Zeichen sein d}rfen. Aus Sicherheitsgr}nden wird eine Mini-
+mal-L{nge von 5 Zeichen empfohlen. Verwenden Sie auf KEINEM
+Fall Kennw|rter wie ABC, AAA, den Nachnamen, den Namen der
+Ehefrau, das Geburtsdatum etc.
+
+
+
+Weiter mit CR - 
+
+
+Weiter mit CR -
+
+
+Die Funktion GEBRAUCHSANWEISUNG erlaubt das Ausdrucken des
+letzten Standes des Benutzerhandbuchs f}r dieses System.
+Achtung: bei 300 Baud betr{gt die ]bertragungszeit etwa 40
+Minuten. Der Text wird formatiert auf 72 Zeilen pro Seite
+und 80 Zeichen pro Zeilen. Sie k|nnen auch einzelne Seiten
+der Gebrauchsanweisung anzeigen lassen. Beispiel: GEBRAUCH
+27 w}rde die Gebrauchsanweisung ab Seite 27 anzeigen.
+ 
+Durch Eingabe von HILFE * k|nnen Sie die gesamte Liste der
+gespeicherten Hilfe-Texte angezeigt bekommen.
+
+
+Befehl: HILFE UMLAUT
+
+
+
+Weiter mit CR - 
+
+Der Umlaut-Simulator wurde eingebaut, um auch Terminals mit
+dem US-ASCII Zeichensatz den Zugriff zum System zu erleich-
+tern. Haben Sie ein Terminal das keine Umlaute darstellen
+kann, so k|nnen Sie mit UMLAUT EIN diesen Simulator einstel-
+len. Danach werden alle Umlaute umgewandelt. Der Simulator
+l{~t sich austellen, indem Sie UMLAUT AUS eintasten. Sie
+k|nnen den Simulator permanent ein- bzw. ausstellen, indem
+Sie UMLAUT EIN * bzw. UMLAUT AUS * eingeben.
+
+
+Befehl: HILFE VERTEILER
+
+
+Mit dem Kommando VERTEILER kann man entweder die Liste aller
+Verteiler angezeigt bekommen, oder die Mitglieder eines ein-
+zelnen Verteilers. Wird VERTEILER ohne Parameter angegeben,
+so bekommt man die Liste der Namen aller Verteiler. Dann
+kann man VERTEILER NAME eingeben, wobei NAME der Name eines
+Verteilers ist. Dadurch wird der Inhalt dieser Veteilerliste
+angezeigt. Beispiel: VERTEILER VERTRIEB zeigt Ihnen die Li-
+ste der Teilnehmer in diesem Verteiler an. Das Ansprechen
+eines Verteilers geschieht beim SENDEN einer Nachricht, in-
+
+Weiter mit CR - 
+
+dem man anstelle des Adressaten den Namen des Verteilers
+eingibt. Beispiel: SENDEN VERTRIEB schickt diese Nachricht
+an alle Teilnehmer im Verteiler VERTRIEB.
+
+
+Befehl: HILFE ONLINE
+
+
+Mit dem Kommando ONLINE kann man sich die Namen aller gegen-
+w{rtigen Anrufer anzeigen lassen. Dieses sind Teilnehmer,
+die zur selben Zeit wie Sie im System sind. Es werden Port,
+Name, Anrufdauer und der momentan benutzte Befehl angezeigt.
+
+
+Befehl: HILFE SPRACHE
+
+
+Mit dem Kommando SPRACHE k|nnen Sie die System-"Umgangsspra-
+che" auf eine andere Landessprache umstellen. Nach Eingabe
+des Kommandos wird das System Sie nach dem L{nderkennzeichen
+der neuen Sprache "fragen". Momentan sind folgende Sprachen
+definiert:
+
+Weiter mit CR - 
+
+
+     D  ... Deutsch
+     F  ... Franz|sisch
+     GB ... Englisch
+     FB ... Bayerisch 
+     NL ... Holl{ndisch
+
+Um den Dialog permanent auf eine andere Sprache umzustellen
+m}ssen Sie nach dem L{nderkennzeichen ein "*" eingeben. Bei-
+spiel: SPRACHE GB *
+
+
+Befehl: HILFE BETREFF
+
+
+Mit dem Kommando BETREFF k|nnen Sie die Betreffspalte einer
+in Ihrem Briefkasten oder im Schwarzen Brett befindlichen
+Nachricht modifizieren. Wenn die Nachricht im Brett ist kann
+nur der Absender die Betreffspalte {ndern. Sie werden nach
+Eingabe des Kommandos aufgefordert, die Fach-Nummer der
+Nachricht einzugeben. Zur Best{tigung wird die alte Betreff-
+spalte noch einmal angezeigt. Danach k|nnen Sie die neue Be-
+
+Weiter mit CR - 
+
+treffspalte eintasten.
+
+
+Befehl: HILFE TEXT
+
+
+Mit dem Befehl TEXT k|nnen Sie einen einzeiligen Text auf
+den Terminal eines anderen Teilnehmers senden. Voraussetzung
+ist, da~ dieser zur selben Zeit wie Sie "online" ist.  Der
+Syntax lautet: TEXT NAME NACHRICHTENTEXT Wobei NAME der
+Teilnehmername des Empf{ngers ist und der Parameter NACH-
+RICHTENTEXT der tats{chliche Text ist. Dieser darf nicht
+l{nger als 200 Zeichen sein. Beispiel: Sie sind unter dem
+Namen SCHMIDT im System und wollen an den Teilnehmer MAIER
+einen "Einzeiler" }bertragen. Sie tasten ein: 
+
+TEXT MAIER ICH HABE EINE WICHTIGE NACHRICHT FUER SIE
+
+
+Weiter mit CR - 
+
+Danach erscheint auf dem Terminal des Teilnehmers Maier:
+
+*** SCHMIDT - ICH HABE EINE WICHTIGE NACHRICHT FUER SIE
+
+Wenn der Empf{nger einer TEXT-Nachricht zur Zeit ein Komman-
+do ausf}hrt wird der Text solange zwischengespeichert bis
+der Empf{nger wieder zur Befehlsaufforderung zur}ckgekehrt
+ist.
+
+
+Befehl: HILFE ANSCHRIFT
+
+
+Mit dem Befehl ANSCHRIFT k|nnen Sie entweder die Anschrift
+eines anderen Teilnehmers anzeigen lassen (sofern dieser es
+gestattet hat), oder definieren ob f}r Ihr Teilnehmerkonto
+die Anschrift angezeigt werden soll.
+
+
+Weiter mit CR - 
+
+ANSCHRIFT G.MAILER   zeigt (falls vorhanden) die Anschrift
+                     des Teilnehmers G.MAILER an.
+
+ANSCHRIFT JA         setzt ein Erkennungszeichen da~ Ihre
+                     Anschrift anderen Teilnehmern ange-
+                     zeigt werden darf.
+
+ANSCHRIFT NEIN       Stellt das Anzeigen Ihrer Anschrift
+                     aus.
+
+
+Befehl: HILFE ANSAGE
+
+
+Der Befehl ANSAGE gestattet es Ihnen, einen einzeiligen An-
+sagetext zu definieren. Dieser Text wird Jedem angezeigt,
+der Ihnen eine Nachricht SENDEN will. Er kann trotzdem die
+Nachricht senden. Wenn Sie ANSAGE ohne Parameter eingeben
+wird Ihnen der eventuell vorhandene Ansagetext angezeigt.
+Wenn Sie ANSAGE L\SCHEN eingeben wird der von Ihnen defi-
+nierte Ansagetext gel|scht. Um den Ansagetext zu definieren
+tasten Sie nur ANSAGE und den tats{chlichen Text ein. Dieser
+
+Weiter mit CR - 
+
+Text kann bis zu 80 Stellen lang sein. Beispiel: ANSAGE BIN
+BIS 30.6. IM URLAUB. NACHRICHTEN AN M]LLER WEITERLEITEN 
+
+Um zu kontrollieren ob f}r einen bestimmten Teilnehmer ein
+Ansagetext definiert ist k|nnen Sie z.B. ANSAGE G.MAILER
+eingeben.
+
+
+Befehl: HILFE WIEDERVORLAGE
+
+
+Mit dem Kommando WIEDERVORLAGE k|nnen Sie eine Nachricht zu
+einem bestimmten Datum als "EU"-Nachricht wieder in Ihrem
+Postfach "erscheinen" lassen. Sie geben an, welche Nachricht
+zur Wiedervorlage gelegt werden soll. Danach werden Sie nach
+dem Datum gefragt, wann diese Nachricht wieder ins Postfach
+gelegt werden soll. 
+
+
+Weiter mit CR - 
+
+
+Befehl: HILFE DATENBANK
+
+
+Mit dem Kommando DATENBANK kann die Zentrale Sie zu jeder
+beliebigen externen Datenbank in der Welt durchschalten.
+
+Wird das Kommando ohne Parameter gegeben, so bekommen Sie in
+Tabellenform eine Liste aller definierten Datenbanken ange-
+zeigt. Ein "*" in der ersten Spalte deutet an da~ f}r diese
+Datenbank weitere, kunden-eigene, Kennw|rter notwendig sind.
+In der n{chsten Spalte wird der Kurzname benannt, der zum
+Aufruf dieser Datenbank eingetastet werden mu~. Die mittle-
+ren drei Spalten geben die Geb}hren f}r diese Datenbank an:
+Geb}hr pro Zugriff, Geb}hr pro Minute und Geb}hr pro }ber-
+tragenes Segment. In der letzten Spalte finden Sie eine
+Kurzbeschreibung, welche Informationen die Datenbank bereit-
+stellt.
+
+
+Weiter mit CR - 
+
+Um zu einer bestimmten Datenbank durchgeschaltet zu werden,
+brauchen Sie nur DATENBANK BANKNAME eingeben, wobei der Pa-
+rameter BANKNAME der Kurzname der gew}nschten Datenbank ist.
+Beispiel: Mit dem Befehl DATENBANK OAG werden Sie zu der in-
+ternationalen Flugplanauskunft des Official Airline Guide
+durchgeschaltet. Um eine Lokale Verbindungsausl|sung einzu-
+leiten m}ssen Sie auf einer separaten Zeile CLR eintasten.  
+
+
+Befehl: HILFE TELEX
+
+
+Mit dem Befehl TELEX k|nnen Sie von Ihrem Endger{t aus Te-
+lex-Nachrichten aufgeben.
+
+Sie bekommen eine Zeile angezeigt, von der Sie einen der
+folgenden Befehle w{hlen k|nnen:
+
+
+Weiter mit CR - 
+
+  SENDEN ....... Telex-Nachricht versenden
+  STATUS ....... Momentanen Status der Versandauftr{ge
+                 abfragen und bearbeiten
+  LOGBUCH ...... Logbuch aller eingetroffenen und
+                 abgesetzten Telex-Nachrichten anzeigen 
+  VERZEICHNIS .. Verzeichnis der Kurznummern abfragen
+  GEB]HREN ..... Auskunft der Telex-Geb}hren ins Ausland 
+                 (Nach Netzkennzahl oder Land)
+
+Beim Senden werden sie aufgefordert, die Nummer der Nach-
+richt in Ihrem Briefkasten anzugeben, die als Telex versen-
+det werden soll. Wenn Sie als Nachrichtennummer "0" eingeben
+k|nnen Sie den Text des Telex direkt eingeben. Zur Sicher-
+heit wird der Text als "AU" Nachricht in Ihrem Briefkasten
+abgespeichert. Hiernach k|nnen Sie Versand-Zeit und -Datum
+definieren. Soll das Telex sofort versendet werden m}ssen
+Sie "0" als Versandzeit eingeben. Wenn das Telex am selben
+Tag nach 18 Uhr versendet werden soll m}ssen Sie "1" als
+Versandzeit eingeben. Daraufhin m}ssen Sie die Telex-Nummer
+und -Kennung des Empf{ngers eingeben. Ist die Kennung nicht
+bekannt, m}ssen Sie die Zeichen "??" eingeben. Bitte beach-
+ten Sie, da~ bei internationalen Telex-Nachrichten eine "0"
+
+Weiter mit CR - 
+
+und die internationale Netzkennzahl mit angegeben werden
+m}ssen. Beispiel: Ein Telex nach Frankreich mu~ "042" und
+dann die Telex Nummer des Empf{ngers haben.
+
+Die Zentrale speichert mnemotechnische Kurznamen f}r die am
+h{ufigsten benutzten Telex-Nummern. Diese k|nnen Sie mit dem
+Kurznamen ansprechen. Mit dem Befehl VERZEICHNIS k|nnen Sie
+das Telex-Verzeichnis bearbeiten. Wenn Sie Telex-Nummern in
+das Telex-Verzeichnis eingetragen bekommen m|chten, m}ssen
+Sie SENDEN bei der VERZEICHNIS Befehls-Zeile eingeben. Dar-
+aufhin werden Sie um Eingabe der Information gebeten. Sie
+m}ssen den Kurznamen, eine kurze Text-Bezeichnung, die Te-
+lex-Nummer und die Telex-Kennung eingeben. Um einen Eintrag
+im Verzeichnis zu l|schen m}ssen Sie L\SCHEN eingeben.
+
+Wenn Sie das Telex-Verzeichnis abfragen m|chten k|nnen Sie
+wahlweise den Kurznamen oder die Kurzbezeichnung eingeben.
+Um nach der Kurzbezeichnung zu suchen m}ssen Sie das Zeichen
+/ am Anfang der Bezeichnung eingeben. Beispiel: /MIKROCOMPU-
+TER
+
+
+Weiter mit CR - 
+
+Wenn Sie eintreffende Telexe automatisch in Ihr Postfach ab-
+gelegt bekommen m|chten, m}ssen Sie dem Sender mitteilen,
+da~ innerhalb des Texts der Text "mailbox: " und Ihr Benut-
+zername erscheinen mu~. Beispiel: mailbox: g.mueller
+
+
+Befehl: HILFE PUBLIC
+
+
+Mit dem Kommando PUBLIC k|nnen Sie wahlweise den f}r Sie ge-
+speicherten "Public Key" {ndern, oder den "Public Key" eines
+anderen Teilnehmers anzeigen lassen. Wenn Sie PUBLIC gefolgt
+von einem Teilnehmernamen eintasten (z.B. PUBLIC H.MUELLER)
+wird der f}r diesen Teilnehmer gespeicherte "Public Key" an-
+gezeigt. Wenn Sie nur PUBLIC eintasten bekommen Sie Gelegen-
+heit, einen neuen "Key" f}r sich selber zu definieren. Zur
+Sicherheit mu~ der "Key" zweimal eingegeben werden. Der
+"Key" darf bis zu 254 Zeichen lang sein und wird von anderen
+Teilnehmern verwendet um Nachrichten an Sie zu verschl}s-
+seln.
+
+
+Weiter mit CR - 
+
+
+Befehl: HILFE DIALOG
+
+
+Mit dem Kommando DIALOG k|nnen Sie den Dialog mit einem an-
+deren Teilnehmer, der zur selben Zeit wie Sie "online" ist,
+aufnehmen. Angenommen, Sie sind unter dem Namen H.SCHMIDT im
+System, und mit ONLINE haben Sie gesehen, da~ G.MAILER sich
+auch gerade eingew{hlt hat. Was mu~ man tun, um den Dialog
+aufzunehmen? Sie tasten dazu DIALOG G.MAILER ein. Auf dem
+Bildschirm des Empf{ngers erscheint die Meldung: "*** DIA-
+LOG-Anforderung von H.SCHMIDT ***". Damit G.MAILER jetzt
+antworten kann, mu~ er DIALOG H.SCHMIDT eingeben. Somit sind
+die beiden Teilnehmer verbunden. Alle Zeilen, die an Ihrem
+Terminal eingegeben werden, werden zum Bildschirm des ande-
+ren Teilnehmers }bertragen. Wenn einer der beiden Teilnehmer
+den Dialog beenden m|chte tastet er nur "." oder "NNNN" auf
+einer separaten Zeile ein. Daraufhin kehren beide mit dem
+Vermerk "*** DIALOG beendet ***" zur Befehlseingabe zur}ck.
+
+
+Weiter mit CR - 
+
+Noch ein Hinweis zu den DIALOG Konventionen: wenn Sie Text
+eingeben sollten Sie nicht Zeilen- sondern Absatz-Orientiert
+arbeiten: jede Zeile beenden Sie mit RETURN. Wenn Sie weiter
+schreiben m|chten, geben Sie einfach die n{chste Zeile ein.
+Um dem Partner anzudeuten, da~ Sie mit Ihrem Text fertig
+sind geben Sie am Ende der letzen Zeile die Zeichen +? ein.
+
+Die folgenden Parameter beim DIALOG-Aufruf eingeben:
+
+        PC ...... Echo an Ihrem Terminal unterdr}cken
+        LC ...... Keine Umwandlung von Klein- in Gro~-
+                  buchstaben beim ]bertragen zum anderen
+                  Terminal
+        xx ...... Ein numerischer Wert definiert den Wert
+                  des PAD Zeitausl|sungs-Parameters (4).
+                  Standard-Einstellung ist 20. Durch Ein-
+                  gabe von "0" wird nur nach Eingabe von
+                  RETURN an den anderen Terminal }ber-
+                  tragen.
+
+
+Weiter mit CR - 
+
+
+Befehl: HILFE VERZEICHNIS
+
+
+Mit dem Befehl VERZEICHNIS k|nnen Sie entweder die Verzeich-
+nis-Eintr{ge anderer Teilnehmer abfragen oder den f}r Sie
+gespeicherten Eintrag bearbeiten.
+
+Durch Eingabe von VERZEICHNIS gefolgt von einem Suchbegriff
+werden die Verzeichnis-Eintr{ge aller Teilnehmer angezeigt,
+deren Namen mit den im Suchbegriff genannten Anfangsbuchst-
+aben beginnen. Beispiel: VERZEICHNIS MAI zeigt alle Namen an
+die mit MAI beginnen.
+
+Wenn als erstes Zeichen des Suchbegriffs ein "/" steht wird
+nicht das Namensfeld sondern werden die 4 "Impressumszeilen"
+nach dem spezifiziertem Suchberiff durchsucht. Beispiel:
+VERZEICHNIS /PERSONAL COMPUTER w}rde alle Teilnehmernamen
+anzeigen die den Begriff "Personal Computer" irgendwo im Im-
+pressum eingetragen haben.
+
+
+Weiter mit CR - 
+
+Hinweis: die Eintr{ge in diesem Verzeichnis geschehen auf
+einer rein freiwilligen Basis vom Teilnehmer selber. Die Sy-
+stemverwaltung kann keine Verantwortung f}r die Richtigkeit
+oder Sachdienlichkeit der hier gespeicherten Angaben }ber-
+nehmen.
+
+Durch Eingabe von VERZEICHNIS SENDEN k|nnen Sie bis zu vier
+64-stellige Zeilen als "Impressum" angeben. Diese Zeilen
+k|nnen frei beschriftet sein. Durch Eingabe von VERZEICHNIS
+L\SCHEN k|nnen Sie den f}r Sie gespeicherten Eintrag entfer-
+nen.
+
+
+Befehl: HILFE ANTWORTEN
+
+
+Mit dem Befehl ANTWORTEN k|nnen Sie nach dem Lesen einer
+Nachricht sofort darauf antworten. Da das System noch
+"wei~", wer der Absender war, k|nnen Sie sofort mit der
+Text-Eingabe beginnen, ohne Empf{nger und Betreffspalte zu
+definieren. Optional k|nnen Sie beim Antworten alle Parame-
+ter eingeben, die auch beim SENDEN gestattet sind. Beispiel:
+
+Weiter mit CR - 
+
+ANTWORTEN G.MAILER CC D.MAIER w}rde die Antwort an den Ab-
+sender und G.MAILER senden, mit einer Kopie an D.MAIER.
+
+Genau wie beim Senden m}ssen Sie dem System das Ende der
+Text-Eingabe mit NNNN auf einer separaten Zeile mitteilen.
+
+
+Befehl: HILFE WEITERLEITEN
+
+
+Mit dem Befehl WEITERLEITEN k|nnen Sie nach dem Lesen einer
+Nachricht diese an weitere Empf{nger schicken. Sie haben die
+M|glichkeit, dieser Nachricht Kommentare anzuf}gen. [hnlich
+wie beim ANTWORTEN k|nnen Sie alle Parameter, die auch beim
+SENDEN erlaubt sind, hinzuf}gen. Beispiel: WEITERLEITEN
+H.MUELLER CC D.MAILER w}rde die Nachricht an H.MUELLER mit
+einer Kopie an D.MAILER weiterleiten.
+
+
+Weiter mit CR - 
+
+Nach der Eingabe der Kommentare m}ssen Sie, wie beim Senden,
+die Text-Eingabe mit NNNN auf einer separaten Zeile be-
+schlie~en.
+
+
+Befehl: HILFE ARCHIVIEREN
+
+
+Der Befehl ARCHIVIEREN wird nach dem Senden einer Nachricht
+verwendet um eine Kopie dieser Nachricht in Ihrem eigenen
+Briefkasten abzulegen. Diese Kopie erh{lt den Status "AU"
+(Archiviert, Ungelesen). Wenn der Empf{nger die Nachricht
+gelesen hat wird der Status Ihrer Kopie in "AG" (Archiviert,
+Gelesen) umgewandelt. Gleichtzeitig werden Datum und Uhrzeit
+des Lesens eingetragen.
+
+Wenn Sie von der "Befehl:"-Ebene ARCHIVIEREN eingeben k|nnen
+Sie nachtr{glich, wenn Sie es nach dem Senden vergessen hat-
+ten, eine Nachricht als Archivierungskopie in Ihren Briefka-
+sten legen lassen. Sie geben z.B. ARCHIVIEREN D.MAILER ein.
+Danach wird eine Tabelle aller Nachrichten ("EU" und "EG"),
+die Sie an D.MAILER geschickt haben, angezeigt. Daraufhin
+
+Weiter mit CR - 
+
+k|nnen Sie die Inhaltsverzeichnis-Nummer der zu archivieren-
+den Nachricht eingeben.
+
+
+Befehl: HILFE ZEIT
+
+
+Mit dem Befehl ZEIT wird die aktuelle Uhrzeit angezeigt.
+
+
+Befehl: HILFE ANRUF
+
+
+Der Befehl ANRUF gestattet es Ihnen, eine Telefon-Nummer zu
+definieren die automatisch von der Zentrale angew{hlt werden
+soll wenn ein anderer Teilnehmer eine wichtige Nachricht an
+Sie abgeschickt hat. Wenn Sie nur ANRUF eingeben wird die
+eventuell f}r Sie gespeicherte Nummer angezeigt. Durch Ein-
+gabe von ANRUF L\SCHEN wird die gespeicherte Nummer ge-
+l|scht. Um eine Telefon-Nummer zu definieren brauchen Sie
+nur ANRUF gefolgt von der vollst{ndigen Telefon-Nummer ein-
+geben. Beispiel: ANRUF 06673 1221.
+
+Weiter mit CR - 
+
+
+Achtung: Wenn Sie nur (dem obrigen Beispiel folgend) ANRUF
+06673 1221 eingeben wird angenommen, Sie wollen von der
+Mailbox nur in der Zeit von 7:00 bis 20:00 angerufen werden.
+Um "Rund-um-die-Uhr" angerufen zu werden m}ssen Sie ANRUF *
+06673 1221 eingeben.
+
+Wenn Sie z.B. an den Teilnehmer G.MAILER eine wichtige Nach-
+richt geschickt haben }ber die er sofort informiert werden
+soll, tasten Sie lediglich ein ANRUF G.MAILER. Daraufhin
+wird ein "W{hl-Auftrag" abgegeben, und Mailbox w{hlt die f}r
+diesen Teilnehmer gespeicherte Rufnummer an.
+
+Wenn die Telefon-Nummer angew{hlt wird erzeugt das System
+einen ca. 10 Sekunden andauernden Pieps-Ton.
+
+Optional k|nnen Sie Datum und Uhrzeit vorgeben wann der An-
+ruf get{tigt werden soll (wichtig, wenn Sie z.B. Zeitzonen
+}berbr}cken m}ssen). Der Aufruf dieser Variante lautet: AN-
+RUF BENUTZER DATUM ZEIT. Beispiel: ANRUF G.MAILER 24-12-84
+18:00
+
+
+Weiter mit CR - 
+
+Anmerkung: bei einigen internationalen Netzen und bei man-
+chen Nebenstellenanlagen ist es notwendig, eine kleine Zeit-
+verz|gerung in den W{hlvorgang einzugeben. Dieses erreichen
+Sie, indem Sie das Zeichen + an der gew}nschten Stelle in-
+nerhalb der Rufnummer eingeben. Bei jedem + wird der W{hl-
+vorgang um 1 Sekunde verz|gert. Beispiel: 001+4086594895.
+Beachten Sie auch bitte, da~ bei internationalen Gespr{chen
+die Ziffern 00 gefolgt von der internationalen Netzkennzahl
+eingegeben werden m}ssen.
+
+Wenn eine Telex- oder Teletex-Nachricht f}r Sie eintrifft
+wird automatisch die f}r Sie gespeicherte ANRUF-Nummer ange-
+w{hlt um Sie von dem Eintreffen zu informieren.
+
+
+Befehl: HILFE STATUS
+
+
+
+Weiter mit CR - 
+
+Mit dem Befehl STATUS wird Ihnen in Kurzform die Belegung
+Ihres Briefkastens angezeigt. Die Bedeutung der einzelnen
+Abk}rzungen lautet:
+
+       EU = Eingetroffene, ungelesene Nachricht
+       EG = Eingetroffene, gelesene Nachricht
+       AU = Archivierte, von Empf{nger ungelesene Nachricht
+       AG = Archivierte, vom Empf{nger gelesene Nachricht
+       AR = Archivierte, r}ckg{ngig gemachte Nachricht
+       L  = Zum L|schen vorgemerkte Nachricht
+       WI = auf Wiedervorlage gelegt Nachricht
+       ZZ = Nachricht wurde mit zeitverz|gertere
+            Auslieferung versandt
+
+
+Befehl: HILFE STELLVERTRETER
+
+
+
+Weiter mit CR - x

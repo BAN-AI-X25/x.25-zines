@@ -1,0 +1,461 @@
+DATEX-P: 44 7110 49131 
+NUI DH2AC8X
+DATEX-P: Passwort
+XXXXXX
+
+
+DATEX-P: Teilnehmerkennung DH2AC8X aktiv
+45667313330,AUGE
+
+
+DATEX-P: Verbindung hergestellt mit 45 6673 13330 
+         (002) (n, Tlnkg DH2AC8X zahlt, Paket- Laenge: 128) 
+
+Willkommen zur A.U.G.E. Mailbox!
+
+Name? M.AUCH
+Password? 
+
+
+
+Guten Tag, Herr Auch!
+
+Letzter Anruf: 00-00-00, 00:00:00
+Dienstag, 2. Juli 1985, 13:23:39  (Port 2)
+
+Willkommen in der MAILBOX! Eine ausf}hrliche Information
+zum Umgang mit diesen  System erhalten Sie durch Eingabe
+von   HILFE * bei der Aufforderung nach  "Befehl:". Eine
+Zusammenfassung  aller Befehle  erhalten Sie  durch Ein-
+gabe von ? bei der Befehlsaufforderung.
+
+Bitte in folgenden "Brettern" nachschauen:
+
+ABSTRACTS       (08-02-85)        ANGEBOTE        (01-07-85)
+ANREGUNGEN      (07-06-85)        BROTHER         (14-01-85)
+DATENBANKEN     (18-05-85)        DIVERSES        (21-06-85)
+FAKTEN-ZAHLEN   (27-01-85)        GESUCHE         (02-07-85)
+HOBBYBAHN       (16-06-85)        INT.YOUTH-LINK  (06-03-85)
+KERMIT          (26-04-85)        KERMIT-INFO     (07-01-85)
+MEDIEN          (23-06-85)        NETWORKS        (01-07-85)
+PACKET-RADIO    (27-06-85)        RECHTSWESEN     (23-06-85)
+SCHACH          (15-02-85)        SMART-TERMS     (27-06-85)
+SOFTWARE-BOERSE (01-07-85)        SYSINFO-D       (13-06-85)
+SYSINFO-GB      (14-09-84)        TELEKONFERENZEN (01-04-85)
+TELEPUBLISHING  (19-06-85)        TELESATZ        (10-04-85)
+TELETRANSLATING (28-06-85)        TREFFEN         (09-06-85)
+TRICKS          (31-05-85)        UNTERHALTUNG    (25-06-85)
+WINDSURFING     (13-06-85)        X.400           (07-06-85)
+A.U.G.E.        (26-06-85)        BIETE           (01-07-85)
+BTX             (21-12-84)        CPM             (23-06-85)
+DFUE-AG         (26-06-85)        MACINTOSH       (30-06-85)
+PASCAL          (22-01-85)        SUCHE           (26-06-85)
+
+Keine neuen Nachrichten.
+
+Befehl: HILFE HILFE
+
+Mit der Funktion HILFE kann man entweder generelle Informa-
+tion }ber die m|glichen Funktionen bekommen, oder durch Ein-
+gabe von HILFE und den gew}nschten Befehl genauere Informa-
+tion }ber diesen bekommen. Beispiel: HILFE TELEX gibt n{here
+Auskunft }ber das Versenden von Telex-Nachrichten. Um die
+gesamte Liste aller Hilfe-Texte angezeigt zu bekommen m}ssen
+Sie HILFE * eingeben.
+
+
+Befehl: HILFE TELEX
+
+Mit dem Befehl TELEX k|nnen Sie von Ihrem Endger{t aus Te-
+lex-Nachrichten aufgeben.
+
+Sie bekommen eine Zeile angezeigt, von der Sie einen der
+folgenden Befehle w{hlen k|nnen:
+
+  SENDEN ....... Telex-Nachricht versenden
+  STATUS ....... Momentanen Status der Versandauftr{ge
+                 abfragen und bearbeiten
+  LOGBUCH ...... Logbuch aller eingetroffenen und
+                 abgesetzten Telex-Nachrichten anzeigen 
+  VERZEICHNIS .. Verzeichnis der Kurznummern abfragen
+  GEB]HREN ..... Auskunft der Telex-Geb}hren ins Ausland 
+                 (Nach Netzkennzahl oder Land)
+
+Beim Senden werden sie aufgefordert, die Nummer der Nach-
+richt in Ihrem Briefkasten anzugeben, die als Telex versen-
+det werden soll. Wenn Sie als Nachrichtennummer "0" eingeben
+k|nnen Sie den Text des Telex direkt eingeben. Zur Sicher-
+heit wird der Text als "AU" Nachricht in Ihrem Briefkasten
+abgespeichert. Hiernach k|nnen Sie Versand-Zeit und -Datum
+definieren. Soll das Telex sofort versendet werden m}ssen
+
+Weiter mit CR - 
+
+Sie "0" als Versandzeit eingeben. Wenn das Telex am selben
+Tag nach 18 Uhr versendet werden soll m}ssen Sie "1" als
+Versandzeit eingeben. Daraufhin m}ssen Sie die Telex-Nummer
+und -Kennung des Empf{ngers eingeben. Ist die Kennung nicht
+bekannt, m}ssen Sie die Zeichen "??" eingeben. Bitte beach-
+ten Sie, da~ bei internationalen Telex-Nachrichten eine "0"
+und die internationale Netzkennzahl mit angegeben werden
+m}ssen. Beispiel: Ein Telex nach Frankreich mu~ "042" und
+dann die Telex Nummer des Empf{ngers haben.
+
+Die Zentrale speichert mnemotechnische Kurznamen f}r die am
+h{ufigsten benutzten Telex-Nummern. Diese k|nnen Sie mit dem
+Kurznamen ansprechen. Mit dem Befehl VERZEICHNIS k|nnen Sie
+das Telex-Verzeichnis bearbeiten. Wenn Sie Telex-Nummern in
+das Telex-Verzeichnis eingetragen bekommen m|chten, m}ssen
+Sie SENDEN bei der VERZEICHNIS Befehls-Zeile eingeben. Dar-
+aufhin werden Sie um Eingabe der Information gebeten. Sie
+m}ssen den Kurznamen, eine kurze Text-Bezeichnung, die Te-
+lex-Nummer und die Telex-Kennung eingeben. Um einen Eintrag
+im Verzeichnis zu l|schen m}ssen Sie L\SCHEN eingeben.
+
+
+Weiter mit CR - S~ 
+
+Wenn Sie das Telex-Verzeichnis abfragen m|chten k|nnen Sie
+wahlweise den Kurznamen oder die Kurzbezeichnung eingeben.
+Um nach der Kurzbezeichnung zu suchen m}ssen Sie das Zeichen
+/ am Anfang der Bezeichnung eingeben. Beispiel: /MIKROCOMPU-
+TER
+
+Wenn Sie eintreffende Telexe automatisch in Ihr Postfach ab-
+gelegt bekommen m|chten, m}ssen Sie dem Sender mitteilen,
+da~ innerhalb des Texts der Text "mailbox: " und Ihr Benut-
+zername erscheinen mu~. Beispiel: mailbox: g.mueller
+
+
+Befehl: HM
+
+"HM" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: ?
+
+ ANRuf           ANSAge          Anschrift       ANTworten      
+ARchivieren     BEtreff         Brett           DAtenbank      
+DIalog          Ende            Gebrauch        Hilfe          
+Inhalt          Kennwort        Lesen           LOeschen       
+Online          PUblic          Ruecknahme      Senden         
+SPrache         STAtus          STEllvertreter  Teilnehmer     
+TELex           TEXt            Umlaut          Verteiler      
+VERZeichnis     WEiterleiten    WIedervorlage   Zaehler        
+ZEit            
+
+Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+ZENTRALE         00:13:33        0             LESEN
+K.SCHMIDT        00:02:20        1 
+M.AUCH           00:04:06        2            ONLINE
+SOFTWARE-XPRESS  00:01:29        3 
+
+Befehl: 
+Befehl: HILFE
+
+Gerne!
+
+Sie k|nnen bei der Befehlsaufforderung das Zeichen ? einge-
+ben. Danach wird eine kurze Liste aller g}ltigen Befehle an-
+gezeigt. Wenn Sie ausf}hrlichere Informationen }ber ein ge-
+w}nschtes Kommando haben m|chten brauchen Sie nur HILFE und
+den Namen des Befehls eingeben. Beispiel: HILFE TEILNEHMER
+erl{utert die Funktion TEILNEHMER. Wenn Sie die gesamte Li-
+ste der Hilfe-Texte angezeigt bekommen m|chten, m}ssen Sie
+HILFE *  eingeben. Wenn Sie eine Tabelle aller Befehle sowie
+deren Abk}rzungen bekommen wollen, m}ssen Sie das Zeichen #
+eingeben. Bei jeder Abfrage k|nnen Sie das Zeichen ? einge-
+ben um eine einzeilige Erkl{rung des "Prompts" zu erhalten.
+
+
+Befehl: #
+
+Befehl          Abk.      Befehl          Abk.      Befehl          Abk. 
+--------------- -----     --------------- -----     --------------- -----
+ANRUF           ANR       ANSAGE          ANSA      ANSCHRIFT       A    
+ANTWORTEN       ANT       ARCHIVIEREN     AR        BETREFF         BE   
+BRETT           B         DATENBANK       DA        DIALOG          DI   
+ENDE            E         GEBRAUCH        G         HILFE           H    
+INHALT          I         KENNWORT        K         LESEN           L    
+LOESCHEN        LO        ONLINE          O         PUBLIC          PU   
+RUECKNAHME      R         SENDEN          S         SPRACHE         SP   
+STATUS          STA       STELLVERTRETER  STE       TEILNEHMER      T    
+TELEX           TEL       TEXT            TEX       UMLAUT          U    
+VERTEILER       V         VERZEICHNIS     VERZ      WEITERLEITEN    WE   
+WIEDERVORLAGE   WI        ZAEHLER         Z         ZEIT            ZE   
+
+Befehl: KENNWORT
+
+Bitte altes Kennwort eingeben: 
+Bitte neues Kennwort eingeben: 
+Bitte noch einmal eingeben: 
+Kennwort ist ge{ndert.
+
+Befehl: L
+
+Welche Nachricht im Briefkasten soll angezeigt werden? ?
+Zum Lesen m}ssen Sie die Inhaltsverzeichnis-Nummer der Nachricht eingeben.
+Welche Nachricht im Briefkasten soll angezeigt werden? ALLE
+
+
+ý
+Befehl: #
+
+Befehl          Abk.      Befehl          Abk.      Befehl          Abk. 
+--------------- -----     --------------- -----     --------------- -----
+ 
+#ANRUF   
+        ANR       ANSAGE          ANSA      ANSCHRIFT       A    
+ANTWORTEN       ANT       ARCHIVIEREN     AR        BETREFF         BE   
+BRETT           B         DATENBANK       DA        DIALOG          DI   
+ENDE            E         GEBRAUCH        G         HILFE           H    
+INHALT          I         KENNWORT        K         LESEN           L    
+LOESCHEN        LO        ONLINE          O         PUBLIC          PU   
+RUECKNAHME      R         SENDEN          S         SPRACHE         SP   
+STATUS          STA       STELLVERTRETER  STE       TEILNEHMER      T    
+TELEX           TEL       TEXT            TEX       UMLAUT          U    
+VERTEILER       V         VERZEICHNIS     VERZ      WEITERLEITEN    WE   
+WIEDERVORLAGE   WI        ZAEHLER         Z         ZEIT            ZE   
+
+Befehl: Befehl: 
+Befehl          Abk.      Befehl          Abk.      Befehl          Abk. 
+--------------- -----     --------------- -----     --------------- -----
+TEILNEHMER
+ANRUF           ANR       ANSAGE          ANSA      ANSCHRIFT       A    
+ANTWORTEN       ANT       ARCHIVIEREN     AR        BETREFF         BE   
+BRETT           B         DATENBANK       DA        DIALOG          DI   
+ENDE            E         GEBRAUCH        G         HILFE           H    
+INHALT          I         KENNWORT        K         LESEN           L    
+LOESCHEN        LO        ONLINE          O         PUBLIC          PU   
+RUECKNAHME      R         SENDEN          S         SPRACHE         SP   
+STATUS          STA       STELLVERTRETER  STE       TEILNEHMER      T    
+TELEX           TEL       TEXT            TEX       UMLAUT          U    
+VERTEILER       V         VERZEICHNIS     VERZ      WEITERLEITEN    WE   
+WIEDERVORLAGE   WI        ZAEHLER         Z         ZEIT            ZE   
+
+Befehl: 
+W.ALEXI         M.AUCH          R.AUGSPURGER    BALDEWEIN
+E.BASNER        J.BECKER        K.H.BECKER      M.BECKER
+W.BECKER        H.BEIERSMANN    F.M.BERGER      D.O.BETZ
+K.BIERBAUM      R.BIRKEN        D.BISCHOF       W.BITTER
+U.BLASEG        J.BLIESENER     A.BLISS         M.BOEHLKE
+H.BOEHM         W.BOELZ         N.BOLTZE        M.BOTTLINGER
+BUERO           RH.CEPIN        D.CHARCHOT      W.DEDERICHS
+PH.DEISLER      K.DINTER        A.DOLO          B.DRIESSEN
+U.DRIESSEN      W.EBERS         J.ELLMER        F.ERNESTUS
+N.FAUL          S.FISCHER       E.FREIVALDS     J.G.FRERICHS
+G.W.FRITZ       C.W.FUERST      B.FURCH         J.D.GAMPERT
+R.GBADAMOSI     A.GEHRKE        C.J.GEMBALLA    I.GLEDITZSCH
+W.D.GOETZE      U.GOETZKE       W.GOHE          K.HEBINCK
+B.HECHT         J.HEIL          K.HEINERTH      O.HENNE
+R.HERMANN       B.HEYER         P.HIRSCH        S.HIRSCH
+J.HOCH          A.HOFFMANN      F.HOTZ          P.JAESRICH
+M.JARCHOW       D.KAHLER        B.KAHMANN       B.KAPITZA
+R.KARBAUM       H.KERNER        KILBURG         A.KOPPENHOEFER
+S.KRAEGELOH     P.KRAEMER       U.KRANZ         M.KRUG
+K.KUHLEY        G.KUPPER        R.KURTH         K.J.LANG
+M.LAUTERBORN    I.LAZI          H.LEHMANN       H.LINDENBERG
+T.LIPP          A.LUHN          E.MAENCHE       M.MANTZ
+C.MEINERS       B.MULDER        P.NEYER         R.H.NIRK
+J.PENTH         S.PFEIFFER      R.PILLE         F.POHLEMANN
+H.REEKERS       R.REHBOLD       B.REUTER        J.RIESEBERG
+H.RIPPEL        B.ROTH          D.ROWE          F.RUEHL
+SASSMANNSHAUSEN R.SCHAELING     U.SCHESKE       H.SCHMAKOWSKI
+G.SCHMALZEDER   G.SCHMALZENDER  J.SCHMIDT       K.D.SCHMIDT
+T.SCHNEIDER     G.SCHOMMER      H.SCHRECK       H.SCHROEDER
+H.SCHURIG       H.G.SEIB        M.SIEGMUELLER   M.STEDE
+G.STEFFENS      J.STEIN         T.STEIN         H.STOELCK
+T.TANWI         TECHNIK         R.THEIL         L.TREUTLER
+S.UCHRIN        UM              H.URBAN         J.VERMEHR
+H.WALSH         W.WATTRODT      U.WEIDEMANN     H.J.WEIL
+M.WEINACHT      A.WERNER        H.WIENKE        R.WIESSNER
+W.WIMMER        B.WULF          R.ZYBER         
+
+Befehl: BRETT
+
+ABSTRACTS       (08-02-85)        ANGEBOTE        (01-07-85)
+ANREGUNGEN      (07-06-85)        BROTHER         (14-01-85)
+DATENBANKEN     (18-05-85)        DIVERSES        (21-06-85)
+FAKTEN-ZAHLEN   (27-01-85)        GESUCHE         (02-07-85)
+HOBBYBAHN       (16-06-85)        INT.YOUTH-LINK  (06-03-85)
+KERMIT          (26-04-85)        KERMIT-INFO     (07-01-85)
+MEDIEN          (23-06-85)        NETWORKS        (01-07-85)
+PACKET-RADIO    (27-06-85)        RECHTSWESEN     (23-06-85)
+SCHACH          (15-02-85)        SMART-TERMS     (27-06-85)
+SOFTWARE-BOERSE (01-07-85)        SYSINFO-D       (13-06-85)
+SYSINFO-GB      (14-09-84)        TELEKONFERENZEN (01-04-85)
+TELEPUBLISHING  (19-06-85)        TELESATZ        (10-04-85)
+TELETRANSLATING (28-06-85)        TREFFEN         (09-06-85)
+TRICKS          (31-05-85)        UNTERHALTUNG    (25-06-85)
+WINDSURFING     (13-06-85)        X.400           (07-06-85)
+A.U.G.E.        (26-06-85)        BIETE           (01-07-85)
+BTX             (21-12-84)        CPM             (23-06-85)
+DFUE-AG         (26-06-85)        MACINTOSH       (30-06-85)
+PASCAL          (22-01-85)        SUCHE           (26-06-85)
+
+Befehl: DRETT ANGEBOTE
+
+"DRETT" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: BRETT ANGEBOTE
+
+Nr.    Datum Zeit  Abs./Empf.   Zeilen  Betreff
+
+  1    20-05 23:32 F.M.BERGER       20  PREISWERTE REPARATUREN
+  2    16-09 22:04 P.ADDOR          30  TAGUNG TELEINFORMATIK
+  3    19-09 20:49 K.BOEHM          25  JEDEM PC EINE SCHOENSCHRIFT
+  4    27-04 00:44 R.CEPIN           4  FESTPLATTE 10 MB FUER APPLE (NEU)
+  5    05-12 16:19 I.LAZI           11  APPLE DISK
+  6    07-06 18:38 SYPPLIE           5  WE VON ANGEBOTE: SPEICHERERW. F. TRS-8
+  7    24-01 10:57 R.MARQUIS         3  BILLIGSTER AKUSTIKKOPPLER MIT FTZ
+  8    07-06 18:39 SYPPLIE           5  WE VON ANGEBOTE: SPEICHERERW. F. IBM U
+  9    30-10 18:19 P.ADDOR          15  EPSON/EPSILON
+ 10    26-06 01:16 E.DUKE            6  APPLE II E COMP. FUER 245 --USD NETTO
+ 11    26-01 04:10 R.CEPIN           7  MULTIUSER-DBASE / DBASE-COMPILER
+ 12    08-02 20:27 R.CEPIN           5  LAUFWERKE TEAC 5 + 3.5 PREISWERT
+ 13    26-01 19:04 R.MARQUIS         2  LAUFWERK
+ 14    24-02 12:59 W.S.             19  NCR SONDERANGEBOT - VORFUEHRGERAET +++
+ 15    27-01 12:09 UM                2  AP20 68K
+ 16    11-06 18:31 U.GOETZKE         1  SIRIUS 1 512KB/Z80 KARTE
+ 17    26-02 11:55 S.BLOHM          20  DBASE II STRUKT.-AENDERUNG OHNE DATENV
+ 18    18-06 18:01 WDT              20  BIDIREKTIONALES RS 232 INTERFACE AN BR
+ 19    19-04 00:38 F.M.BERGER        2  ORIGINAL APPLE DISK II
+ 20    29-03 22:38 W.SCHEELE         5  VERKAUFE MODEM RACAL DM 200.-
+
+Weiter mit CR - ýý
+
+Nr.    Datum Zeit  Abs./Empf.   Zeilen  Betreff
+
+ 21    23-06 19:23 S.BLOHM          52  PROGRAMME FUER PC'S
+ 22    08-03 20:56 G.AUGE            4  NEC-HANDHELD
+ 23    08-03 22:17 P.KENSY           7  ANRUFBEANTWORTER
+ 24    08-03 22:52 R.CEPIN           2  ANRUFBEANTWORTER O. FTZ
+ 25    09-03 05:14 D.PFORTNER       35  TOP-ANGEBOTE
+ 26    27-05 09:21 EDV-FAAK          9  FARBBAENDER ZU GUENSTIGEN ýPREISEN
+ý 27    19-04 00:40 F.M.BERGER        2  TEAC 55 F FUER DM 548 !!!
+ 28    25-06 19:25 BLOCH             7  C-COMPILER FUER APPLE II
+ 29    24-06 19:08 SYPPLIE          23  MITAC - EIN IBM-KOMPATIBLER
+ 30    31-03 19:01 W.SCHROEDER       9  VOKABELTRAINER
+ 31    20-03 21:27 K.KAPUSTE        16  TERM 1 ZU VERKAUFEN
+ 32    01-04 08:18 W.ALEXI          10  MATHETEXT
+ 33    25-05 13:41 R.NAGLER         22  KAYPRO AKTION
+ 34    30-06 10:37 COPYTEAM         14  TYPENRADDRUCKER 40 CPS GEBRAUCHT
+ 35    10-04 03:20 R.CEPIN           4  FESTPLATTE FUER APPLE (10) MB
+ 36    21-04 15:49 APPLET2          13  AN-UND VERKAUF GEBRAUCHTER COMPUTER.
+ 37    10-04 20:08 A.HOFFMANN        9  LAUFWERK FUER APPLE II
+ 38    14-06 21:32 M.HEESE           5  U-MODEM 1
+ 39    07-05 23:29 U.GOETZKE         6  SOFT- UND HARDWARE FUER PC'S
+ý 40    05-05 13:58 ORB001           24  AUFGEPASST ! BASTLER UND COMPUTERFRAEK
+
+Weiter mit CR - 
+
+Nr.    Datum Zeit  Abs./Empf.   Zeilen  Betreff
+
+ 41    30-04 18:25 COTTAGE          18  URLAUB + GESCHAEFT IN WIEN
+ 42    01-05 12:47 EXCOM            17  TERMINAL-PROGRAMM
+ 43    17-05 17:28 OPPITZ           10  HARDWARE TELECOMMUNICATION
+ 44    11-06 20:03 COPYTEAM          9  MS-DOS-PC MIT GRAFIK
+ 45    10-05 18:06 COPYTEAM         14  HANDY-TYPE ZU VERKAUFEN
+ 46    23-05 10:48 K.DINTER          6  ORIGINAL APPLE FLOPPY
+ 47    07-06 08:31 K.SCHMIDT        12  OPEL-KADETT-C-BJ74-ASUFREI-TUEV12MON
+ 48    14-06 21:35 M.HEESE           5  HP 86/87-DISASSEMBLER
+ 49    08-06 19:33 T.KRUEGER        14  HP 41 CV SYSTEM
+ 50    09-06 10:52 LEHRMAN           9  VERKAUF TA ALPHATRONIC P3 M.TTX EINR.
+ 51    29-06 02:06 G.SENDER          5  C-COMPILER FUER TRS-80/VIDEO GENIE
+ 52    29-06 17:19 B.REUTER          7  WE VON B.REUTER: HARDWARE BILLIGST
+ 53    11-06 22:01 T.KRUEGER        14  WE VON ANGEBOTE: HP 41 CV SYSTEM
+ 54    01-07 20:42 B.REUTER          3  SPACE 84 VON IBS
+ 55    16-06 15:06 R.AUGSPURGER     45  FUER MODELLBAHNER
+ 56    19-06 00:59 R.KURTH           3  EPSON LAUFWERKE
+
+(ANGEBOTE) Befehl: 
+(ANGEBOTE) Befehl: A
+
+Wessen Adresse anzeigen? I.LAZI
+
+
+Anschrift f}r:   I.LAZI
+Telefon-Nummer:  (0711) 24 06 09
+
+                 Herrn
+                 I.Lazi
+                 Bopserwaldstr. 61
+                 7000 Stuttgart 1
+
+(ANGEBOTE) Befehl: A
+
+Wessen Adresse anzeigen? .MAUC>~~~~~~M.AUCH
+
+
+Anschrift f}r:   M.AUCH
+Telefon-Nummer:  (0711) 374682
+
+                 Herrn M 4994
+                 Michael Auch
+                 Hopfengartenweg 28
+                 D-7300 Esslingen
+
+(ANGEBOTE) Befehl: ?
+
+ANRuf           ANSAge          Anschrift       ANTworten      
+ARchivieren     BEtreff         Brett           DAtenbank      
+DIalog          Ende            Gebrauch        Hilfe          
+Inhalt          Kennwort        Lesen           LOeschen       
+Online          PUblic          Ruecknahme      Senden         
+SPrache         STAtus          STEllvertreter  Teilnehmer     
+TELex           TEXt            Umlaut          Verteiler      
+VERZeichnis     WEiterleiten    WIedervorlage   Zaehler        
+ZEit            
+
+(ANGEBOTE) Befehl: AN
+
+Wessen Adresse anzeigen? 
+
+Befehl wurde nicht ausgef}hrt.
+
+(ANGEBOTE) Befehl: S(ANGEBO
+TE) Befehl: S
+
+Empf{nger eingeben: Kopien-Empf{nger eingeben: I.LAZI
+Empf{nger S ist hier nicht bekannt.
+Keine {hnlichen Namen gefunden.
+Neuen Empf{nger eingeben: ~I.LAZI
+*** I.LAZI: LAZI STUDIOS / SCHULE - FOTOGRAFIE FILM VIDEO AUDIOVISION. GUTEN TAG!
+*** I.LAZI: LAZI STUDIOS / SCHULE - FOTOGRAFIE FILM VIDEO AUDIOVISION. GUTEN TAG!
+Betreffspalte eingeben: ?
+Sie m}ssen eine Betreffspalte f}r diese Nachricht definieren.
+Betreffspalte eingeben: HALLO INGO
+Bitte Text eingeben:  (beenden mit NNNN auf separater Zeile)
+
+D~NNNN
+
+Eingabe beendet.
+..
+Nachricht abgeschickt.
+ARchivieren oder WEiterleiten? AR
+Fertig mit archivieren.
+
+(ANGEBOTE) Befehl: S~?~S
+
+Empf{nger eingeben: I.LAZI
+Kopien-Empf{nger eingeben: 
+*** I.LAZI: LAZI STUDIOS / SCHULE - FOTOGRAFIE FILM VIDEO AUDIOVISION. GUTEN TAG!
+Betreffspalte eingeben: 
+
+Befehl wurde nicht ausgef}hrt.
+
+(ANGEBOTE) Befehl: LOGOFF
+
+"LOGOFF" ist unbekannt. Unterst}tzung mit HILFE.
+
+(ANGEBOTE) Befehl: ENDE
+
+Befehl: ENDE
+
+Anruf um 13:44:03 beendet. (21 Minuten, 461 Segmente)
+
+DATEX-P: Ausloesung - Anforderung durch Gegenstelle
+
+DATEX-P: 44 7110 49131 

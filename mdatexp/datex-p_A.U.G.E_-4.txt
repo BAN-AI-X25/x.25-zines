@@ -1,0 +1,49 @@
+Willkommen zur A.U.G.E. Mailbox!
+
+Name? m.auch
+Password? 
+
+
+
+
+Guten Tag, Herr Auch!
+
+Letzter Anruf: 13-04-86, 16:22:35
+Freitag, 25. April 1986, 15:27:53  (Port 3)
+Sch|n, da~ Sie sich mal wieder zum System einw{hlen.
+
+Bitte in folgenden "Brettern" nachschauen:
+
+ANBIETER        (21-04-86)        ANGEBOTE        (25-04-86)
+ANREGUNGEN      (19-04-86)        BRAILLE         (20-04-86)
+DATENBANKEN     (25-04-86)        DFUE-SOFTWARE   (23-04-86)
+GESUCHE         (25-04-86)        GREEN           (22-04-86)
+JOURNALISTEN    (24-04-86)        MEDIEN          (16-04-86)
+NETWORKS        (23-04-86)        RECHTSWESEN     (23-04-86)
+RESTAURANT-TIPS (19-04-86)        SOFTWARE-BOERSE (16-04-86)
+TAGESPOLITIK    (16-04-86)        TELEPUBLISHING  (21-04-86)
+TREFFEN         (21-04-86)        UMWELTSCHUTZ    (17-04-86)
+UNTERHALTUNG    (25-04-86)        AUGE            (20-04-86)
+AUGE-FORUM      (20-04-86)        SUCHE           (16-04-86)
+
+Nr. ST Datum Zeit  Abs./Empf.   Zeilen  Betreff
+
+  3 EU 15-04 01:28 M.MOENNINGER      4  IMAGEWRITER
+
+Befehl: Befehl: lese 3
+
+
+Nachricht Nr.:   3
+Nachricht von:   M.MOENNINGER
+Betrifft:        IMAGEWRITER
+Abgesandt am:    15-04-86, 01:28:03
+Empf{nger:       M.AUCH
+Text:
+
+ich interessiere mich fuerr ihren drucker. dabei weiss ich allerdings nicht, ob er
+an meinen nixdorf 8810/30 kompatibel ist. Koennten sie mir ueberdies einmal eine
+schriftprobe zu senden. Adresse: M. Moenninger, Lortzingstr. 30, 6 ffm. 1
+Freundliche Gruesse, M.M.
+
+ANTworten, WEiterleiten, WIedervorlage oder L\schen? 
+

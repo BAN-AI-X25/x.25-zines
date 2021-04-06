@@ -1,0 +1,164 @@
+DATEX-P: 44 7110 49231 
+DH2AC8X
+DATEX-P: ungueltiger Befehl 
+NUI DH2AC8X
+DATEX-P: Passwort
+XXXXXX
+
+
+DATEX-P: Teilnehmerkennung DH2AC8X aktiv
+45667313330,AUGE
+
+
+DATEX-P: Verbindung hergestellt mit 45 6673 13330 
+         (006) (n, Tlnkg DH2AC8X zahlt, Paket- Laenge: 128) 
+
+Willkommen zur A.U.G.E. Mailbox!
+
+Name? M.AUCH
+Password? 
+
+
+
+
+Guten Tag, Herr Auch!
+
+Letzter Anruf: 02-07-85, 13:23:37
+Dienstag, 9. Juli 1985, 15:34:35  (Port 7)
+
+Bitte in folgenden "Brettern" nachschauen:
+
+ANGEBOTE        (09-07-85)        ANREGUNGEN      (07-07-85)
+BK              (09-07-85)        DIVERSES        (07-07-85)
+GESUCHE         (07-07-85)        HOBBYBAHN       (05-07-85)
+KERMIT          (09-07-85)        PACKET-RADIO    (08-07-85)
+SOFTWARE-BOERSE (08-07-85)        TELETRANSLATING (05-07-85)
+WINDSURFING     (05-07-85)        A.U.G.E.        (02-07-85)
+BIETE           (09-07-85)        CPM             (02-07-85)
+DFUE-AG         (05-07-85)        MACINTOSH       (04-07-85)
+
+Keine neuen Nachrichten.
+
+Befehl: Befehl: ?
+
+
+
+ANRuf           ANSAge          Anschrift       ANTworten      Befehl: 
+Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+R.NAGLER         00:04:22        1 
+AVERARA          00:31:02        2            DIALOG
+K.SASAKI         00:24:17        3            DIALOG
+KUND             00:02:37        5 
+M.AUCH           00:01:35        7            ONLINE
+
+Befehl: TEXT AVERA ~~ARA HALLO!
+
+
+Befehl: DIALOG
+
+
+TAUninterprGetierbare Eingabe. N{heres mit HILFE DIALOG
+
+Befehl: DIABefehLl: O
+D
+"TAGDIAILO" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: DIALOG AVERARA
+
+"DIDIALOG" ist unbekannt. Unterst}tzung mit HILFE.
+
+Befehl: 
+Befehl: HILFE DIALOG
+
+Mit dem Kommando DIALOG k|nnen Sie den Dialog mit einem an-
+deren Teilnehmer, der zur selben Zeit wie Sie "online" ist,
+aufnehmen. Angenommen, Sie sind unter dem Namen H.SCHMIDT im
+System, und mit ONLINE haben Sie gesehen, da~ G.MAILER sich
+auch gerade eingew{hlt hat. Was mu~ man tun, um den Dialog
+aufzunehmen? Sie tasten dazu DIALOG G.MAILER ein. Auf dem
+Bildschirm des Empf{ngers erscheint die Meldung: "*** DIA-
+LOG-Anforderung von H.SCHMIDT ***". Damit G.MAILER jetzt
+antworten kann, mu~ er DIALOG H.SCHMIDT eingeben. Somit sind
+die beiden Teilnehmer verbunden. Alle Zeilen, die an Ihrem
+Terminal eingegeben werden, werden zum Bildschirm des ande-
+ren Teilnehmers }bertragen. Wenn einer der beiden Teilnehmer
+den Dialog beenden m|chte tastet er nur "." oder "NNNN" auf
+einer separaten Zeile ein. Daraufhin kehren beide mit dem
+Vermerk "*** DIALOG beendet ***" zur Befehlseingabe zur}ck.
+
+Noch ein Hinweis zu den DIALOG Konventionen: wenn Sie Text
+eingeben sollten Sie nicht Zeilen- sondern Absatz-Orientiert
+arbeiten: jede Zeile beenden Sie mit RETURN. Wenn Sie weiter
+schreiben m|chten, geben Sie einfach die n{chste Zeile ein.
+Um dem Partner anzudeuten, da~ Sie mit Ihrem Text fertig
+sind geben Sie am Ende der letzen Zeile die Zeichen +? ein.
+
+Weiter mit CR - 
+
+
+Die folgenden Parameter beim DIALOG-Aufruf eingeben:
+
+        PC ...... Echo an Ihrem Terminal unterdr}cken
+        LC ...... Keine Umwandlung von Klein- in Gro~-
+                  buchstaben beim ]bertragen zum anderen
+                  Terminal
+        xx ...... Ein numerischer Wert definiert den Wert
+                  des PAD Zeitausl|sungs-Parameters (4).
+                  Standard-Einstellung ist 20. Durch Ein-
+                  gabe von "0" wird nur nach Eingabe von
+                  RETURN an den anderen Terminal }ber-
+                  tragen.
+
+
+Befehl: ONLINE
+
+Teilnehmer       Dauer        Port            Befehl
+
+E.STELZER        00:02:45        4             LESEN
+HANDELSBLATT     00:02:39        6 
+M.AUCH           00:04:46        7            ONLINE
+BRAUN            00:02:13        8             TELEX
+
+Befehl: DIALOG BRAUN
+
+BRAUN ist zur Zeit besch{ftigt.
+
+Befehl: DIALOG E.STELZER
+
+
+*** DIALOG beendet ***
+
+Befehl: 
+Befehl: HILFE
+
+Gerne!
+
+Sie k|nnen bei der Befehlsaufforderung das Zeichen ? einge-
+ben. Danach wird eine kurze Liste aller g}ltigen Befehle an-
+gezeigt. Wenn Sie ausf}hrlichere Informationen }ber ein ge-
+w}nschtes Kommando haben m|chten brauchen Sie nur HILFE und
+den Namen des Befehls eingeben. Beispiel: HILFE TEILNEHMER
+erl{utert die Funktion TEILNEHMER. Wenn Sie die gesamte Li-
+ste der Hilfe-Texte angezeigt bekommen m|chten, m}ssen Sie
+HILFE *  eingeben. Wenn Sie eine Tabelle aller Befehle sowie
+deren Abk}rzungen bekommen wollen, m}ssen Sie das Zeichen #
+eingeben. Bei jeder Abfrage k|nnen Sie das Zeichen ? einge-
+ben um eine einzeilige Erkl{rung des "Prompts" zu erhalten.
+
+
+Befehl: ?
+
+ANRuf           ANSAge          Anschrift       ANTworten      
+ARchivieren     BEtreff         Brett           DAtenbank      
+DIalog          Ende            Gebrauch        Hilfe          
+Inhalt          Kennwort        Lesen           LOeschen       
+Online          PUblic          Ruecknahme      Senden         
+SPrache         STAtus          STEllvertreter  Teilnehmer     
+TELex           TEXt            Umlaut          Verteiler      
+VERZeichnis     WEiterleiten    WIedervorlage   Zaehler        
+ZEit            
+
+Befehl: ?v
